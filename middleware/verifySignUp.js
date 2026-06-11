@@ -1,61 +1,41 @@
-const db = require("../models");
-const ROLES = db.ROLES;
-const User = db.user;
+const { promisePool } = require('../db');
 
-checkDuplicateUsernameOrEmail = async (req, res, next) => {
+const ROLES = ['user', 'moderator', 'admin'];
+
+const checkDuplicateUsernameOrEmail = async (req, res, next) => {
     try {
-      // Username
-      let user = await User.findOne({
-        where: {
-          username: req.body.username
+        const [byUsername] = await promisePool.query(
+            'SELECT id FROM users WHERE username = ?',
+            [req.body.username]
+        );
+        if (byUsername.length > 0) {
+            return res.status(400).send({ message: 'Failed! Username is already in use!' });
         }
-      });
-  
-      if (user) {
-        return res.status(400).send({
-          message: "Failed! Username is already in use!"
-        });
-      }
-  
-      // Email
-      user = await User.findOne({
-        where: {
-          email: req.body.email
+
+        const [byEmail] = await promisePool.query(
+            'SELECT id FROM users WHERE email = ?',
+            [req.body.email]
+        );
+        if (byEmail.length > 0) {
+            return res.status(400).send({ message: 'Failed! Email is already in use!' });
         }
-      });
-  
-      if (user) {
-        return res.status(400).send({
-          message: "Failed! Email is already in use!"
-        });
-      }
-  
-      next();
+
+        next();
     } catch (error) {
-      return res.status(500).send({
-        message: "Unable to validate Username!"
-      });
+        return res.status(500).send({ message: 'Unable to validate Username!' });
     }
 };
 
-checkRolesExisted = (req, res, next) => {
+const checkRolesExisted = (req, res, next) => {
     if (req.body.roles) {
-      for (let i = 0; i < req.body.roles.length; i++) {
-        if (!ROLES.includes(req.body.roles[i])) {
-          res.status(400).send({
-            message: "Failed! Role does not exist = " + req.body.roles[i]
-          });
-          return;
+        for (const role of req.body.roles) {
+            if (!ROLES.includes(role)) {
+                return res.status(400).send({ message: 'Failed! Role does not exist = ' + role });
+            }
         }
-      }
     }
-    
     next();
 };
 
-const verifySignUp = {
-    checkDuplicateUsernameOrEmail,
-    checkRolesExisted
-};
-
+const verifySignUp = { checkDuplicateUsernameOrEmail, checkRolesExisted };
 module.exports = verifySignUp;

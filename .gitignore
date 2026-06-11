@@ -4,3 +4,6 @@
 # Node
 node_modules
 
+# Variables d'environnement — ne jamais versionner
+.env
+

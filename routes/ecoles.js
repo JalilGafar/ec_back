@@ -2,6 +2,7 @@ const express = require('express');
 const router =express.Router();
 var con = require('../db');
 var SQL = require('sql-template-strings');
+const { authJwt } = require('../middleware');
 
 //** Vue des Etablissements */
 router.get('/etablissement', (req, res, next) => {
@@ -37,6 +38,8 @@ router.get('/find', (req, res, next) => {
 });
 
 
+
+
 //** Vue des Ecoles depuis Admin */
 router.get('/', (req, res, next) => {
     con.query("SELECT * FROM ecoles;", 
@@ -54,16 +57,39 @@ router.get('/', (req, res, next) => {
 });
 
 /**Ajout d'une nouvelle Ecole */
-router.post('/', (req, res, next) => {
+router.post('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res, next) => {
     var ecoleForm = req.body
     con.query(SQL
-                `INSERT INTO ecoles
-                (nom_e, sigle_e, logo_e, niveau_e, langue_e, date_creation, arrete_creation, arrete_ouverture, tel_1_e, email_e, siteweb_e, bp_e, directeur_e, photo_directeur, mot_directeur, stat_e, descriptif_e, image_e, universites_id) 
-                VALUES (${ecoleForm.nom_e}, ${ecoleForm.sigle_e}, ${ecoleForm.logo_e}, ${ecoleForm.niveau_e}, ${ecoleForm.langue_e}, ${ecoleForm.date_creation}, ${ecoleForm.arrete_creation}, ${ecoleForm.arrete_ouverture}, ${ecoleForm.tel_1_e}, ${ecoleForm.email_e}, ${ecoleForm.siteweb_e }, ${ecoleForm.bp_e}, ${ecoleForm.directeur_e}, ${ecoleForm.photo_directeur}, ${ecoleForm.mot_directeur}, ${ecoleForm.stat_e}, ${ecoleForm.descriptif_e}, ${ecoleForm.image_e}, ${ecoleForm.universites_id});
-                SELECT LAST_INSERT_ID() INTO @mysql_variable;
-                INSERT INTO campus_ecoles 
-                (campus_id, ecole_id) 
-                VALUES (${ecoleForm.campus_id}, @mysql_variable);`,
+                `
+                CALL add_ecole_procedure (${ecoleForm.nom_e}, 
+                                            ${ecoleForm.sigle_e}, 
+                                            ${ecoleForm.logo_e}, 
+                                            ${ecoleForm.niveau_e}, 
+                                            ${ecoleForm.langue_e}, 
+                                            ${ecoleForm.date_creation}, 
+                                            ${ecoleForm.arrete_creation}, 
+                                            ${ecoleForm.arrete_ouverture}, 
+                                            ${ecoleForm.tel_1_e}, 
+                                            ${ecoleForm.email_e}, 
+                                            ${ecoleForm.siteweb_e }, 
+                                            ${ecoleForm.bp_e}, 
+                                            ${ecoleForm.directeur_e}, 
+                                            ${ecoleForm.photo_directeur}, 
+                                            ${ecoleForm.mot_directeur}, 
+                                            ${ecoleForm.stat_e}, 
+                                            ${ecoleForm.descriptif_e}, 
+                                            ${ecoleForm.image_e}, 
+                                            ${ecoleForm.universites_id},
+                                            ${ecoleForm.campus_id},
+                                            ${ecoleForm.campus_id1},
+                                            ${ecoleForm.campus_id2},
+                                            ${ecoleForm.campus_id3},
+                                            ${ecoleForm.campus_id4},
+                                            ${ecoleForm.campus_id5},
+                                            ${ecoleForm.campus_id6},
+                                            ${ecoleForm.campus_id7},
+                                            ${ecoleForm.campus_id8},
+                                            ${ecoleForm.campus_id9})`,
                 function (err, result, fields) {
                     if (err) {
                         console.log(err);
@@ -78,7 +104,7 @@ router.post('/', (req, res, next) => {
 
 
 /**Modification d'une Ecole */
-router.put('/', (req, res) =>{
+router.put('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) =>{
     var editForm = req.body;
     con.query(SQL
         `UPDATE ecoles 
@@ -125,15 +151,18 @@ router.put('/', (req, res) =>{
 
 
 //** DELET ECOLE  */
-router.delete('/', (req, res) => {
-    var idEcole = req.query.idEcole;    
-    con.query(`DELETE FROM ecoles WHERE (id_ecol = ${idEcole} )`,
+router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
+    const idEcole = parseInt(req.query.idEcole);
+    if (!idEcole || isNaN(idEcole)) {
+        return res.status(400).json({ error: 'ID invalide' });
+    }
+    con.query(SQL`DELETE FROM ecoles WHERE id_ecol = ${idEcole}`,
         function (err, result, fields) {
             if (err) {
-                console.log(err);
-                res.sendStatus(500);
-                return;
+                console.error(err);
+                return res.status(500).json({ error: 'Erreur serveur' });
             };
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Ressource non trouvée' });
             res.sendStatus(200);
             console.log('Ecole DELETED !');
         }

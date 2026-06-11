@@ -2,6 +2,7 @@ const express = require('express');
 const router =express.Router();
 var con = require('../db');
 var SQL = require('sql-template-strings');
+const { authJwt } = require('../middleware');
 
 
 // Voir une formation en promotion
@@ -24,46 +25,17 @@ router.get('/info', (req, res) => {
 
 //**Appel sous Admin de toutes les formation avec leur université, école, campus, ville, catégorie de diplome */
 router.get('/', (req, res, next) => {
-    con.query(SQL 
-                `select id_form , nom_f, nom_e, nom_dip, diplom_id AS diplome_id, categorie_id, ecole_f_id, nom_cat, ville_cam, admission_f AS admission_diplome, descriptif_dip, conditions_f AS condition_diplome, niveau AS niveau_diplome, nom_univ, nom_camp, date_debut_f, duree_f, cout_f, programme_f, descriptif_f 
-                from
-                    campus
-                    join
-                        campus_ecoles
-                        on (campus.id_camp = campus_ecoles.campus_id)
-                    join
-                        (	select *
-                            from 
-                                universites
-                                join
-                                    (	select *
-                                        from ecoles
-                                            Join
-                                                (	select * 
-                                                    from 
-                                                        formations
-                                                        Left Join
-                                                            (	select * 
-                                                                from 
-                                                                    diplomes
-                                                                    join 
-                                                                        categories
-                                                                        on (categories.id_cat = diplomes.categorie_id)
-                                                            ) dc
-                                                            on (dc.id_dip = formations.diplom_id)
-                                                ) cdf
-                                                on (ecoles.id_ecol = cdf.ecole_f_id)
-                                    )cdfe
-                                    on (universites.id_univ = cdfe.universites_id)
-                                )cdfeu
-                                on (cdfeu.id_ecol = campus_ecoles.ecole_id )`, 
+    con.query(
+        `SELECT id_form, nom_f, nom_e, nom_dip, diplome_id, categorie_id, ecole_f_id, nom_cat,
+                ville_cam, admission_diplome, descriptif_dip, condition_diplome, niveau_diplome,
+                nom_univ, nom_camp, date_debut_f, duree_f, cout_f, programme_f, descriptif_f
+         FROM v_admin_formations`,
         function (err, result, fields) {
             if (err) {
                 console.log(err);
                 res.sendStatus(500);
                 return;
             };
-            //console.log('Chargement des Formations avec Liaison au campus et Univ');
             res.status(200).json(result);
             return;
         }
@@ -72,7 +44,7 @@ router.get('/', (req, res, next) => {
 
 /***** Ajout d'une nouvelle formation *********************/
 
-router.post('/', (req, res, next) => {
+router.post('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res, next) => {
     var FormationForm = req.body
     console.log (FormationForm.nom_f)
     con.query(SQL
@@ -100,7 +72,7 @@ router.post('/', (req, res, next) => {
 });
 
 //*************MODIFIER UNE FORMATION EXISTANTE ******************///
-router.put('/', (req, res) =>{
+router.put('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) =>{
     var editForm = req.body;
     con.query(SQL
         `UPDATE formations 
@@ -131,15 +103,18 @@ router.put('/', (req, res) =>{
 
 //*********** SUPRIMER UNE FORMATION *********************/
 
-router.delete('/', (req, res) => {
-    var idForm = req.query.idForm;    
-    con.query(`DELETE FROM formations WHERE (id_form = ${idForm} )`,
+router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
+    const idForm = parseInt(req.query.idForm);
+    if (!idForm || isNaN(idForm)) {
+        return res.status(400).json({ error: 'ID invalide' });
+    }
+    con.query(SQL`DELETE FROM formations WHERE id_form = ${idForm}`,
         function (err, result, fields) {
             if (err) {
-                console.log(err);
-                res.sendStatus(500);
-                return;
+                console.error(err);
+                return res.status(500).json({ error: 'Erreur serveur' });
             };
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Ressource non trouvée' });
             res.sendStatus(200);
             console.log('Formation DELETED !');
         }

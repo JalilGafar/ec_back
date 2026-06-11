@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -rn 'con\\\\.query\\(`DELETE' /d/AppsAngular/CamerDiplome/ec_back/routes/)",
+      "Bash(DELETE' /d/AppsAngular/CamerDiplome/ec_back/routes/ && echo \"\" && echo \"=== Validation parseInt en place ===\" && grep -rn 'parseInt' /d/AppsAngular/CamerDiplome/ec_back/routes/)",
+      "Bash(sur les *)",
+      "Bash(echo \"=== Vérification SQL` sur les DELETE ===\" && grep -rn 'SQL`DELETE' /d/AppsAngular/CamerDiplome/ec_back/routes/ && echo \"\" && echo \"=== Validation parseInt en place ===\" && grep -rn 'parseInt' /d/AppsAngular/CamerDiplome/ec_back/routes/)"
+    ]
+  }
+}

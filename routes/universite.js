@@ -19,12 +19,12 @@ router.use(function(req, res, next) {
 router.get('/', univCtrl.getAllUniv);
 
 /**Ajout d'une nouvelle Université */
-router.post('/', univCtrl.creatUniv);
+router.post('/', [authJwt.verifyToken, authJwt.isAdmin], univCtrl.creatUniv);
 
 /**Mise a jour d'une université */
-router.put('/', univCtrl.updateUniv);
+router.put('/', [authJwt.verifyToken, authJwt.isAdmin], univCtrl.updateUniv);
 
 /** Supression d'une Université */
-router.delete('/', univCtrl.deletUniv)
+router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], univCtrl.deletUniv)
 
 module.exports = router;

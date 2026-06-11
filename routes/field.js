@@ -116,7 +116,17 @@ router.get('/', (req, res, next) => {
 
 //** liste des filières de formations pour la page domaine */
 router.get('/page', (req, res, next) => {
-    con.query("SELECT id_dom, nom_dom, branche_dom, illustra_dom FROM domaines BB order by rand();", 
+    con.query(`SELECT
+  d.id_dom,
+  d.nom_dom,
+  d.branche_dom,
+  d.illustra_dom,
+  d.parent_id,
+  p.nom_dom AS nom_parent
+FROM domaines d
+JOIN domaines p ON p.id_dom = d.parent_id
+WHERE d.parent_id IS NOT NULL
+ORDER BY p.nom_dom ASC, d.nom_dom ASC`,
         function (err, result, fields) {
             if (err) {
                 console.log(err);
@@ -134,9 +144,9 @@ router.get('/page', (req, res, next) => {
 router.get('/br', (req, res, next) => {
     var idFiliere = req.query.idFiliere; 
     con.query(SQL
-        `SELECT branche_dom FROM domaines group by (branche_dom)`, 
+        `SELECT branche_dom FROM domaines WHERE parent_id IS NOT NULL group by (branche_dom)`,
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -148,7 +158,7 @@ router.get('/categ', (req, res, next) => {
     con.query(SQL
         `SELECT nom_cat FROM categories;`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -162,7 +172,7 @@ router.get('/item', (req, res, next) => {
         `SELECT * FROM domaines
         WHERE (id_dom = ${idFiliere} )`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);

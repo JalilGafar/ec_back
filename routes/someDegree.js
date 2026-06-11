@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
                     JOIN (SELECT id_dip FROM diplomes where (categorie_id = 5) ORDER BY RAND() LIMIT 9) as t2 
                     ON t1.id_dip=t2.id_dip;`
                 , function (err, result, fields) {
-                if (err) throw err;
+                if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
                 //console.log(JSON.stringify(result));
                 res.status(200).json(result);
             });
@@ -22,7 +22,7 @@ router.get('/', (req, res, next) => {
                     JOIN (SELECT id_dip FROM diplomes where (categorie_id = 17 OR categorie_id = 18 ) ORDER BY RAND() LIMIT 9) as t2 
                     ON t1.id_dip=t2.id_dip;`
                 , function (err, result, fields) {
-                if (err) throw err;
+                if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
                 //console.log(JSON.stringify(result));
                 res.status(200).json(result);
             });

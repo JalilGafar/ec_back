@@ -2,6 +2,7 @@ const express = require('express');
 const router =express.Router();
 var con = require('../db');
 var SQL = require('sql-template-strings');
+const { authJwt } = require('../middleware');
 
 //** Vue des Campus depuis Admin */
 router.get('/', (req, res, next) => {
@@ -22,7 +23,7 @@ router.get('/', (req, res, next) => {
 
 
 //** EDITER UN CAMPUS */
-router.put('/', (req, res) =>{
+router.put('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) =>{
     var editForm = req.body;
     con.query(SQL
         `UPDATE campus 
@@ -49,13 +50,13 @@ router.put('/', (req, res) =>{
 
 
 /**Ajout d'un nouveau Campus */
-router.post('/', (req, res) => {
+router.post('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
     var campForm = req.body
     console.log('begining Campus insertion !');
     con.query(SQL
                 `INSERT INTO campus
-                (nom_camp, ville_cam, quartier_camp, principal_camp, descriptif_camp, lon_camp, lat_camp) 
-                VALUES (${campForm.nom_camp}, ${campForm.ville_cam}, ${campForm.quartier_camp}, ${campForm.principal_camp}, ${campForm.descriptif_camp}, ${campForm.lon_camp}, ${campForm.lat_camp});
+                (nom_camp, ville_cam, tel_camp, quartier_camp, principal_camp, descriptif_camp, lon_camp, lat_camp) 
+                VALUES (${campForm.nom_camp}, ${campForm.ville_cam}, ${campForm.tel_camp}, ${campForm.quartier_camp}, ${campForm.principal_camp}, ${campForm.descriptif_camp}, ${campForm.lon_camp}, ${campForm.lat_camp});
                 `,
                 function (err, result, fields) {
                     if (err) {
@@ -70,21 +71,22 @@ router.post('/', (req, res) => {
 });
 
 //** DELET CAMPUS */
-router.delete('/', (req, res) => {
-    var idCamp = req.query.idCamp;    
-    console.log('!!!!!!!!!!!!!!!!!!!!!!!');
-    console.log('we wan to delet CAMPUS with ID : '+ idCamp);
-    con.query(`DELETE FROM campus WHERE (id_camp = ${idCamp} )`,
+router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
+    const idCamp = parseInt(req.query.idCamp);
+    if (!idCamp || isNaN(idCamp)) {
+        return res.status(400).json({ error: 'ID invalide' });
+    }
+    con.query(SQL`DELETE FROM campus WHERE id_camp = ${idCamp}`,
         function (err, result, fields) {
             if (err) {
-                console.log(err);
-                res.sendStatus(500);
-                return;
+                console.error(err);
+                return res.status(500).json({ error: 'Erreur serveur' });
             };
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Ressource non trouvée' });
             res.sendStatus(200);
             console.log('Campus DELETED !');
         }
         );
 })
 
-module.exports = router;
+module.exports = router; 

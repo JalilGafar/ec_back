@@ -20,7 +20,7 @@ router.post('/', (req, res, next) => {
                 console.log(err);
                 res.sendStatus(500);
                 return;
-            };
+            }; 
             console.log('Enregistrement de client');
             res.sendStatus(200);
             return;
@@ -31,21 +31,20 @@ router.post('/', (req, res, next) => {
 //** Requete des formations qui repondent aux critères de recherche **/
 router.get('/', (req, res, next) => {
     var ville = req.query.city;
-    var diplome = req.query.diplome;
+    // diplome vide ('') = workflow v2 sans filtre niveau : la procédure gère ce cas via IF diplome = ''
+    var diplome = req.query.diplome !== undefined ? req.query.diplome : '';
+    // req.query.domaine contient désormais un id entier (string) et non plus un nom textuel
     var domaine = req.query.domaine;
     var branche = req.query.branche;
-    //console.log('ville =' + ville + ' diplome ='+ diplome + 'et domaine ='+ domaine);
     con.query(SQL
-        `CALL serch_result_procedure (${ville}, ${diplome}, ${domaine}, ${branche})`, 
+        `CALL serch_result_procedure (${ville}, ${diplome}, ${domaine}, ${branche})`,
         function (err, result, fields) {
             if (err) {
                 console.log(err);
                 res.sendStatus(500);
                 return;
             };
-           // console.log('Envoie des RESULTATS !');
             res.status(200).json(result[0]);
-           // console.log(result[0]);
             return;
         }
     );

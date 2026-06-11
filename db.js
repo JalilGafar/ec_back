@@ -1,21 +1,28 @@
-var mysql = require('mysql');
+const mysql2 = require('mysql2');
 
-const con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "NjNgNdFoNjMaNj7",
-    database: 'ecolecamerdb',
-    multipleStatements: true
+const pool = mysql2.createPool({
+    host              : process.env.DB_HOST,
+    user              : process.env.DB_USER,
+    password          : process.env.DB_PASSWORD,
+    database          : process.env.DB_NAME,
+    port              : parseInt(process.env.DB_PORT) || 3306,
+    multipleStatements: true,
+    connectionLimit   : 10,
+    waitForConnections: true,
+    queueLimit        : 0
 });
-  
-  
-con.connect(function(err) {
-	if (err) {
-        console.log(err);
-        res.sendStatus(500);
+
+pool.getConnection((err, connection) => {
+    if (err) {
+        console.error('Erreur de connexion à la base de données :', err);
         return;
     }
     console.log('Database is connected successfully !');
+    connection.release();
 });
 
-module.exports = con;
+// Interface callback — utilisée par toutes les routes métier (inchangées)
+module.exports = pool;
+
+// Interface Promise — utilisée par les modules auth
+module.exports.promisePool = pool.promise();

@@ -35,7 +35,7 @@ router.get('/formation', (req, res, next) => {
                     ) order by rand()
                 limit 4`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -84,7 +84,7 @@ router.get('/domaine', (req, res, next) => {
                     on (campus.id_camp = AA.campus_id) order by rand()
                 limit 4`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -113,7 +113,7 @@ router.get('/formationSchool', (req, res, next) => {
                     ) BB order by rand()
                 limit 5`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -141,7 +141,7 @@ router.get('/formus', (req, res, next) => {
                     
         `, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -149,6 +149,8 @@ router.get('/formus', (req, res, next) => {
 );
 
 
+
+//************  LES ECOLES A LA UNE ***********//
 router.get('/school', (req, res, next) => {
     con.query(SQL
         `select id_ecol, nom_e, sigle_e, nom_camp, ville_cam, logo_e, image_e, pub, type_e
@@ -179,7 +181,7 @@ router.get('/school', (req, res, next) => {
             )order by rand()
             limit 4`, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);

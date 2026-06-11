@@ -4,7 +4,7 @@ var con = require('../db')
 
 router.get('/', (req, res, next) => {
     con.query("SELECT * FROM top_news;", function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         //console.log(JSON.stringify(result));
         res.status(200).json(result);
     });

@@ -7,22 +7,14 @@ var SQL = require('sql-template-strings');
 ////////////***** Vue d'ensemble des écoles avec le nombre d'avis et la note moyenne par école***** */
 
 router.get('/', (req, res, next) => {
-    con.query(SQL 
-        `SELECT id_ecol, sigle_e, nom_e, logo_e, round(AVG(note), 1) AS notes_moy, count(*) AS occurence
-        FROM
-            (SELECT * 
-                FROM 
-                    ecoles
-                    join
-                        avis
-                        on (ecoles.id_ecol = avis.id_ecole)
-                        )avisEcole
-        group by id_ecol, sigle_e, nom_e, logo_e;`, 
+    con.query(
+        `SELECT id_ecol, sigle_e, nom_e, logo_e, notes_moy, occurence
+         FROM v_ecole_notes
+         WHERE occurence > 0`,
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
-    res.status(200);
     }
 );
 
@@ -30,36 +22,29 @@ router.get('/', (req, res, next) => {
 // **** Requette qui pour une école permet de donnet la note moyenne et le nombre d'avis sur cette école
 router.get('/notes', (req, res, next) => {
     var idSchool = req.query.idSchool;
-    con.query(SQL 
-        `SELECT id_ecol, sigle_e, nom_e, logo_e, round(AVG(note), 1) AS notes_moy, count(*) AS occurence
-        FROM
-            (SELECT * 
-                FROM 
-                    ecoles
-                    left join
-                        avis
-                        on (ecoles.id_ecol = avis.id_ecole)
-                        where (id_ecol = ${idSchool})
-                        )avisEcole
-        group by id_ecol, sigle_e, nom_e, logo_e;`, 
+    con.query(SQL
+        `SELECT id_ecol, sigle_e, nom_e, logo_e, notes_moy, occurence
+         FROM v_ecole_notes
+         WHERE id_ecol = ${idSchool}`,
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
-        console.log(result)
     });
-    res.status(200);
     }
 );
 
 
 router.get('/school', (req, res, next) => {
-    var idSchool = req.query.idSchool; 
-    con.query(`SELECT * FROM avis where (id_ecole = ${idSchool})`, 
+    const idSchool = parseInt(req.query.idSchool);
+    if (!idSchool || isNaN(idSchool)) {
+        return res.status(400).json({ error: 'ID invalide' });
+    }
+    con.query(SQL`SELECT * FROM avis WHERE id_ecole = ${idSchool}`,
         function (err, result, fields) {
-        if (err) throw err;
-        res.status(200).json(result);
-    });
-    res.status(200);
+            if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
+            res.status(200).json(result);
+        }
+    );
     }
 );
 
@@ -83,7 +68,7 @@ router.get('/campus', (req, res, next) => {
                 on (campus.id_camp = AA.campus_id)
         `, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -109,7 +94,7 @@ router.get('/cursus', (req, res, next) => {
                 on (diplomes.id_dip = AA.diplom_id)
         `, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
     });
     res.status(200);
@@ -125,7 +110,7 @@ router.get('/diplo', (req, res, next) => {
         where (id_dip = ${idDip})                                                                                
         `, 
         function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         res.status(200).json(result);
         console.log(result);
     });

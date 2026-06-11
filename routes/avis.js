@@ -2,11 +2,12 @@ const express = require('express');
 const router =express.Router();
 var con = require('../db');
 var SQL = require('sql-template-strings');
+const { authJwt } = require('../middleware');
 
 
 router.get('/', (req, res, next) => {
     con.query("SELECT * FROM avis;", function (err, result, fields) {
-        if (err) throw err;
+        if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
         //console.log(JSON.stringify(result));
         res.status(200).json(result);
     });
@@ -16,19 +17,18 @@ router.get('/', (req, res, next) => {
 );
 
 /**Ajout d'un nouvel Avis */
-router.post('/', (req, res) => {
+router.post('/', [authJwt.verifyToken], (req, res) => {
     var avisForm = req.body
     console.log('begining Avis insertion !');
     con.query(SQL
                 `INSERT INTO avis
-                (auteur_avis, content, promotion, id_ecole, id_diplo, content_cours, note_cours, content_ambiance, note_ambiance, content_locaux, note_locaux, content_insert, note_insert, note, campus_id, diplo_id, recommande, born, email, justif) 
+                (auteur_avis, content, promotion, id_ecole, content_cours, note_cours, content_ambiance, note_ambiance, content_locaux, note_locaux, content_insert, note_insert, note, campus_id, diplo_id, recommande, born, email, justif)
                 VALUES (
-                    ${avisForm.auteur_avis}, 
-                    ${avisForm.content}, 
-                    ${avisForm.promotion}, 
-                    ${avisForm.id_ecole}, 
-                    ${avisForm.id_diplo}, 
-                    ${avisForm.content_cours}, 
+                    ${avisForm.auteur_avis},
+                    ${avisForm.content},
+                    ${avisForm.promotion},
+                    ${avisForm.id_ecole},
+                    ${avisForm.content_cours},
                     ${avisForm.note_cours},
                     ${avisForm.content_ambiance},
                     ${avisForm.note_ambiance},

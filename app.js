@@ -6,23 +6,24 @@ var con = require('./db')
 var SQL = require('sql-template-strings')
 var app = express();
 
-app.use(cors());
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+    ? process.env.ALLOWED_ORIGINS.split(',')
+    : ['http://localhost:4200'];
+
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.use(
 cookieSession({
     name: "bezkoder-session",
-    secret: "COOKIE_SECRET", // should use as secret environment variable
+    secret: process.env.COOKIE_SECRET,
     httpOnly: true
 })
 );
 
 require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
-
-const db = require("./models");
-const Role = db.role;
 
 const topNewsSlideRoutes = require('./routes/topNewsSlide');
 const universiteRoutes = require('./routes/universite');
@@ -44,32 +45,6 @@ const avisRoutes = require ('./routes/avis');
 const ecoleAvisRoutes = require ('./routes/ecoleAvis');
 const adversRoutes = require ('./routes/advers');
 const metierRoutes = require ('./routes/metier');
-
-db.sequelize.sync(/*{force: true}*/).then(() => {
-   // console.log('Drop and Resync Db');
-   // initial();
-});
-
-
-
-function initial() {
-    Role.create({
-      id: 1,
-      name: "user"
-    });
-   
-    Role.create({
-      id: 2,
-      name: "moderator"
-    });
-   
-    Role.create({
-      id: 3,
-      name: "admin"
-    });
-}
-
-//db.sequelize.sync();
 
 // simple route
 app.get("/", (req, res) => {
@@ -217,5 +192,10 @@ app.use('/api/avis', avisRoutes);
  /** Module des metiers **********/
  app.use('/api/metier', metierRoutes);
 
+
+app.use((err, req, res, next) => {
+  console.error('[ERROR]', err.stack || err.message);
+  res.status(500).json({ error: 'Internal server error' });
+});
 
 module.exports = app;

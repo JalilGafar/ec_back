@@ -2,6 +2,7 @@ const express = require('express');
 const router =express.Router();
 var con = require('../db');
 var SQL = require('sql-template-strings');
+const { authJwt } = require('../middleware');
 
 //** Vue des Diplomes depuis Admin */
 router.get('/', (req, res, next) => {
@@ -26,7 +27,7 @@ router.get('/', (req, res, next) => {
 });
 
 /**Ajout d'un nouveau Diplome */
-router.post('/', (req, res, next) => {
+router.post('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res, next) => {
     var diplomeForm = req.body
     con.query(SQL
                 `CALL add_diplome_procedure (${diplomeForm.nom_dip},
@@ -49,7 +50,7 @@ router.post('/', (req, res, next) => {
 });
 
 /**Modification d'un Diplome */
-router.put('/', (req, res) =>{
+router.put('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) =>{
     var editForm = req.body;
     con.query(SQL
         `UPDATE diplomes 
@@ -88,15 +89,18 @@ router.put('/', (req, res) =>{
 })
 
 //** DELET DIPLOME  */
-router.delete('/', (req, res) => {
-    var idDiplome = req.query.idDiplome;    
-    con.query(`DELETE FROM diplomes WHERE (id_dip = ${idDiplome} )`,
+router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
+    const idDiplome = parseInt(req.query.idDiplome);
+    if (!idDiplome || isNaN(idDiplome)) {
+        return res.status(400).json({ error: 'ID invalide' });
+    }
+    con.query(SQL`DELETE FROM diplomes WHERE id_dip = ${idDiplome}`,
         function (err, result, fields) {
             if (err) {
-                console.log(err);
-                res.sendStatus(500);
-                return;
+                console.error(err);
+                return res.status(500).json({ error: 'Erreur serveur' });
             };
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Ressource non trouvée' });
             res.sendStatus(200);
             console.log('Diplome DELETED !');
         }
