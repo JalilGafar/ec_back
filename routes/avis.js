@@ -58,4 +58,35 @@ router.post('/', [authJwt.verifyToken], (req, res) => {
 });
 
 
+
+/** Toggle visibilité d'un avis */
+router.put('/', [authJwt.verifyToken, authJwt.isModeratorOrAdmin], (req, res) => {
+    const { id_avis, visible } = req.body;
+    if (!id_avis) return res.status(400).json({ error: 'id_avis manquant' });
+    con.query(
+        'UPDATE avis SET visible = ? WHERE id_avis = ?',
+        [visible ? 1 : 0, id_avis],
+        function (err, result) {
+            if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Avis introuvable' });
+            res.sendStatus(200);
+        }
+    );
+});
+
+/** Suppression d'un avis */
+router.delete('/', [authJwt.verifyToken, authJwt.isModeratorOrAdmin], (req, res) => {
+    const idAvis = parseInt(req.query.idAvis);
+    if (!idAvis || isNaN(idAvis)) return res.status(400).json({ error: 'ID invalide' });
+    con.query(
+        'DELETE FROM avis WHERE id_avis = ?',
+        [idAvis],
+        function (err, result) {
+            if (err) { console.error(err); return res.status(500).json({ error: 'Erreur serveur' }); }
+            if (result.affectedRows === 0) return res.status(404).json({ error: 'Avis introuvable' });
+            res.sendStatus(200);
+        }
+    );
+});
+
 module.exports = router;

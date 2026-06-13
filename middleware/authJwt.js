@@ -54,5 +54,25 @@ const isModeratorOrAdmin = async (req, res, next) => {
     }
 };
 
-const authJwt = { verifyToken, isAdmin, isModerator, isModeratorOrAdmin };
+const isAdvisor = async (req, res, next) => {
+    try {
+        const [roles] = await promisePool.query(ROLES_QUERY, [req.userId]);
+        if (roles.some(r => r.name === 'advisor')) return next();
+        return res.status(403).send({ message: 'Require Advisor Role!' });
+    } catch {
+        return res.status(500).send({ message: 'Unable to validate Advisor role!' });
+    }
+};
+
+const isAdvisorOrAdmin = async (req, res, next) => {
+    try {
+        const [roles] = await promisePool.query(ROLES_QUERY, [req.userId]);
+        if (roles.some(r => r.name === 'admin' || r.name === 'advisor')) return next();
+        return res.status(403).send({ message: 'Require Advisor or Admin Role!' });
+    } catch {
+        return res.status(500).send({ message: 'Unable to validate Advisor or Admin role!' });
+    }
+};
+
+const authJwt = { verifyToken, isAdmin, isModerator, isModeratorOrAdmin, isAdvisor, isAdvisorOrAdmin };
 module.exports = authJwt;

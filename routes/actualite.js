@@ -90,7 +90,7 @@ router.get('/blog', (req, res) => {
 
 
 //** DELET ARTICLE  */
-router.delete('/', [authJwt.verifyToken, authJwt.isAdmin], (req, res) => {
+router.delete('/', [authJwt.verifyToken, authJwt.isModeratorOrAdmin], (req, res) => {
     const idActu = parseInt(req.query.idArti);
     if (!idActu || isNaN(idActu)) {
         return res.status(400).json({ error: 'ID invalide' });

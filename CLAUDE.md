@@ -1,5 +1,28 @@
 # CLAUDE.md — Camerdiplome Backend
-> Mis à jour le 2026-05-15. Source de vérité pour l'AI Architect du projet.
+> Mis à jour le 2026-06-11. Source de vérité pour l'AI Architect du projet.
+
+---
+
+## ⚡ DERNIÈRES MODIFICATIONS — Module Conseiller (2026-06-12)
+
+| Fichier | Changement |
+|---|---|
+| `controllers/adminAdvisors.controller.js` | Nouveau contrôleur : `getAdvisors`, `createAdvisor` (bcrypt salt 8 + INSERT role 'advisor'), `deleteAdvisor` (vérifie que la cible n'est pas admin) |
+| `routes/adminAdvisors.routes.js` | Nouvelles routes `GET/POST/DELETE /api/admin/advisors` — middleware `[verifyToken, isAdmin]` + `checkDuplicateUsernameOrEmail` sur POST |
+| `app.js` | Ajout `app.use('/api/admin/advisors', adminAdvisorsRoutes)` |
+| `middleware/authJwt.js` | Ajout `isAdvisor` et `isAdvisorOrAdmin` — exportés dans l'objet `authJwt` |
+
+---
+
+## Historique — Module Modérateur (2026-06-11)
+
+| Fichier | Changement |
+|---|---|
+| `controllers/adminUsers.controller.js` | Nouveau contrôleur : `getModerators`, `createModerator` (bcrypt salt 8), `deleteModerator` (vérifie que la cible n'est pas admin) |
+| `routes/adminUsers.routes.js` | Nouvelles routes `GET/POST/DELETE /api/admin/users` — middleware `[verifyToken, isAdmin]` + `checkDuplicateUsernameOrEmail` sur POST |
+| `app.js` | Ajout `app.use('/api/admin/users', adminUsersRoutes)` |
+| `routes/avis.js` | Ajout `PUT /api/avis` (`isModeratorOrAdmin`) — body `{ id_avis, visible }` ; ajout `DELETE /api/avis` (`isModeratorOrAdmin`) — query `?idAvis=X` |
+| `routes/actualite.js` | `DELETE /api/actualite` : middleware changé de `isAdmin` → `isModeratorOrAdmin` |
 
 ---
 
@@ -28,9 +51,13 @@
 ec_back/
 ├── server.js              ← Point d'entrée HTTP (crée le serveur, écoute sur le port)
 ├── app.js                 ← Application Express (middlewares, routes, sync Sequelize)
-├── appp.js                ← FICHIER MORT — brouillon legacy, ne pas utiliser
 ├── db.js                  ← Pool de connexions MySQL (driver "mysql" legacy, connectionLimit: 10)
 ├── .env.example           ← Template des variables d'environnement requises
+├── migrations/            ← Scripts SQL de migration (ex: 005_enrich_domaines_diplomes.sql)
+├── scripts/               ← Utilitaires Node.js
+│   ├── generate-routes.js ← Regénère cd2front/routes.txt depuis la BDD (lancé en prebuild)
+│   ├── enrich-domaines-diplomes.js ← Script ponctuel d'enrichissement des données
+│   └── logs/              ← Logs d'exécution des scripts
 ├── config/
 │   ├── db.config.js       ← Credentials BDD pour Sequelize (via variables d'env)
 │   └── auth.config.js     ← Secret JWT (via process.env.JWT_SECRET)
@@ -39,9 +66,11 @@ ec_back/
 │   ├── user.model.js      ← Table "users" (username, email, password)
 │   └── role.model.js      ← Table "roles" (id, name)
 ├── controllers/
-│   ├── auth.controller.js ← signup / signin / signout
-│   ├── user.controller.js ← Boards publics/user/admin/moderator (test routes)
-│   └── universite.js      ← CRUD universités (seul controller métier externalisé)
+│   ├── auth.controller.js        ← signup / signin / signout
+│   ├── user.controller.js        ← Boards publics/user/admin/moderator (test routes)
+│   ├── universite.js             ← CRUD universités
+│   ├── adminUsers.controller.js      ← Gestion des comptes modérateurs (getModerators, createModerator, deleteModerator)
+│   └── adminAdvisors.controller.js   ← Gestion des comptes conseillers (getAdvisors, createAdvisor, deleteAdvisor)
 ├── middleware/
 │   ├── index.js           ← Barrel export authJwt + verifySignUp
 │   ├── authJwt.js         ← verifyToken / isAdmin / isModerator / isModeratorOrAdmin
@@ -56,7 +85,9 @@ ec_back/
     ├── diplomes.js        ← CRUD /api/diplomes
     ├── formation.js       ← CRUD /api/formations
     ├── actualite.js       ← CRUD /api/actualite
-    ├── avis.js            ← GET+POST /api/avis
+    ├── avis.js            ← GET+POST+PUT+DELETE /api/avis
+    ├── adminUsers.routes.js    ← CRUD /api/admin/users (gestion comptes modérateurs)
+    ├── adminAdvisors.routes.js ← CRUD /api/admin/advisors (gestion comptes conseillers)
     ├── ecoleAvis.js       ← GET /api/ecoleavis (notes, school, campus, cursus, diplo)
     ├── advers.js          ← GET /api/advers (formation, domaine, formationSchool, school)
     ├── metier.js          ← GET /api/metier (list, longlist, item)
@@ -68,8 +99,7 @@ ec_back/
     ├── schoolData.js      ← GET /api/shoolData (fiche complète école via procédure)
     ├── diplomeData.js     ← GET /api/diplomeData (fiche complète diplôme via procédure)
     ├── someDegree.js      ← GET /api/someDegree (diplômes aléatoires BTS/Licence)
-    ├── enregistrement.js  ← POST /api/ets (enregistrement propositions d'établissement)
-    └── partCyties.js      ← GET /api/partCyties
+    └── enregistrement.js  ← POST /api/ets (enregistrement propositions d'établissement)
 ```
 
 **Logique d'organisation** : Architecture Express classique en couches. Deux systèmes de base de données coexistent : `db.js` (pool `mysql` natif, utilisé dans ~90% des routes) et `models/` (Sequelize, utilisé uniquement pour les entités auth User et Role). Les routes métier contiennent directement les requêtes SQL (pas de couche service/repository séparée, sauf `controllers/universite.js`). Middleware d'erreur global dans `app.js` (ligne ~225) qui intercepte les erreurs non gérées et retourne HTTP 500.
@@ -135,9 +165,17 @@ Légende colonne Auth : **—** = public, **T** = verifyToken, **A** = verifyTok
 | GET | `/api/actualite/blog` | `?subjectActu=` | — | Articles filtrés par sujet (LIKE) |
 | POST | `/api/actualite` | body: Article | **MA** | Créer un article |
 | PUT | `/api/actualite` | body: Article | **MA** | Modifier un article |
-| DELETE | `/api/actualite` | `?idArti=` | **A** | Supprimer un article |
+| DELETE | `/api/actualite` | `?idArti=` | **MA** | Supprimer un article *(était **A** avant 2026-06-11)* |
 | GET | `/api/avis` | — | — | Tous les avis |
 | POST | `/api/avis` | body: Avis | **T** | Soumettre un avis étudiant |
+| PUT | `/api/avis` | body: `{ id_avis, visible }` | **MA** | Modifier la visibilité d'un avis (0 ou 1) |
+| DELETE | `/api/avis` | `?idAvis=` | **MA** | Supprimer un avis |
+| GET | `/api/admin/users` | — | **A** | Lister les comptes modérateurs |
+| POST | `/api/admin/users` | body: `{ username, email, password }` | **A** | Créer un compte modérateur |
+| DELETE | `/api/admin/users/:id` | — | **A** | Supprimer un compte modérateur (interdit si cible est admin) |
+| GET | `/api/admin/advisors` | — | **A** | Lister les comptes conseillers |
+| POST | `/api/admin/advisors` | body: `{ username, email, password }` | **A** | Créer un compte conseiller (rôle `advisor`) |
+| DELETE | `/api/admin/advisors/:id` | — | **A** | Supprimer un compte conseiller (interdit si cible est admin) |
 | GET | `/api/ecoleavis` | — | — | Écoles avec note moyenne et nb d'avis |
 | GET | `/api/ecoleavis/notes` | `?idSchool=` | — | Note moyenne d'une école |
 | GET | `/api/ecoleavis/school` | `?idSchool=` | — | Tous les avis d'une école |
@@ -259,6 +297,9 @@ authJwt.isAdmin() / isModerator() : User.findByPk(userId) + user.getRoles()
 | 1 | user | ROLE_USER | `verifyToken` |
 | 2 | moderator | ROLE_MODERATOR | `isModerator`, `isModeratorOrAdmin` |
 | 3 | admin | ROLE_ADMIN | `isAdmin`, `isModeratorOrAdmin` |
+| 4 | advisor | ROLE_ADVISOR | `isAdvisor`, `isAdvisorOrAdmin` |
+
+> **Note** : Le rôle `advisor` (id=4) doit exister dans la table `roles`. La création de conseillers via `POST /api/admin/advisors` fait un `SELECT id FROM roles WHERE name = 'advisor'` — si la ligne n'existe pas, la création échoue avec HTTP 500 + message "Role 'advisor' introuvable en base de données !".
 
 ---
 
@@ -309,7 +350,7 @@ Un fichier `.env.example` est disponible à la racine. Créer un `.env` local à
 
 ### Sécurité — Problèmes résolus ✅
 
-1. ~~AUCUNE protection auth sur les routes CRUD métier~~ — **Résolu** : tous les POST/PUT/DELETE sont maintenant protégés par `verifyToken + isAdmin` (ou `isModeratorOrAdmin` pour actualité).
+1. ~~AUCUNE protection auth sur les routes CRUD métier~~ — **Résolu** : tous les POST/PUT/DELETE sont maintenant protégés par `verifyToken + isAdmin` ou `isModeratorOrAdmin`. Le modérateur peut créer/modifier/supprimer des articles et modérer les avis ; seul l'admin peut gérer les entités de référence (écoles, formations, universités...) et les comptes modérateurs.
 
 2. ~~Injections SQL dans les DELETE~~ — **Résolu** : toutes les routes utilisent `SQL\`...\`` de `sql-template-strings`, y compris les DELETE.
 
@@ -324,8 +365,6 @@ Un fichier `.env.example` est disponible à la racine. Créer un `.env` local à
 ### Bugs résiduels
 
 7. **Double `res.status(200)` dans plusieurs routes** : Pattern `res.status(200).json(result)` suivi d'un second `res.status(200)` dans le même handler. Présent dans `topNewsSlide.js`, `someDegree.js`, `metier.js`, `field.js` (/br, /categ), `ecoleAvis.js` (/notes, /campus, /cursus, /diplo), `advers.js`. Le second appel ne fait rien mais pollue le code.
-
-8. **`appp.js` — fichier mort** : Brouillon legacy à la racine. N'est jamais importé. À supprimer.
 
 9. **`routes/schoolData.js` monte sur `/api/shoolData`** (faute de frappe — manque le 'c' dans school). Le frontend doit s'y conformer avec la même faute.
 
@@ -437,6 +476,7 @@ con.query(`DELETE FROM table WHERE id = ${id}`, ...);
 | Token auth | Header `x-access-token` (via `AuthInterceptor`) | `authJwt.verifyToken` lit `req.headers['x-access-token']` |
 | Endpoints centralisés | `src/app/constants/api-endpoints.ts` | Tous les `/api/...` montés dans `app.js` |
 | SSR Angular | Requêtes HTTP vers le backend lors du prerendering | Répond aux appels XHR du SSR comme à n'importe quel client |
+| Module conseiller | `AdvisorService` réutilise `GET /api/result` (+ `GET /api/categ`, `/api/domaine`, `/api/cyties`) | Pas d'endpoint dédié `/api/advisor/search` — filtre budget appliqué côté client |
 
 ### Contexte de déploiement
 
@@ -461,7 +501,7 @@ Le backend **ne gère pas directement le SEO** — pas d'endpoint sitemap, pas d
 | **Articles blog** | `GET /api/actualite/blog?subjectActu=` fournit `title`, `summary`, `keywords` utilisés pour les meta tags de `/actualite/blog/:subject` |
 | **Sitemap statique** | `src/robots.txt` et `src/sitemap.xml` du frontend listent les routes — aucun endpoint backend pour les générer dynamiquement |
 
-**Gap identifié** : Si une nouvelle école ou un nouveau domaine est ajouté en base, il faut manuellement ajouter sa route dans `cd2front/routes.txt` pour qu'il soit prérendu. Il n'y a pas de génération automatique du sitemap depuis la BDD.
+**Gap comblé** : `scripts/generate-routes.js` regénère automatiquement `cd2front/routes.txt` depuis la BDD (écoles, domaines, articles) avant chaque build Angular. Le script est déclenché via le hook `prebuild` dans `cd2front/package.json`. Pour l'exécuter manuellement : `node ec_back/scripts/generate-routes.js`.
 
 ---
 

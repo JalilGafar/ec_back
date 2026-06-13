@@ -192,6 +192,18 @@ app.use('/api/avis', avisRoutes);
  /** Module des metiers **********/
  app.use('/api/metier', metierRoutes);
 
+ /** Gestion des comptes modérateurs (admin only) **********/
+ const adminUsersRoutes = require('./routes/adminUsers.routes');
+ app.use('/api/admin/users', adminUsersRoutes);
+
+ /** Gestion des comptes conseillers / advisors (admin only) **********/
+ const adminAdvisorsRoutes = require('./routes/adminAdvisors.routes');
+ app.use('/api/admin/advisors', adminAdvisorsRoutes);
+
+ /** Module conseiller — recherche école + capture lead (ROLE_ADVISOR) **********/
+ const advisorRoutes = require('./routes/advisor');
+ app.use('/api/advisor', advisorRoutes);
+
 
 app.use((err, req, res, next) => {
   console.error('[ERROR]', err.stack || err.message);
