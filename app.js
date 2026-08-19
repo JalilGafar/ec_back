@@ -204,6 +204,9 @@ app.use('/api/avis', avisRoutes);
  const advisorRoutes = require('./routes/advisor');
  app.use('/api/advisor', advisorRoutes);
 
+ /** Module test RIASEC — enregistrement lead + résultat (public) **********/
+ const riasecRoutes = require('./routes/riasec');
+ app.use('/api/riasec', riasecRoutes);
 
 app.use((err, req, res, next) => {
   console.error('[ERROR]', err.stack || err.message);
