@@ -68,7 +68,7 @@ router.post('/submit', async (req, res) => {
 
     const safeEmail   = email   || '';
     const safeStatuts = statuts || '';
-    const safeBorn    = bornDate || '';
+    const safeBorn    = bornDate || null;
     const nom         = name.trim();
     const prenom      = surname.trim();
     const telephone   = tel.trim();
