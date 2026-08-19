@@ -7,3 +7,6 @@ node_modules
 # Variables d'environnement — ne jamais versionner
 .env
 
+# Superpowers subagent-driven-development scratch workspace (review packages)
+/.superpowers/
+
