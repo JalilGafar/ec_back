@@ -1,3 +1,5 @@
+// Script SQL requis (exécution manuelle) : migrations/009_create_riasec.sql
+// (dépend aussi de clients.created_at / clients.p_source — migrations 007-008)
 const express = require('express');
 const router = express.Router();
 const con = require('../db');
@@ -61,7 +63,8 @@ router.post('/submit', async (req, res) => {
         return res.status(400).json({ error: 'Le champ "scores" est requis.' });
     }
     for (const lettre of ['r', 'i', 'a', 's', 'e', 'c']) {
-        if (typeof scores[lettre] !== 'number' || Number.isNaN(scores[lettre])) {
+        const v = scores[lettre];
+        if (!Number.isInteger(v) || v < 10 || v > 50) {
             return res.status(400).json({ error: `Le score "${lettre}" est manquant ou invalide.` });
         }
     }

@@ -3,7 +3,17 @@
 
 ---
 
-## ⚡ DERNIÈRES MODIFICATIONS — Module Conseiller (2026-06-12)
+## ⚡ DERNIÈRES MODIFICATIONS — Module Test RIASEC (2026-08-19)
+
+| Fichier | Changement |
+|---|---|
+| `routes/riasec.js` | Nouvelle route `POST /api/riasec/submit` (publique) — enregistre le lead (`clients`) + le résultat de test (`riasec_results`), calcule le code RIASEC (3 lettres dominantes) et suggère des métiers via `metier.riasec_codes` |
+| `migrations/009_create_riasec.sql` | Ajoute `metier.riasec_codes` (classification RIASEC des fiches métiers) et crée la table `riasec_results` (FK `client_id` → `clients.id_client`) — dépend aussi de `clients.created_at` / `clients.p_source` (migrations 007-008) |
+| `app.js` | Ajout `app.use('/api/riasec', riasecRoutes)` |
+
+---
+
+## Historique — Module Conseiller (2026-06-12)
 
 | Fichier | Changement |
 |---|---|
@@ -203,6 +213,7 @@ Légende colonne Auth : **—** = public, **T** = verifyToken, **A** = verifyTok
 | GET | `/api/shoolData` | `?school=` | — | Fiche complète école (procédure stockée) |
 | GET | `/api/diplomeData` | `?diplome=` | — | Fiche complète diplôme (procédure stockée) |
 | POST | `/api/ets` | body: EtsForm | — | Enregistrer une proposition d'établissement |
+| POST | `/api/riasec/submit` | body: `{ name, surname, tel, email, statuts, bornDate, scores }` | — | Enregistrer un lead + résultat de test RIASEC, retourne le code RIASEC et des métiers suggérés |
 
 ---
 
@@ -232,9 +243,10 @@ Légende colonne Auth : **—** = public, **T** = verifyToken, **A** = verifyTok
 | `top_news` | Slides carrousel accueil | [colonnes non listées explicitement] |
 | `avis` | Avis étudiants | id, auteur_avis, content, promotion, id_ecole, id_diplo, note_cours, note_ambiance, note_locaux, note_insert, note, campus_id, diplo_id, recommande, born, email, justif |
 | `enregistrements` | Propositions d'établissements | nom_regis, prenom_regis, ets_regis, ville_regis, comment_regis, email_regis, phone_regis |
-| `metier` | Fiches métiers | id_metier, titre, [autres colonnes] |
+| `metier` | Fiches métiers | id_metier, titre, riasec_codes (ajouté migration 009 — classification RIASEC, ex: 'IR'), [autres colonnes] |
 | `type_ecole` | Types d'école | id_type, type_e |
 | `ecole_typologie` | Pivot École↔Type | ecoley_id, type_id |
+| `riasec_results` | Résultats de test RIASEC (migration 009) | id_riasec, client_id (FK → clients.id_client), score_r/i/a/s/e/c, code_riasec, created_at |
 
 ### Stored Procedures identifiées
 
