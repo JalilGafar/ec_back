@@ -77,11 +77,27 @@ router.post('/submit', async (req, res) => {
     const telephone   = tel.trim();
 
     try {
+        // updated_at, diplome_cible_id et domaine_cible_id sont NOT NULL sans
+        // valeur par défaut sur la base de PRODUCTION (confirmé via DESCRIBE
+        // clients) — mais diplome_cible_id/domaine_cible_id sont aussi des FK
+        // vers diplomes(id_dip)/domaines(id_dom) (Fk_diplome_cible_id,
+        // confirmé en local : ON DELETE SET NULL, donc NULL est la valeur
+        // "pas de cible" légitime pour cette FK). Un placeholder comme 0
+        // viole la contrainte (testé : ER_NO_REFERENCED_ROW_2, id_dip=0
+        // n'existe pas). resultats.js contourne ça en omettant carrément ces
+        // deux colonnes — même stratégie ici, c'est le seul choix compatible
+        // à la fois avec le NOT NULL de la prod (mode SQL non strict :
+        // défaut implicite 0/date zéro, sans toucher la FK puisque non
+        // fournie) et le FK enforcement observé en dev. updated_at n'a pas
+        // ce risque de FK : fourni explicitement (NOW()) pour éviter la
+        // date zéro par défaut.
         const [clientResult] = await con.promisePool.query(SQL`
             INSERT INTO clients
-                (nom_c, prenom_c, statut_c, naissance_c, email_c, tel_c, created_at, p_source)
+                (nom_c, prenom_c, statut_c, naissance_c, email_c, tel_c,
+                 created_at, updated_at, p_source)
             VALUES
-                (${nom}, ${prenom}, ${safeStatuts}, ${safeBorn}, ${safeEmail}, ${telephone}, NOW(), ${'riasec_test'})
+                (${nom}, ${prenom}, ${safeStatuts}, ${safeBorn}, ${safeEmail}, ${telephone},
+                 NOW(), NOW(), ${'riasec_test'})
         `);
         const clientId = clientResult.insertId;
 
