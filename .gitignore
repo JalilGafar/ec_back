@@ -13,8 +13,3 @@ node_modules
 # Worktrees isolés (créés par la skill using-git-worktrees)
 /.worktrees/
 
-# Refonte IPES — sorties générées (rapports/backups), jamais versionnées
-/scripts/refonte_ipes/reports/*
-!/scripts/refonte_ipes/reports/.gitkeep
-/scripts/refonte_ipes/backups/*
-!/scripts/refonte_ipes/backups/.gitkeep
