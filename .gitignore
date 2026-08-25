@@ -10,3 +10,6 @@ node_modules
 # Superpowers subagent-driven-development scratch workspace (review packages)
 /.superpowers/
 
+# Worktrees isolés (créés par la skill using-git-worktrees)
+/.worktrees/
+
