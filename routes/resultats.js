@@ -1,4 +1,3 @@
-// Script SQL requis (exécution manuelle) : migrations/006_add_source_contact_to_clients.sql
 const express = require('express');
 const router =express.Router();
 var con = require('../db');
@@ -16,12 +15,12 @@ router.post('/', (req, res, next) => {
         : 'tunnel_public';
 
     con.query(SQL
-        `CALL save_client_procedure (${requestForm.name}, ${requestForm.surname},
-                                  ${requestForm.statuts}, ${requestForm.level},
-                                  ${requestForm.bornDate}, ${requestForm.email},
-                                  ${requestForm.tel}, ${requestForm.country},
-                                  ${requestForm.city}, ${requestForm.degree}, ${requestForm.field},
-                                  ${source});`,
+        `INSERT INTO clients
+            (nom_c, prenom_c, statut_c, niveau_c, naissance_c, email_c, tel_c, created_at, pays_c, ville_cible, diplome_cible, domaine_cible, p_source)
+         VALUES
+            (${requestForm.name}, ${requestForm.surname}, ${requestForm.statuts}, ${requestForm.level},
+             ${requestForm.bornDate}, ${requestForm.email}, ${requestForm.tel}, NOW(), ${requestForm.country},
+             ${requestForm.city}, ${requestForm.degree}, ${requestForm.field}, ${source})`,
         function (err, result, fields) {
             if (err) {
                 console.log(err);
