@@ -46,6 +46,7 @@ const limitArg  = args.find(a => a.startsWith('--limit='));
 const idArg     = args.find(a => a.startsWith('--id='));
 const LIMIT     = limitArg ? parseInt(limitArg.split('=')[1], 10) : null;
 const SINGLE_ID = idArg   ? parseInt(idArg.split('=')[1], 10)    : null;
+const MISSING_ONLY = args.includes('--missing-only');
 
 if (!isDryRun && !isExecute) {
   console.error('Erreur : spécifier --dry-run ou --execute');
@@ -238,11 +239,16 @@ async function loadDiplomes(pool) {
     LEFT JOIN categories c ON c.id_cat = d.categorie_id
   `;
   const params = [];
+  const where = [];
 
   if (SINGLE_ID) {
-    query += ' WHERE d.id_dip = ?';
+    where.push('d.id_dip = ?');
     params.push(SINGLE_ID);
   }
+  if (MISSING_ONLY) {
+    where.push('NOT EXISTS (SELECT 1 FROM domaines_diplomes dd WHERE dd.diplomes_id = d.id_dip)');
+  }
+  if (where.length) query += ' WHERE ' + where.join(' AND ');
 
   query += ' ORDER BY d.id_dip';
 
