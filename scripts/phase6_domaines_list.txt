@@ -1,0 +1,843 @@
+Total domaines: 140
+[
+  {
+    "id_dom": 165,
+    "nom_dom": "Agriculture & Environnement",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 176,
+    "nom_dom": "Arts, Culture & Design",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 169,
+    "nom_dom": "Chimie, Mines & Géosciences",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 175,
+    "nom_dom": "Communication & Médias",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 173,
+    "nom_dom": "Droit, Fiscalité & Sc. Politiques",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 166,
+    "nom_dom": "Energie & Génie Industriel",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 172,
+    "nom_dom": "Finance, Banque & Comptabilité",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 167,
+    "nom_dom": "Génie Civil & BTP",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 168,
+    "nom_dom": "Génie Electrique & Electronique",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 171,
+    "nom_dom": "Gestion, Commerce & Transport",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 170,
+    "nom_dom": "Informatique & Numérique",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 178,
+    "nom_dom": "Langues & Lettres",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 174,
+    "nom_dom": "Santé & Paramédical",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 179,
+    "nom_dom": "Sciences Humaines & Sociales",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 177,
+    "nom_dom": "Tourisme, Hôtellerie & Bien-être",
+    "branche_dom": null,
+    "parent_id": null
+  },
+  {
+    "id_dom": 1,
+    "nom_dom": "Agricole",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 3,
+    "nom_dom": "Agroalimentaire",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 2,
+    "nom_dom": "Agronomie",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 12,
+    "nom_dom": "bois",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 8,
+    "nom_dom": "Développement durable",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 9,
+    "nom_dom": "Elevage",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 10,
+    "nom_dom": "Energie",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 11,
+    "nom_dom": "Environnement",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 160,
+    "nom_dom": "foresterie",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 161,
+    "nom_dom": "génie rural",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 181,
+    "nom_dom": "Halieutique et Aquaculture",
+    "branche_dom": "Agriculture, Environnement",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 15,
+    "nom_dom": "Architecture",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 16,
+    "nom_dom": "Art",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 22,
+    "nom_dom": "Culture",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 23,
+    "nom_dom": "Danse",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 27,
+    "nom_dom": "Décoration",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 25,
+    "nom_dom": "Design, Graphisme dessin",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 30,
+    "nom_dom": "Infographie",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 33,
+    "nom_dom": "Mode",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 34,
+    "nom_dom": "Musique",
+    "branche_dom": "Art, Culture, Design, Mode",
+    "parent_id": 176
+  },
+  {
+    "id_dom": 39,
+    "nom_dom": "diététique",
+    "branche_dom": "Bien-être, Beauté",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 38,
+    "nom_dom": "esthétique et cosmétique",
+    "branche_dom": "Bien-être, Beauté",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 43,
+    "nom_dom": "naturopathie",
+    "branche_dom": "Bien-être, Beauté",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 46,
+    "nom_dom": "Administration des entreprises",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 47,
+    "nom_dom": "commerce",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 50,
+    "nom_dom": "entrepreneuriat",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 53,
+    "nom_dom": "logistique",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 54,
+    "nom_dom": "management",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 56,
+    "nom_dom": "ressources humaines",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 51,
+    "nom_dom": "Science de gestion",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 58,
+    "nom_dom": "transport",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 59,
+    "nom_dom": "vente",
+    "branche_dom": "Commerce, management",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 159,
+    "nom_dom": "administration publique",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 60,
+    "nom_dom": "Droit",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 61,
+    "nom_dom": "fiscalité",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 62,
+    "nom_dom": "juridique",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 64,
+    "nom_dom": "relations internationales",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 65,
+    "nom_dom": "sciences politiques",
+    "branche_dom": "Droit, Sc. Politiques",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 67,
+    "nom_dom": "Assurance",
+    "branche_dom": "Finance, comptabilité",
+    "parent_id": 172
+  },
+  {
+    "id_dom": 68,
+    "nom_dom": "audit et contrôle",
+    "branche_dom": "Finance, comptabilité",
+    "parent_id": 172
+  },
+  {
+    "id_dom": 69,
+    "nom_dom": "banque",
+    "branche_dom": "Finance, comptabilité",
+    "parent_id": 172
+  },
+  {
+    "id_dom": 70,
+    "nom_dom": "comptabilité",
+    "branche_dom": "Finance, comptabilité",
+    "parent_id": 172
+  },
+  {
+    "id_dom": 72,
+    "nom_dom": "finance",
+    "branche_dom": "Finance, comptabilité",
+    "parent_id": 172
+  },
+  {
+    "id_dom": 31,
+    "nom_dom": "Collectivité Territoriale",
+    "branche_dom": "Fonction publique",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 73,
+    "nom_dom": "Concours Enseignement Supérieur",
+    "branche_dom": "Fonction publique",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 74,
+    "nom_dom": "Concours fonction publique",
+    "branche_dom": "Fonction publique",
+    "parent_id": 173
+  },
+  {
+    "id_dom": 77,
+    "nom_dom": "cuisine et boulangerie",
+    "branche_dom": "Hôtellerie, tourisme",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 76,
+    "nom_dom": "hôtellerie",
+    "branche_dom": "Hôtellerie, tourisme",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 79,
+    "nom_dom": "restauration",
+    "branche_dom": "Hôtellerie, tourisme",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 80,
+    "nom_dom": "tourisme",
+    "branche_dom": "Hôtellerie, tourisme",
+    "parent_id": 177
+  },
+  {
+    "id_dom": 81,
+    "nom_dom": "Audiovisuel",
+    "branche_dom": "Image, son, animation 2D/3D",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 82,
+    "nom_dom": "cinéma",
+    "branche_dom": "Image, son, animation 2D/3D",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 88,
+    "nom_dom": "base de donnée",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 90,
+    "nom_dom": "informatique",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 182,
+    "nom_dom": "Intelligence Artificielle",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 92,
+    "nom_dom": "Maintenance informatique",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 93,
+    "nom_dom": "programmation informatique",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 94,
+    "nom_dom": "Système d'Information",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 95,
+    "nom_dom": "Système, réseaux et sécurité",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 96,
+    "nom_dom": "télécommunication",
+    "branche_dom": "Informatique",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 97,
+    "nom_dom": "Automatisme",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 100,
+    "nom_dom": "Bâtiments et Travaux Publics",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 167
+  },
+  {
+    "id_dom": 99,
+    "nom_dom": "Biologie",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 101,
+    "nom_dom": "chimie",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 169
+  },
+  {
+    "id_dom": 157,
+    "nom_dom": "eau",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 165
+  },
+  {
+    "id_dom": 102,
+    "nom_dom": "electricité",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 168
+  },
+  {
+    "id_dom": 111,
+    "nom_dom": "Electromécanique",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 103,
+    "nom_dom": "électronique",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 168
+  },
+  {
+    "id_dom": 104,
+    "nom_dom": "génie civil",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 167
+  },
+  {
+    "id_dom": 105,
+    "nom_dom": "génie industriel",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 162,
+    "nom_dom": "génie thermique",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 180,
+    "nom_dom": "Géomatique et Topographie",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 167
+  },
+  {
+    "id_dom": 107,
+    "nom_dom": "Ingénieur",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 164,
+    "nom_dom": "Mathématiques et Physiques",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 108,
+    "nom_dom": "Mécanique",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 109,
+    "nom_dom": "Mécanique automobile",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 158,
+    "nom_dom": "mine et pétrole",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 169
+  },
+  {
+    "id_dom": 110,
+    "nom_dom": "Sciences de la terre",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 169
+  },
+  {
+    "id_dom": 183,
+    "nom_dom": "Sécurité Industrielle et QHSE",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 166
+  },
+  {
+    "id_dom": 14,
+    "nom_dom": "Urbanisme",
+    "branche_dom": "Ingénierie, Science",
+    "parent_id": 167
+  },
+  {
+    "id_dom": 112,
+    "nom_dom": "Allemand",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 113,
+    "nom_dom": "Anglais",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 114,
+    "nom_dom": "Arabe",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 115,
+    "nom_dom": "chinois",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 116,
+    "nom_dom": "economie",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 171
+  },
+  {
+    "id_dom": 117,
+    "nom_dom": "éducation",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 118,
+    "nom_dom": "Espagnol",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 119,
+    "nom_dom": "français",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 120,
+    "nom_dom": "Géographie",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 121,
+    "nom_dom": "histoire",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 122,
+    "nom_dom": "italien",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 123,
+    "nom_dom": "langue des signes",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 124,
+    "nom_dom": "langues étrangères",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 163,
+    "nom_dom": "Lettre",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 125,
+    "nom_dom": "linguistique",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 178
+  },
+  {
+    "id_dom": 126,
+    "nom_dom": "philosophie",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 127,
+    "nom_dom": "psychologie",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 128,
+    "nom_dom": "Théologie",
+    "branche_dom": "Langues et Sc. humaines",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 129,
+    "nom_dom": "Communication",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 130,
+    "nom_dom": "digital",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 137,
+    "nom_dom": "édition",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 131,
+    "nom_dom": "événementiel",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 132,
+    "nom_dom": "Journalisme",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 133,
+    "nom_dom": "marketing",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 134,
+    "nom_dom": "médias",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 135,
+    "nom_dom": "publicité",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 136,
+    "nom_dom": "web design",
+    "branche_dom": "Marketing, communication",
+    "parent_id": 170
+  },
+  {
+    "id_dom": 138,
+    "nom_dom": "Aide soignant",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 139,
+    "nom_dom": "Biomédical",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 140,
+    "nom_dom": "dentaire",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 184,
+    "nom_dom": "Génie Biomédical",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 141,
+    "nom_dom": "infirmerie",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 142,
+    "nom_dom": "Kinésithérapie",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 143,
+    "nom_dom": "médecin",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 144,
+    "nom_dom": "nutrition",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 145,
+    "nom_dom": "Optique",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 146,
+    "nom_dom": "paramédical",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 147,
+    "nom_dom": "pharmacie",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 149,
+    "nom_dom": "Sage femme",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 153,
+    "nom_dom": "Science de la santé",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 150,
+    "nom_dom": "Vétérinaire",
+    "branche_dom": "santé",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 156,
+    "nom_dom": "animation",
+    "branche_dom": "Sport, social, animation",
+    "parent_id": 175
+  },
+  {
+    "id_dom": 151,
+    "nom_dom": "Medico-social",
+    "branche_dom": "Sport, social, animation",
+    "parent_id": 174
+  },
+  {
+    "id_dom": 154,
+    "nom_dom": "social",
+    "branche_dom": "Sport, social, animation",
+    "parent_id": 179
+  },
+  {
+    "id_dom": 155,
+    "nom_dom": "sport",
+    "branche_dom": "Sport, social, animation",
+    "parent_id": 179
+  }
+]

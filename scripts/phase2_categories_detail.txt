@@ -1,0 +1,226 @@
+[
+  {
+    "id_cat": 3,
+    "nom_cat": "Doctorat",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+6 et plus"
+  },
+  {
+    "id_cat": 4,
+    "nom_cat": "CAP",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "CAP ou équivalent"
+  },
+  {
+    "id_cat": 5,
+    "nom_cat": "BTS",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 6,
+    "nom_cat": "BUT",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 7,
+    "nom_cat": "DSCG",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+4 à Bac+5"
+  },
+  {
+    "id_cat": 8,
+    "nom_cat": "MBA",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+6 et plus"
+  },
+  {
+    "id_cat": 9,
+    "nom_cat": "CQP",
+    "definition": "Certificat de Qualification Professionnelle",
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 10,
+    "nom_cat": "BP",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "CAP ou équivalent"
+  },
+  {
+    "id_cat": 11,
+    "nom_cat": "Bac Pro",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac ou équivalent"
+  },
+  {
+    "id_cat": 12,
+    "nom_cat": "DUT",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 13,
+    "nom_cat": "Prépa International",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 14,
+    "nom_cat": "Bachelor",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 15,
+    "nom_cat": "DGC",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 16,
+    "nom_cat": "Diplôme d'Etat",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 17,
+    "nom_cat": "Licence",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 18,
+    "nom_cat": "Licence Pro",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 19,
+    "nom_cat": "Ingénieur de conception",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+4 à Bac+5"
+  },
+  {
+    "id_cat": 20,
+    "nom_cat": "Master",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+4 à Bac+5"
+  },
+  {
+    "id_cat": 22,
+    "nom_cat": "Master Pro",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+4 à Bac+5"
+  },
+  {
+    "id_cat": 23,
+    "nom_cat": "Attestation de Formation",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 24,
+    "nom_cat": "Formation Qualifiante",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 25,
+    "nom_cat": "DSEP",
+    "definition": "Diplôme Supérieur d'Etudes Professionnelles",
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 26,
+    "nom_cat": "HND",
+    "definition": "Higher National Diploma",
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 27,
+    "nom_cat": "Certification Internationale",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 28,
+    "nom_cat": "Capacité en Droit",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac ou équivalent"
+  },
+  {
+    "id_cat": 30,
+    "nom_cat": "DQP",
+    "definition": "Diplôme de Qualification Professionnelle",
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 31,
+    "nom_cat": "Prépa Concours",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+1 à Bac+2"
+  },
+  {
+    "id_cat": 32,
+    "nom_cat": "Ingénieur de Travaux",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Bac+3"
+  },
+  {
+    "id_cat": 33,
+    "nom_cat": "DT",
+    "definition": "Diplôme de Technicien",
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 34,
+    "nom_cat": "BQP ",
+    "definition": "Brevet de Qualification Professionnelle",
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 35,
+    "nom_cat": "DTS",
+    "definition": "Diplôme de Technicien Spécialisé",
+    "conditions_cat": null,
+    "groupe": "Autre"
+  },
+  {
+    "id_cat": 36,
+    "nom_cat": "Vocational Diplomas",
+    "definition": null,
+    "conditions_cat": null,
+    "groupe": "Autre"
+  }
+]

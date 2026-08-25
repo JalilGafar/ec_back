@@ -1,0 +1,563 @@
+{
+  "toCreate": [
+    {
+      "parent": "Université de Bamenda",
+      "school": "Facultés des Sciences Economiques et de Gestion",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Faculté des Arts, Lettres et Sciences Humaines",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Faculté des Sciences Juridiques et Politiques",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Faculté des Sciences",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Faculté des Sciences de la Santé",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Institut Supérieur du Commerce et du Management",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Ecole de Technologie",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Haute Ecole de Logistiques et de Transport",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Faculté des Sciences de l'Education",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Institut National Supérieur Polytechnique de Bambili",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Ecole Normale Supérieure",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Bamenda",
+      "school": "Ecole Normale Supérieure d'Enseignement Technique de Bamenda",
+      "universites_id": 18,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Garoua",
+      "school": "Faculté de Médecine et Sciences Biomédiales",
+      "universites_id": 44,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Faculté des Sciences",
+      "universites_id": 20,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Faculté des Sciences Economiques et de Gestion",
+      "universites_id": 20,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Faculté des Sciences Juridiques et Politiques",
+      "universites_id": 20,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Faculté des Arts Lettres et Sciences Humaines",
+      "universites_id": 20,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Ecole Normale Supérieure d'Enseignement Technique de Kumba",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté des Arts",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté des Sciences",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté des Sciences de l'Education",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté de Sciences Sociales et du Management",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté d'Agriculture et de Médecine Vétérinaire",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté d'Ingénierie et de Technologie",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Ecole de Technologie",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Ecole Supérieure de Traduction et d'Interpretariat",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Buea",
+      "school": "Faculté des Sciences Médicales",
+      "universites_id": 19,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Faculté des Sciences Juridiques et Politiques",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Facultés des Sciences",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Faculté de Médecin et des Sciences Pharmaceutiques",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Faculté des Lettres et Sciences Humaines",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Ecole Normale Spérieure d'Enseignement Technique de Douala",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Ecoles Supérieure des Sciences Economiques et Commerciales",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Institut de Beaux-Arts de Nkongsamba",
+      "universites_id": 14,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Faculté des Arts, Lettres et Sciences Humaines",
+      "universites_id": 21,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Faculté des Sciences",
+      "universites_id": 21,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Faculté de Médecine et de Sciences Biomédicales",
+      "universites_id": 21,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Faculté des Sciences de l'Education",
+      "universites_id": 21,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Ecole Normale Supérieure de Yaoundé",
+      "universites_id": 21,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Institut Universitaire de Technologie Fotso Victor de Bandjoun",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Centre Régional d'Enseignement Spécialisé en Agriculture / Forêt et Bois",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté des Sciences",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté d'Agronomie et des Sciences Agricoles",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté des Lettres et Sciences Humaines",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté des sciences Economiques et de Gestion",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté des Sciences Juridiques et Politiques",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Programme d'Enseignement à Distance",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Faculté de Médecine et des Sciences Pharmaceutiques",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Dschang",
+      "school": "Institut de Beaux-Arts de Foumban",
+      "universites_id": 8,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Institut Universitaire Evangélique du Cameroun",
+      "school": "Faculté de médecine et des sciences de la sant",
+      "universites_id": 48,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Ecole de Géologie et d´Exploitation Minière de Meiganga",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Faculté des Sciences",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Faculté des Sciences Economiques et de Gestion",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Faculté des Sciences Juridiques et politiques",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Faculté des Sciences de l'Education",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Faculté des Arts, Lettres et Sciences Humaines",
+      "universites_id": 6,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Institut Universitaire de Bertoua",
+      "school": "Faculté de théologie",
+      "universites_id": 49,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Institut Universitaire de Bertoua",
+      "school": "Faculté des sciences de l'éducation",
+      "universites_id": 49,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Institut Universitaire de Bertoua",
+      "school": "Faculté des sciences économiques et de management",
+      "universites_id": 49,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Université de Bertoua",
+      "school": "Ecole Normale Supérieure de Bertoua",
+      "universites_id": 42,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université Adventiste Cosendai",
+      "school": "Faculté de Gestion et Informatique",
+      "universites_id": 51,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Université Adventiste Cosendai",
+      "school": "Faculté de Thélologie",
+      "universites_id": 51,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Université Adventiste Cosendai",
+      "school": "Faculté de droit",
+      "universites_id": 51,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Université de Yaoundé 2",
+      "school": "lnstitut des Relations Internationales du Cameroun",
+      "universites_id": 22,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 2",
+      "school": "Ecole Supérieure des Sciences et Techniques de l´information et de la Communication (ESSTIC)",
+      "universites_id": 22,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 2",
+      "school": "Institut de Formation et de Recherche Démographiques",
+      "universites_id": 22,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 2",
+      "school": "Faculté des Sciences Juridiques et Politiques",
+      "universites_id": 22,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Université de Yaoundé 2",
+      "school": "Faculté des Sciences Économiques et de Gestion",
+      "universites_id": 22,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Institut Universitaire Protestant de Yaoundé",
+      "school": "Faculté des sciences sociales",
+      "universites_id": 47,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Institut Universitaire Protestant de Yaoundé",
+      "school": "Faculté de théologie",
+      "universites_id": 47,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Institut Universitaire Protestant de Yaoundé",
+      "school": "Faculté de Technologie de l'Information et de la Comm",
+      "universites_id": 47,
+      "pub": "Privé confessionnel"
+    },
+    {
+      "parent": "Centre International des Etudes Polytechniques d'Obala",
+      "school": "Faculté d'industries et de technologies",
+      "universites_id": 46,
+      "pub": "Privé"
+    },
+    {
+      "parent": "Centre International des Etudes Polytechniques d'Obala",
+      "school": "Faculté de gestion et d'administration fonciè",
+      "universites_id": 46,
+      "pub": "Privé"
+    },
+    {
+      "parent": "Centre International des Etudes Polytechniques d'Obala",
+      "school": "Faculté d'agronomie",
+      "universites_id": 46,
+      "pub": "Privé"
+    },
+    {
+      "parent": "(AUTONOME)",
+      "school": "Ecole Nationale des Postes et Télécommunications",
+      "universites_id": null,
+      "pub": "Publique"
+    },
+    {
+      "parent": "(AUTONOME)",
+      "school": "Institut National de la Jeunesse et des Sports",
+      "universites_id": null,
+      "pub": "Publique"
+    },
+    {
+      "parent": "(AUTONOME)",
+      "school": "Institut Sous-regional des Statistiques et d'Economie Appliquée",
+      "universites_id": null,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Institut Universitaire privé Laic de l'Equateur",
+      "school": "Faculté de Génie Industriel",
+      "universites_id": 45,
+      "pub": "Privé"
+    },
+    {
+      "parent": "Institut Universitaire privé Laic de l'Equateur",
+      "school": "Faculté des sciences pharmaceutiques, Médicales, m?d",
+      "universites_id": 45,
+      "pub": "Privé"
+    },
+    {
+      "parent": "Institut Universitaire privé Laic de l'Equateur",
+      "school": "Faculté des sciences de gestion et de communication",
+      "universites_id": 45,
+      "pub": "Privé"
+    },
+    {
+      "parent": "Université d'Ebolowa",
+      "school": "Ecole Normale Supérieure d´Enseignement Technique d´Ebolowa",
+      "universites_id": 43,
+      "pub": "Publique"
+    },
+    {
+      "parent": "Institut Supérieur Protestant des sciences et de Technologie",
+      "school": "Faculté de médecine et des sciences bio",
+      "universites_id": 50,
+      "pub": "Privé confessionnel"
+    }
+  ],
+  "alreadyExists": [
+    {
+      "parent": "Université de Maroua",
+      "school": "Ecole Normale Supérieure de Maroua",
+      "universites_id": 20
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Ecole Nationale Supérieure Polytechnique de Maroua",
+      "universites_id": 20
+    },
+    {
+      "parent": "Université de Maroua",
+      "school": "Faculté des Mines et des Industries Pétrolières",
+      "universites_id": 20
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Institut Universitaire de Technologie de Douala",
+      "universites_id": 14
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Faculté des Sciences Economiques et de Gestion Appliquée",
+      "universites_id": 14
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Ecole nationale supérieure polytechnique de douala",
+      "universites_id": 14
+    },
+    {
+      "parent": "Université de Douala",
+      "school": "Institut des Sciences Halieutiques",
+      "universites_id": 14
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Institut Universitaire de Technologie du Bois de Mbalmayo",
+      "universites_id": 21
+    },
+    {
+      "parent": "Université de Yaoundé 1",
+      "school": "Ecole Nationale Superieure Polytechnique de Yaoundé",
+      "universites_id": 21
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Institut Universitaire de Technologie de Ngaoundéré",
+      "universites_id": 6
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Ecole des Sciences et de Médecine Vétérinaire",
+      "universites_id": 6
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Ecole Nationale Supérieure des Sciences Agro-Industrielles",
+      "universites_id": 6
+    },
+    {
+      "parent": "Université de Ngaoundéré",
+      "school": "Ecole de Génie Chimique et des Industries Minérales",
+      "universites_id": 6
+    }
+  ]
+}

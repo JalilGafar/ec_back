@@ -1,0 +1,1495 @@
+Combos marqués "new": 586
+Parmi les "new", trouvés avec un match >=0.5 TOUTES catégories confondues: 339
+Vraiment nouveaux (aucun match >=0.5 toutes catégories): 247
+Liste des 247 écrite dans phase2_truly_new_247.txt
+
+=== Détail des correspondances cross-catégorie trouvées ===
+
+[MEME CAT] "BTS Génie civil - travaux publics" (occ=15)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Imagerie médicale" (occ=6)
+   score=0.50 id_dip=87 cat=5: "BTS Radiologie et Imagerie Médicale"
+   score=0.50 id_dip=227 cat=18: "Licence Pro Radiologie et Imagerie Médicale"
+   score=0.50 id_dip=299 cat=22: "Master Pro Radiologie et Imagerie Médicale"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=9] "DSEP Technique de laboratoire médical" (occ=15)
+   score=0.50 id_dip=2166 cat=9: "CQP Agent Technique de Laboratoire"
+
+[MEME CAT] "BTS Génie civil - bâtiments" (occ=13)
+   score=0.67 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.67 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.67 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Génie mécanique" (occ=20)
+   score=1.00 id_dip=990 cat=18: "Licence Pro Génie Mécanique"
+   score=1.00 id_dip=992 cat=22: "Master Pro Génie Mécanique"
+   score=0.67 id_dip=1067 cat=19: "Ingénieur Génie Mécanique "
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=14] "BTS Information-communication" (occ=38)
+   score=0.67 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+   score=0.50 id_dip=1019 cat=26: "HND Information and Communication Technologie"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Informatique industrielle" (occ=31)
+   score=1.00 id_dip=1624 cat=18: "Licence Pro Informatique Industrielle"
+   score=0.50 id_dip=247 cat=18: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.50 id_dip=307 cat=22: "Master Pro Informatique Industrielle et Automatisme"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=17] "DSEP Soins infirmiers" (occ=14)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Ressources humaines" (occ=15)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Kinésithérapie" (occ=12)
+   score=1.00 id_dip=91 cat=5: "BTS Kinésithérapie"
+   score=1.00 id_dip=228 cat=18: "Licence Pro Kinésithérapie"
+   score=1.00 id_dip=300 cat=22: "Master Pro Kinésithérapie"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Santé de la reproduction" (occ=2)
+   score=0.75 id_dip=226 cat=18: "Licence Pro Santé de Reproduction"
+   score=0.75 id_dip=296 cat=22: "Master Pro Santé de Reproduction"
+   score=0.57 id_dip=608 cat=22: "Master Sciences Infirmières option Santé de la Reproduction"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Physiothérapie" (occ=1)
+   score=1.00 id_dip=1891 cat=18: "Licence Pro Physiotherapie"
+   score=1.00 id_dip=1892 cat=22: "Master Pro Physiotherapie"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Banque et finance" (occ=21)
+   score=1.00 id_dip=76 cat=5: "BTS Banque et Finance"
+   score=1.00 id_dip=415 cat=18: "Licence Pro Banque et Finance"
+   score=1.00 id_dip=431 cat=22: "Master Pro Banque et Finance"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Télécommunications et réseaux" (occ=13)
+   score=1.00 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+   score=0.75 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.60 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+
+[MEME CAT] "Licence Pro Maintenance informatique et réseaux" (occ=1)
+   score=0.50 id_dip=948 cat=18: "Licence Pro  Ingénierie Système Informatique et Réseaux"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Gestion informatique" (occ=1)
+   score=0.67 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=0.67 id_dip=1081 cat=18: "Licence Pro Informatique de Gestion"
+   score=0.67 id_dip=1419 cat=22: "Master Pro Informatique de Gestion"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=30] "BTS Maintenance informatique" (occ=2)
+   score=0.67 id_dip=962 cat=30: "DQP Maintenance Informatique"
+   score=0.50 id_dip=963 cat=30: "DQP Maintenance Réseau informatique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=30] "DSEP Maintenance informatique" (occ=6)
+   score=0.67 id_dip=962 cat=30: "DQP Maintenance Informatique"
+   score=0.50 id_dip=963 cat=30: "DQP Maintenance Réseau informatique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Secrétariat et bureautique" (occ=1)
+   score=0.67 id_dip=35 cat=5: "BTS  Secrétariat bureautique"
+   score=0.50 id_dip=880 cat=9: "CQP Secrétariat Bureautique "
+   score=0.50 id_dip=964 cat=30: "DQP Secrétariat Bureautique"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=28] "Bachelor Économie et gestion agricoles" (occ=1)
+   score=0.50 id_dip=769 cat=28: "Capacité en Droit et Economie"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=5] "Bachelor Génie civil et environnemental" (occ=2)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Ingénierie mécanique" (occ=2)
+   score=0.50 id_dip=1924 cat=18: "Licence Pro Ingénierie Mécanique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Management et entrepreneurial" (occ=2)
+   score=0.50 id_dip=1573 cat=18: "Licence Pro Organisation et Management"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "ATD Fabrication mécanique" (occ=1)
+   score=1.00 id_dip=47 cat=5: "BTS Fabrication Mécanique"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=22] "Bachelor Génie électrique et informatique" (occ=2)
+   score=0.80 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.80 id_dip=938 cat=18: "Licence Pro Génie Electrique et Informatique Industrielle"
+   score=0.67 id_dip=1540 cat=19: "Ingénieur Génie Electrique et Informatique Industrielle"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Ingénierie industrielle et des systèmes" (occ=2)
+   score=0.57 id_dip=239 cat=18: "Licence Pro Ingénierie des Systèmes Informatiques et Réseaux"
+   score=0.57 id_dip=309 cat=22: "Master Pro Ingénierie des Systèmes Informatiques et Réseaux"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "ATD Affaires et informatique" (occ=1)
+   score=0.50 id_dip=257 cat=18: "Licence Pro Télécommunications et Informatique"
+   score=0.50 id_dip=306 cat=22: "Master Pro Télécommunications et Informatique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "ATD Bureautique" (occ=1)
+   score=0.50 id_dip=35 cat=5: "BTS  Secrétariat bureautique"
+   score=0.50 id_dip=1033 cat=23: "Attestation Bureautique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "ATD Génie logiciel et informatique" (occ=1)
+   score=0.50 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "ATD Stylisme et habillement" (occ=1)
+   score=0.50 id_dip=1339 cat=5: "BTS Stylisme et Modélisme"
+   score=0.50 id_dip=1908 cat=17: "Licence Pro Stylisme et Modelisme"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=17] "HND Éducation" (occ=9)
+   score=0.50 id_dip=30 cat=17: "Licence STEM EDUCATION"
+   score=0.50 id_dip=519 cat=26: "HND Special Education"
+   score=0.50 id_dip=520 cat=14: "Bachelor Special Education"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Ingénierie électrique et électronique" (occ=8)
+   score=0.50 id_dip=939 cat=18: "Licence Pro Génie Electrique et Electronique Industrielle "
+   score=0.50 id_dip=1371 cat=19: "Ingénieur Génie Electrique et Electronique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Ingénierie mécanique" (occ=4)
+   score=0.50 id_dip=1924 cat=18: "Licence Pro Ingénierie Mécanique et Environnement"
+
+[MEME CAT] "Licence Pro Ingénierie mécanique" (occ=1)
+   score=0.50 id_dip=1924 cat=18: "Licence Pro Ingénierie Mécanique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD Carrières judiciaires" (occ=1)
+   score=1.00 id_dip=287 cat=18: "Licence Pro Carrières Judiciaires"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=22] "HPD Ressources humaines et management" (occ=1)
+   score=0.60 id_dip=464 cat=22: "Master Pro Management des Ressources Humaines"
+   score=0.50 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=1933 cat=22: "Master Pro Gestion Administrative et Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=19] "BTS Informatique" (occ=2)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Génie civil et structurel" (occ=6)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=22] "HND Tourisme et gestion hôtelière" (occ=2)
+   score=0.50 id_dip=1840 cat=22: "Master Pro Gestion des Voyages et Tourisme"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=22] "HND Nutrition et diététique" (occ=3)
+   score=0.75 id_dip=782 cat=22: "Master Pro Nutrition Diététique et Santé"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=17] "HND Soins infirmiers" (occ=11)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=17] "HPD Soins infirmiers" (occ=4)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=17] "Licence Pro Soins infirmiers" (occ=4)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Journalisme" (occ=4)
+   score=1.00 id_dip=118 cat=5: "BTS Journalisme"
+   score=1.00 id_dip=670 cat=18: "Licence Pro Journalisme"
+   score=0.50 id_dip=1194 cat=17: "Licence en Journalisme"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND La gestion des soins de santé" (occ=3)
+   score=0.57 id_dip=607 cat=18: "Licence Gestion des services de santé"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Santé de la reproduction" (occ=1)
+   score=0.75 id_dip=226 cat=18: "Licence Pro Santé de Reproduction"
+   score=0.75 id_dip=296 cat=22: "Master Pro Santé de Reproduction"
+   score=0.57 id_dip=608 cat=22: "Master Sciences Infirmières option Santé de la Reproduction"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD Santé de la reproduction" (occ=1)
+   score=0.75 id_dip=226 cat=18: "Licence Pro Santé de Reproduction"
+   score=0.75 id_dip=296 cat=22: "Master Pro Santé de Reproduction"
+   score=0.57 id_dip=608 cat=22: "Master Sciences Infirmières option Santé de la Reproduction"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Ressources humaines" (occ=3)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Kinésithérapie" (occ=1)
+   score=1.00 id_dip=91 cat=5: "BTS Kinésithérapie"
+   score=1.00 id_dip=228 cat=18: "Licence Pro Kinésithérapie"
+   score=1.00 id_dip=300 cat=22: "Master Pro Kinésithérapie"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD Techniques de santé publique" (occ=2)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=9] "HPD Technique de laboratoire médical" (occ=2)
+   score=0.50 id_dip=2166 cat=9: "CQP Agent Technique de Laboratoire"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Banque et finance" (occ=1)
+   score=1.00 id_dip=76 cat=5: "BTS Banque et Finance"
+   score=1.00 id_dip=415 cat=18: "Licence Pro Banque et Finance"
+   score=1.00 id_dip=431 cat=22: "Master Pro Banque et Finance"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Génie civil et structurel" (occ=1)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Physiothérapie" (occ=2)
+   score=1.00 id_dip=1891 cat=18: "Licence Pro Physiotherapie"
+   score=1.00 id_dip=1892 cat=22: "Master Pro Physiotherapie"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD Physiothérapie" (occ=2)
+   score=1.00 id_dip=1891 cat=18: "Licence Pro Physiotherapie"
+   score=1.00 id_dip=1892 cat=22: "Master Pro Physiotherapie"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD Gestion des petites et moyennes organisations" (occ=1)
+   score=0.50 id_dip=633 cat=18: "Licence Pro Gestion et Développement des Organisations Sportives "
+   score=0.50 id_dip=1834 cat=18: "Licence Pro Gestion des Organisations et Destinations Touristiques"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HPD La gestion des soins de santé" (occ=1)
+   score=0.57 id_dip=607 cat=18: "Licence Gestion des services de santé"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Arts de la scène et cinématographie" (occ=1)
+   score=0.50 id_dip=671 cat=5: "BTS Arts et Métier de La culture"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Arts de la scène et cinématographie" (occ=1)
+   score=0.50 id_dip=671 cat=5: "BTS Arts et Métier de La culture"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Génie informatique" (occ=12)
+   score=1.00 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.67 id_dip=696 cat=19: "Ingénieur Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Techniques de santé publique" (occ=5)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[MEME CAT] "Licence Pro Économie et sociologie rurale" (occ=1)
+   score=0.60 id_dip=235 cat=18: "Licence Pro Economie et Sociologie Rurales"
+   score=0.60 id_dip=315 cat=22: "Master Pro Economie et Sociologie Rurales"
+   score=0.57 id_dip=805 cat=19: "Ingénieur Agronome option Economie et Sociologie Rurale"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Gestion de coopérative" (occ=1)
+   score=0.50 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=0.50 id_dip=388 cat=5: "BTS Gestion de l'Eau"
+   score=0.50 id_dip=559 cat=18: "Licence Pro Economie de Gestion"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=20] "Licence Pro Didactique de la philosophie" (occ=1)
+   score=0.60 id_dip=594 cat=20: "Master Histoire de la Philosophie"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=3] "Licence Pro Sciences économiques" (occ=1)
+   score=0.67 id_dip=1495 cat=3: "Doctorat en Sciences Economiques"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Arts de la scène et cinématographie" (occ=1)
+   score=0.50 id_dip=671 cat=5: "BTS Arts et Métier de La culture"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Arts de la scène et cinématographie" (occ=1)
+   score=0.50 id_dip=671 cat=5: "BTS Arts et Métier de La culture"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=26] "Master Pro Marketing" (occ=3)
+   score=1.00 id_dip=404 cat=26: "HND Marketing"
+   score=1.00 id_dip=421 cat=14: "Bachelor Marketing"
+   score=1.00 id_dip=910 cat=18: "Licence Pro Marketing"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Fabrication mécanique" (occ=3)
+   score=1.00 id_dip=47 cat=5: "BTS Fabrication Mécanique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Techniques pharmaceutiques" (occ=2)
+   score=1.00 id_dip=86 cat=5: "BTS Techniques Pharmaceutiques"
+   score=1.00 id_dip=779 cat=18: "Licence Pro Techniques Pharmaceutiques "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=17] "Licence Pro Mathématiques" (occ=1)
+   score=1.00 id_dip=2125 cat=17: "Licence Mathématiques"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Droit" (occ=2)
+   score=0.50 id_dip=1668 cat=5: "BTS Droit Social"
+   score=0.50 id_dip=1669 cat=5: "BTS Droit Commercial"
+   score=0.50 id_dip=1671 cat=5: "BTS Droit Publique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=26] "Master Pro Management" (occ=4)
+   score=1.00 id_dip=403 cat=26: "HND Management"
+   score=1.00 id_dip=420 cat=14: "Bachelor Management"
+   score=1.00 id_dip=649 cat=18: "Licence Pro Management"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Génie civil et structurel" (occ=1)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Génie civil et structurel" (occ=1)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=17] "Master Pro Soins infirmiers" (occ=1)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=19 cat_trouvee=17] "Diplôme d'Ingénieur Physique chimie" (occ=1)
+   score=0.50 id_dip=2127 cat=17: "Licence Chimie"
+
+[MEME CAT] "Diplôme d'Ingénieur Informatique" (occ=1)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Électronique et électrotechnique" (occ=1)
+   score=1.00 id_dip=794 cat=18: "Licence Pro Electrotechnique et Electronique "
+   score=0.60 id_dip=1076 cat=18: "Licence Pro Électrotechnique et Electronique de puissance"
+   score=0.60 id_dip=1089 cat=22: "Master Pro Électrotechnique et Électronique de Puissance"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Automatique et informatique industrielle" (occ=6)
+   score=0.60 id_dip=247 cat=18: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.60 id_dip=307 cat=22: "Master Pro Informatique Industrielle et Automatisme"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=17] "Bachelor Soins infirmiers" (occ=3)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Électrique et électronique" (occ=1)
+   score=0.60 id_dip=939 cat=18: "Licence Pro Génie Electrique et Electronique Industrielle "
+   score=0.60 id_dip=1371 cat=19: "Ingénieur Génie Electrique et Electronique"
+   score=0.50 id_dip=794 cat=18: "Licence Pro Electrotechnique et Electronique "
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Ingénierie" (occ=1)
+   score=0.50 id_dip=107 cat=5: "BTS Ingénierie Pétrolière"
+   score=0.50 id_dip=472 cat=22: "Master Pro Ingenierie Financière"
+   score=0.50 id_dip=856 cat=18: "Licence Pro Ingénierie d'Affaires"
+
+[CAT DIFFERENTE cat_attendue=28 cat_trouvee=5] "Capacité en Droit Droit" (occ=1)
+   score=0.50 id_dip=1668 cat=5: "BTS Droit Social"
+   score=0.50 id_dip=1669 cat=5: "BTS Droit Commercial"
+   score=0.50 id_dip=1671 cat=5: "BTS Droit Publique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Fabrication mécanique" (occ=1)
+   score=1.00 id_dip=47 cat=5: "BTS Fabrication Mécanique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Génie logiciel et informatique" (occ=1)
+   score=0.50 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Maintenance des systèmes informatiques" (occ=1)
+   score=1.00 id_dip=412 cat=18: "Licence Pro Maintenance des Systèmes Informatiques"
+   score=0.80 id_dip=61 cat=5: "BTS Maintenance des Systèmes Informatiques MSI"
+   score=0.80 id_dip=883 cat=9: "CQP Maintenance des systèmes informatiques"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Maintenance des systèmes informatiques" (occ=1)
+   score=1.00 id_dip=412 cat=18: "Licence Pro Maintenance des Systèmes Informatiques"
+   score=0.80 id_dip=61 cat=5: "BTS Maintenance des Systèmes Informatiques MSI"
+   score=0.80 id_dip=883 cat=9: "CQP Maintenance des systèmes informatiques"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Génie électrique" (occ=2)
+   score=1.00 id_dip=650 cat=18: "Licence Pro Génie Electrique"
+   score=1.00 id_dip=994 cat=22: "Master Pro Génie Electrique"
+   score=1.00 id_dip=1934 cat=5: "BTS Génie Electrique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Informatique industrielle" (occ=1)
+   score=1.00 id_dip=1624 cat=18: "Licence Pro Informatique Industrielle"
+   score=0.50 id_dip=247 cat=18: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.50 id_dip=307 cat=22: "Master Pro Informatique Industrielle et Automatisme"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Informatique industrielle" (occ=1)
+   score=1.00 id_dip=1624 cat=18: "Licence Pro Informatique Industrielle"
+   score=0.50 id_dip=247 cat=18: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.50 id_dip=307 cat=22: "Master Pro Informatique Industrielle et Automatisme"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Télécommunications et réseaux" (occ=5)
+   score=1.00 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+   score=0.75 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.60 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Télécommunications et réseaux" (occ=2)
+   score=1.00 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+   score=0.75 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.60 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=3] "Licence Médecine" (occ=1)
+   score=0.50 id_dip=1643 cat=3: "Médecine Vétérinaire "
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=3] "Master Médecine" (occ=1)
+   score=0.50 id_dip=1643 cat=3: "Médecine Vétérinaire "
+
+[MEME CAT] "Doctorat Médecine" (occ=1)
+   score=0.50 id_dip=1643 cat=3: "Médecine Vétérinaire "
+
+[MEME CAT] "Licence Pro Énergétique et génie climatique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+   score=0.50 id_dip=2021 cat=19: "Ingénieur Génie Mécanique et Energétique"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Maintenance après vente des automobiles" (occ=1)
+   score=0.50 id_dip=51 cat=5: "BTS Maintenance Après Vente Automobile"
+   score=0.50 id_dip=1974 cat=18: "Licence Pro Maintenance Après Vente Automobile"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Génie civil - travaux publics" (occ=1)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=9] "Licence Pharmacie" (occ=1)
+   score=0.50 id_dip=397 cat=9: "CQP Pharmacie"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=9] "Master Pharmacie" (occ=1)
+   score=0.50 id_dip=397 cat=9: "CQP Pharmacie"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=9] "Doctorat Pharmacie" (occ=1)
+   score=0.50 id_dip=397 cat=9: "CQP Pharmacie"
+
+[MEME CAT] "Licence Pro Finance-comptabilité" (occ=1)
+   score=0.67 id_dip=276 cat=18: "Licence Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=318 cat=22: "Master Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=22] "BTS Information et communication" (occ=4)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Métiers du bois" (occ=1)
+   score=0.50 id_dip=1356 cat=18: "Licence Métiers du Notariat"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=26] "DSEP Télécommunications" (occ=1)
+   score=1.00 id_dip=348 cat=26: "HND Telecommunications"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Technologie de l'information et de la communication" (occ=1)
+   score=0.86 id_dip=858 cat=18: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.71 id_dip=1099 cat=22: "Master Pro Management de la communication et de l'Information"
+   score=0.63 id_dip=1541 cat=3: "Doctorat en Sciences de l'Information et de la Communication"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Maintenance des systèmes informatiques" (occ=2)
+   score=1.00 id_dip=412 cat=18: "Licence Pro Maintenance des Systèmes Informatiques"
+   score=0.80 id_dip=61 cat=5: "BTS Maintenance des Systèmes Informatiques MSI"
+   score=0.80 id_dip=883 cat=9: "CQP Maintenance des systèmes informatiques"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Informatique industrielle" (occ=3)
+   score=1.00 id_dip=1624 cat=18: "Licence Pro Informatique Industrielle"
+   score=0.50 id_dip=247 cat=18: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.50 id_dip=307 cat=22: "Master Pro Informatique Industrielle et Automatisme"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Métiers du tourisme" (occ=1)
+   score=0.50 id_dip=1356 cat=18: "Licence Métiers du Notariat"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Génie électrique" (occ=1)
+   score=1.00 id_dip=650 cat=18: "Licence Pro Génie Electrique"
+   score=1.00 id_dip=994 cat=22: "Master Pro Génie Electrique"
+   score=1.00 id_dip=1934 cat=5: "BTS Génie Electrique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Gestion des ressources humaines" (occ=1)
+   score=1.00 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=1.00 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+   score=1.00 id_dip=321 cat=22: "Master Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Électrique et électrotechnique" (occ=5)
+   score=0.50 id_dip=794 cat=18: "Licence Pro Electrotechnique et Electronique "
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Action commerciale" (occ=2)
+   score=1.00 id_dip=34 cat=5: "BTS  Action commerciale"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Sage-femme" (occ=1)
+   score=1.00 id_dip=90 cat=5: "BTS Sage-Femme"
+   score=0.67 id_dip=1662 cat=22: "Master Pro Sage-Femme / Maïeuticiens"
+
+[MEME CAT] "BTS Gestion des entreprises et restauration" (occ=1)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[MEME CAT] "BTS Chimie et traitement des eaux" (occ=1)
+   score=0.67 id_dip=96 cat=5: "BTS Traitement des eaux et assainissements"
+   score=0.57 id_dip=442 cat=5: "BTS Hydraulique, Traitement des Eaux et Assainissement "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Fondamentaux de l'éducation" (occ=1)
+   score=0.50 id_dip=477 cat=5: "BTS Science de l'Education"
+   score=0.50 id_dip=592 cat=17: "Licence Philosophie de l’Éducation"
+   score=0.50 id_dip=593 cat=20: "Master Philosophie de l’Éducation"
+
+[CAT DIFFERENTE cat_attendue=12 cat_trouvee=5] "DUT Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=32 cat_trouvee=5] "Diplôme d'Ingénieur de Travaux Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=19 cat_trouvee=5] "Diplôme d'Ingénieur Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=12 cat_trouvee=18] "DUT Génie rural" (occ=1)
+   score=1.00 id_dip=236 cat=18: "Licence Pro Génie Rural"
+   score=1.00 id_dip=316 cat=22: "Master Pro Génie Rural"
+   score=0.50 id_dip=1652 cat=19: "Ingénieur Agronome : Génie Rural"
+
+[CAT DIFFERENTE cat_attendue=32 cat_trouvee=18] "Diplôme d'Ingénieur de Travaux Génie rural" (occ=1)
+   score=1.00 id_dip=236 cat=18: "Licence Pro Génie Rural"
+   score=1.00 id_dip=316 cat=22: "Master Pro Génie Rural"
+   score=0.50 id_dip=1652 cat=19: "Ingénieur Agronome : Génie Rural"
+
+[CAT DIFFERENTE cat_attendue=19 cat_trouvee=18] "Diplôme d'Ingénieur Génie rural" (occ=1)
+   score=1.00 id_dip=236 cat=18: "Licence Pro Génie Rural"
+   score=1.00 id_dip=316 cat=22: "Master Pro Génie Rural"
+   score=0.50 id_dip=1652 cat=19: "Ingénieur Agronome : Génie Rural"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Comptabilité et finances -  contrôle de gestion" (occ=1)
+   score=0.57 id_dip=443 cat=22: "Master Pro Finance et Contrôle de Gestion"
+   score=0.57 id_dip=459 cat=18: "Licence Pro Audit et Contrôle de Gestion"
+   score=0.57 id_dip=466 cat=22: "Master Pro Audit et Controle de Gestion"
+
+[MEME CAT] "Licence Pro Comptabilité et finances" (occ=2)
+   score=0.50 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=0.50 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=0.50 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=9] "Licence Pro Réseaux et télécom" (occ=3)
+   score=0.60 id_dip=886 cat=9: "CQP Télécom et réseaux informatiques"
+   score=0.50 id_dip=248 cat=18: "Licence Pro Réseaux et Sécurité"
+   score=0.50 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=19] "Licence Pro Informatique" (occ=4)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[MEME CAT] "Licence Pro Ameublement et construction du bois" (occ=2)
+   score=0.50 id_dip=1519 cat=18: "Licence Pro Ameublement et Construction Boi"
+   score=0.50 id_dip=1967 cat=18: "Licence Pro Construction Bois et Aménagement "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Génie du bois" (occ=1)
+   score=0.67 id_dip=1945 cat=22: "Master Pro Génie Bois"
+   score=0.67 id_dip=1968 cat=18: "Licence Pro Génie Bois"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=5] "Licence Informatique de gestion" (occ=1)
+   score=1.00 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=1.00 id_dip=1081 cat=18: "Licence Pro Informatique de Gestion"
+   score=1.00 id_dip=1419 cat=22: "Master Pro Informatique de Gestion"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Génie thermique et énergétique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Génie thermique et énergétique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=19] "Licence Informatique" (occ=1)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=19] "Master Informatique" (occ=2)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=5] "Licence Ressources humaines" (occ=2)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Ressources humaines" (occ=1)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Architecture" (occ=1)
+   score=1.00 id_dip=469 cat=18: "Licence Pro Architecture"
+   score=1.00 id_dip=470 cat=22: "Master Pro Architecture"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Architecture" (occ=1)
+   score=1.00 id_dip=469 cat=18: "Licence Pro Architecture"
+   score=1.00 id_dip=470 cat=22: "Master Pro Architecture"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Architecture" (occ=1)
+   score=1.00 id_dip=469 cat=18: "Licence Pro Architecture"
+   score=1.00 id_dip=470 cat=22: "Master Pro Architecture"
+
+[MEME CAT] "Licence Sciences juridiques et politiques" (occ=1)
+   score=0.57 id_dip=568 cat=17: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.57 id_dip=570 cat=17: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Ressources humaines" (occ=1)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Comptabilité et finances" (occ=1)
+   score=0.50 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=0.50 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=0.50 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Comptabilité et finances" (occ=1)
+   score=0.50 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=0.50 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=0.50 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Marketing et vente" (occ=1)
+   score=1.00 id_dip=1112 cat=18: "Licence Pro Marketing et Vente"
+   score=1.00 id_dip=1113 cat=22: "Master Pro Marketing et Vente"
+   score=0.75 id_dip=558 cat=18: "Licence Pro Communication, Marketing et Vente"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Marketing et vente" (occ=1)
+   score=1.00 id_dip=1112 cat=18: "Licence Pro Marketing et Vente"
+   score=1.00 id_dip=1113 cat=22: "Master Pro Marketing et Vente"
+   score=0.75 id_dip=558 cat=18: "Licence Pro Communication, Marketing et Vente"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=5] "Licence Transport et logistique" (occ=1)
+   score=0.75 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=0.75 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+   score=0.75 id_dip=323 cat=22: "Master Pro Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Transport et logistique" (occ=1)
+   score=0.75 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=0.75 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+   score=0.75 id_dip=323 cat=22: "Master Pro Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor La gestion des soins de santé" (occ=2)
+   score=0.57 id_dip=607 cat=18: "Licence Gestion des services de santé"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=28] "Bachelor Agriculture, économie et gestion" (occ=1)
+   score=0.50 id_dip=769 cat=28: "Capacité en Droit et Economie"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=5] "Bachelor Kinésithérapie" (occ=1)
+   score=1.00 id_dip=91 cat=5: "BTS Kinésithérapie"
+   score=1.00 id_dip=228 cat=18: "Licence Pro Kinésithérapie"
+   score=1.00 id_dip=300 cat=22: "Master Pro Kinésithérapie"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=5] "Bachelor Technologie de la pharmacie" (occ=1)
+   score=0.50 id_dip=842 cat=5: "BTS Technologie de la Marine Marchande"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HPD Technologie de la pharmacie" (occ=2)
+   score=0.50 id_dip=842 cat=5: "BTS Technologie de la Marine Marchande"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=22] "Bachelor Nutrition et diététique" (occ=1)
+   score=0.75 id_dip=782 cat=22: "Master Pro Nutrition Diététique et Santé"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Économie de gestion" (occ=1)
+   score=1.00 id_dip=559 cat=18: "Licence Pro Economie de Gestion"
+   score=0.50 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=0.50 id_dip=388 cat=5: "BTS Gestion de l'Eau"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Comptabilité - finance" (occ=1)
+   score=0.67 id_dip=276 cat=18: "Licence Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=318 cat=22: "Master Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Comptabilité - finance" (occ=1)
+   score=0.67 id_dip=276 cat=18: "Licence Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=318 cat=22: "Master Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+
+[MEME CAT] "Licence Théologie" (occ=1)
+   score=0.50 id_dip=588 cat=17: "Licence en Théologie "
+   score=0.50 id_dip=589 cat=20: "Master en Théologie"
+   score=0.50 id_dip=590 cat=3: "Doctorat en Théologie"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=17] "Master Théologie" (occ=1)
+   score=0.50 id_dip=588 cat=17: "Licence en Théologie "
+   score=0.50 id_dip=589 cat=20: "Master en Théologie"
+   score=0.50 id_dip=590 cat=3: "Doctorat en Théologie"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=17] "Doctorat Théologie" (occ=1)
+   score=0.50 id_dip=588 cat=17: "Licence en Théologie "
+   score=0.50 id_dip=589 cat=20: "Master en Théologie"
+   score=0.50 id_dip=590 cat=3: "Doctorat en Théologie"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Cinéma et arts du spectacle" (occ=1)
+   score=0.50 id_dip=12 cat=18: "Licence professionnelle en Arts du Spectacle"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Cinéma et arts du spectacle" (occ=1)
+   score=0.50 id_dip=12 cat=18: "Licence professionnelle en Arts du Spectacle"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Énergie et génie énergétique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Énergie et génie énergétique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Management audit et contrôle" (occ=1)
+   score=1.00 id_dip=560 cat=18: "Licence Pro Management, Audit et Contrôle"
+   score=0.75 id_dip=277 cat=18: "Licence Pro Contrôle et Audit"
+   score=0.75 id_dip=319 cat=22: "Master Pro Contrôle et Audit"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Communication, marketing et vente" (occ=1)
+   score=1.00 id_dip=558 cat=18: "Licence Pro Communication, Marketing et Vente"
+   score=0.75 id_dip=1112 cat=18: "Licence Pro Marketing et Vente"
+   score=0.75 id_dip=1113 cat=22: "Master Pro Marketing et Vente"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=5] "Licence Sciences infirmières" (occ=1)
+   score=1.00 id_dip=88 cat=5: "BTS Sciences Infirmières"
+   score=1.00 id_dip=151 cat=20: "Master Pro Sciences Infirmières"
+   score=1.00 id_dip=222 cat=18: "Licence Pro Sciences Infirmières"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Commerce" (occ=1)
+   score=0.50 id_dip=33 cat=5: "BTS  Commerce international"
+   score=0.50 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=0.50 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Commerce" (occ=1)
+   score=0.50 id_dip=33 cat=5: "BTS  Commerce international"
+   score=0.50 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=0.50 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Génie civil" (occ=1)
+   score=1.00 id_dip=692 cat=5: "BTS Génie Civil"
+   score=1.00 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=1.00 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Affaires et informatique" (occ=2)
+   score=0.50 id_dip=257 cat=18: "Licence Pro Télécommunications et Informatique"
+   score=0.50 id_dip=306 cat=22: "Master Pro Télécommunications et Informatique"
+
+[MEME CAT] "HND Conservation management" (occ=1)
+   score=0.50 id_dip=403 cat=26: "HND Management"
+   score=0.50 id_dip=420 cat=14: "Bachelor Management"
+   score=0.50 id_dip=649 cat=18: "Licence Pro Management"
+
+[MEME CAT] "Licence Pro Organisation et administration" (occ=1)
+   score=0.50 id_dip=1573 cat=18: "Licence Pro Organisation et Management"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Organisation et administration" (occ=1)
+   score=0.50 id_dip=1573 cat=18: "Licence Pro Organisation et Management"
+
+[MEME CAT] "Licence Pro Système réseaux et télécommunication" (occ=1)
+   score=0.60 id_dip=240 cat=18: "Licence Pro Administration Système et Réseaux"
+   score=0.60 id_dip=308 cat=22: "Master Pro Administration Système et Réseaux"
+   score=0.50 id_dip=948 cat=18: "Licence Pro  Ingénierie Système Informatique et Réseaux"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Système réseaux et télécommunication" (occ=1)
+   score=0.60 id_dip=240 cat=18: "Licence Pro Administration Système et Réseaux"
+   score=0.60 id_dip=308 cat=22: "Master Pro Administration Système et Réseaux"
+   score=0.50 id_dip=948 cat=18: "Licence Pro  Ingénierie Système Informatique et Réseaux"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=28] "Licence Pro Administration publique" (occ=1)
+   score=0.50 id_dip=1086 cat=28: "Capacité en Droit et Economie : Administration Publique"
+
+[MEME CAT] "Licence Pro Génie mécanique et productif" (occ=1)
+   score=0.60 id_dip=255 cat=18: "Licence Pro Génie industriel et Mécanique."
+   score=0.60 id_dip=311 cat=22: "Master Pro Génie industriel et Mécanique"
+   score=0.60 id_dip=789 cat=5: "BTS Génie Mécanique et Productique"
+
+[MEME CAT] "Licence Pro Réseaux et télécommunication" (occ=1)
+   score=0.50 id_dip=248 cat=18: "Licence Pro Réseaux et Sécurité"
+   score=0.50 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+   score=0.50 id_dip=793 cat=18: "Licence Pro Réseau et Télécommunication "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=9] "Licence Pro Tourisme" (occ=1)
+   score=0.50 id_dip=1145 cat=9: "CQP Tourisme"
+   score=0.50 id_dip=1146 cat=30: "DQP Tourisme"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=9] "Master Pro Tourisme" (occ=1)
+   score=0.50 id_dip=1145 cat=9: "CQP Tourisme"
+   score=0.50 id_dip=1146 cat=30: "DQP Tourisme"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Droit des métiers" (occ=1)
+   score=0.50 id_dip=1670 cat=5: "BTS Droit des Assurances"
+   score=0.50 id_dip=1677 cat=18: "Licence Pro Droit des Assurances"
+   score=0.50 id_dip=1684 cat=22: "Master Pro Droit des Assurances"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=26] "Licence Pro Marketing - marchandisage" (occ=2)
+   score=0.50 id_dip=404 cat=26: "HND Marketing"
+   score=0.50 id_dip=421 cat=14: "Bachelor Marketing"
+   score=0.50 id_dip=910 cat=18: "Licence Pro Marketing"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Commerce international" (occ=1)
+   score=1.00 id_dip=33 cat=5: "BTS  Commerce international"
+   score=1.00 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=1.00 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Contrôle de gestion" (occ=2)
+   score=0.60 id_dip=443 cat=22: "Master Pro Finance et Contrôle de Gestion"
+   score=0.60 id_dip=459 cat=18: "Licence Pro Audit et Contrôle de Gestion"
+   score=0.60 id_dip=466 cat=22: "Master Pro Audit et Controle de Gestion"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Gestion des projets et entrepreneuriat" (occ=1)
+   score=0.67 id_dip=1096 cat=22: "Master Pro Gestion des Programmes et des Projets"
+   score=0.67 id_dip=1116 cat=18: "Licence Pro Gestion de Projets et Entrepreneuriat"
+   score=0.60 id_dip=110 cat=5: "BTS Gestion des Projets"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Comptabilité et gestion des entreprises" (occ=1)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Télécommunications et réseaux" (occ=1)
+   score=1.00 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+   score=0.75 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.60 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Gestion des ressources humaines" (occ=1)
+   score=1.00 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=1.00 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+   score=1.00 id_dip=321 cat=22: "Master Pro Gestion des Ressources Humaines"
+
+[MEME CAT] "Master Master international en administration des affaires" (occ=1)
+   score=0.57 id_dip=584 cat=20: "Master en Droit International des Affaires"
+   score=0.50 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Banque - finance" (occ=1)
+   score=0.67 id_dip=76 cat=5: "BTS Banque et Finance"
+   score=0.67 id_dip=276 cat=18: "Licence Pro Comptabilité-banque-finance"
+   score=0.67 id_dip=318 cat=22: "Master Pro Comptabilité-banque-finance"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Management et systèmes d'information" (occ=1)
+   score=0.60 id_dip=562 cat=22: "Master Pro Management et Système d'Information"
+   score=0.60 id_dip=929 cat=18: "Licence Pro Management des Systèmes d'Information"
+   score=0.60 id_dip=933 cat=22: "Master Pro Management des Systèmes d'Information"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Santé publique" (occ=1)
+   score=1.00 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=1.00 id_dip=295 cat=22: "Master Pro Santé Publique"
+   score=0.67 id_dip=1185 cat=17: "Licence en Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Anesthésie et réanimation" (occ=1)
+   score=1.00 id_dip=298 cat=22: "Master Pro Anesthésie et Réanimation"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Santé de la reproduction" (occ=1)
+   score=0.75 id_dip=226 cat=18: "Licence Pro Santé de Reproduction"
+   score=0.75 id_dip=296 cat=22: "Master Pro Santé de Reproduction"
+   score=0.57 id_dip=608 cat=22: "Master Sciences Infirmières option Santé de la Reproduction"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Finance et contrôle de gestion" (occ=1)
+   score=1.00 id_dip=443 cat=22: "Master Pro Finance et Contrôle de Gestion"
+   score=0.67 id_dip=459 cat=18: "Licence Pro Audit et Contrôle de Gestion"
+   score=0.67 id_dip=466 cat=22: "Master Pro Audit et Controle de Gestion"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=26] "Master Marketing" (occ=1)
+   score=1.00 id_dip=404 cat=26: "HND Marketing"
+   score=1.00 id_dip=421 cat=14: "Bachelor Marketing"
+   score=1.00 id_dip=910 cat=18: "Licence Pro Marketing"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Management et developpement des projets en afrique" (occ=1)
+   score=1.00 id_dip=563 cat=22: "Master Pro Management et Développement des Projets en Afrique"
+   score=0.50 id_dip=1836 cat=18: "Licence Pro Management et Pilotage des Projets"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Audit et contrôle de gestion" (occ=2)
+   score=1.00 id_dip=459 cat=18: "Licence Pro Audit et Contrôle de Gestion"
+   score=1.00 id_dip=466 cat=22: "Master Pro Audit et Controle de Gestion"
+   score=0.83 id_dip=1378 cat=3: "Doctorat en Gestion, Audit et Contrôle de Gestion"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Marketing et stratégies" (occ=1)
+   score=1.00 id_dip=561 cat=22: "Master Pro Marketing et Stratégies "
+   score=0.50 id_dip=444 cat=22: "Master Pro Marketing et Distribution "
+   score=0.50 id_dip=446 cat=22: "Master Pro Marketing et Publicité"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Analyses médicales" (occ=1)
+   score=0.50 id_dip=621 cat=18: "Licence professionnelle en ligne en Analyses Médicales"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Microbiologie" (occ=1)
+   score=0.50 id_dip=1284 cat=22: "Master Pro Microbiologie Clinique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Gestion hospitalière" (occ=1)
+   score=0.50 id_dip=788 cat=22: "Master Pro Gestion Hospitalière et Sanitaire"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Méthodes et management de la qualité" (occ=1)
+   score=0.63 id_dip=432 cat=22: "Master Pro Management de la qualité et des Projets"
+   score=0.63 id_dip=463 cat=18: "Licence Pro Management de la Qualité et des Projets"
+   score=0.63 id_dip=784 cat=22: "Master Pro Hygiène Alimentaire et Management de la Qualité"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Imagerie médicale" (occ=1)
+   score=0.50 id_dip=87 cat=5: "BTS Radiologie et Imagerie Médicale"
+   score=0.50 id_dip=227 cat=18: "Licence Pro Radiologie et Imagerie Médicale"
+   score=0.50 id_dip=299 cat=22: "Master Pro Radiologie et Imagerie Médicale"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=9] "Licence Pro Technique de laboratoire médical" (occ=1)
+   score=0.50 id_dip=2166 cat=9: "CQP Agent Technique de Laboratoire"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Comptabilité et gestion financière" (occ=1)
+   score=0.60 id_dip=31 cat=5: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.60 id_dip=416 cat=18: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.60 id_dip=641 cat=22: "Master en Comptabilité et Gestion "
+
+[MEME CAT] "Licence Pro Commerce  - management et gestion de la relation clientèle" (occ=1)
+   score=0.50 id_dip=1512 cat=18: "Licence Gestion de la Clientèle"
+
+[MEME CAT] "Licence Pro Techniques de santé publique" (occ=2)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[MEME CAT] "Licence Pro Analyse concepteur des systèmes informatiques" (occ=1)
+   score=0.50 id_dip=412 cat=18: "Licence Pro Maintenance des Systèmes Informatiques"
+   score=0.50 id_dip=743 cat=18: "Licence Pro Gestion des Systèmes Informatiques"
+   score=0.50 id_dip=756 cat=22: "Master Pro Gestion des Systèmes Informatiques"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Création d'entreprises et gestion des projets" (occ=1)
+   score=0.57 id_dip=1096 cat=22: "Master Pro Gestion des Programmes et des Projets"
+   score=0.50 id_dip=110 cat=5: "BTS Gestion des Projets"
+   score=0.50 id_dip=280 cat=18: "Licence Gestion des Projets"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=20] "Master Pro Droit des affaires" (occ=1)
+   score=0.75 id_dip=574 cat=20: "Master en Droit des Affaires"
+   score=0.75 id_dip=1524 cat=18: "Licence Pro en Droit des Affaires"
+   score=0.60 id_dip=462 cat=22: "Master Pro Fiscalité et Droit des Affaires"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=28] "HND Administration et santé publique" (occ=1)
+   score=0.60 id_dip=1086 cat=28: "Capacité en Droit et Economie : Administration Publique"
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=22] "HND Marketing et publicité" (occ=1)
+   score=1.00 id_dip=446 cat=22: "Master Pro Marketing et Publicité"
+   score=1.00 id_dip=1857 cat=22: "Licence Pro Publicité et Marketing"
+   score=0.50 id_dip=444 cat=22: "Master Pro Marketing et Distribution "
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Transport et logistique" (occ=1)
+   score=0.75 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=0.75 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+   score=0.75 id_dip=323 cat=22: "Master Pro Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=18] "HND Technologie de l'information et de la communication" (occ=1)
+   score=0.86 id_dip=858 cat=18: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.71 id_dip=1099 cat=22: "Master Pro Management de la communication et de l'Information"
+   score=0.63 id_dip=1541 cat=3: "Doctorat en Sciences de l'Information et de la Communication"
+
+[CAT DIFFERENTE cat_attendue=8 cat_trouvee=9] "MBA Tourisme" (occ=1)
+   score=0.50 id_dip=1145 cat=9: "CQP Tourisme"
+   score=0.50 id_dip=1146 cat=30: "DQP Tourisme"
+
+[CAT DIFFERENTE cat_attendue=8 cat_trouvee=5] "MBA Commerce - vente" (occ=1)
+   score=0.67 id_dip=78 cat=5: "BTS Marketing - Commerce - Vente"
+   score=0.67 id_dip=278 cat=18: "Licence Pro Marketing-Commerce-Vente"
+   score=0.67 id_dip=320 cat=22: "Master Pro Marketing-Commerce-Vente"
+
+[CAT DIFFERENTE cat_attendue=28 cat_trouvee=20] "Capacité en Droit Capacité en droit" (occ=1)
+   score=0.50 id_dip=597 cat=20: "Master en Droit Canonique"
+   score=0.50 id_dip=1386 cat=3: "Doctorat en Droit International"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Informatique de gestion" (occ=7)
+   score=1.00 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=1.00 id_dip=1081 cat=18: "Licence Pro Informatique de Gestion"
+   score=1.00 id_dip=1419 cat=22: "Master Pro Informatique de Gestion"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Comptabilité et gestion des entreprises" (occ=1)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=9] "BTS Technique de laboratoire médical" (occ=2)
+   score=0.50 id_dip=2166 cat=9: "CQP Agent Technique de Laboratoire"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=20] "BTS Droit des affaires" (occ=2)
+   score=0.75 id_dip=574 cat=20: "Master en Droit des Affaires"
+   score=0.75 id_dip=1524 cat=18: "Licence Pro en Droit des Affaires"
+   score=0.60 id_dip=462 cat=22: "Master Pro Fiscalité et Droit des Affaires"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=17] "BTS Soins infirmiers" (occ=2)
+   score=0.67 id_dip=1452 cat=17: "Licence Soins Infirmiers / IDE"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Techniques de santé publique" (occ=1)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=9] "BTS Tourisme" (occ=2)
+   score=0.50 id_dip=1145 cat=9: "CQP Tourisme"
+   score=0.50 id_dip=1146 cat=30: "DQP Tourisme"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=22] "Bachelor Information et communication" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Information et communication" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=22] "Doctorat Information et communication" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Technologie de l'information et de la communication" (occ=1)
+   score=0.86 id_dip=858 cat=18: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.71 id_dip=1099 cat=22: "Master Pro Management de la communication et de l'Information"
+   score=0.63 id_dip=1541 cat=3: "Doctorat en Sciences de l'Information et de la Communication"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Technologie de l'information et de la communication" (occ=1)
+   score=0.86 id_dip=858 cat=18: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.71 id_dip=1099 cat=22: "Master Pro Management de la communication et de l'Information"
+   score=0.63 id_dip=1541 cat=3: "Doctorat en Sciences de l'Information et de la Communication"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Technologie de l'information et de la communication" (occ=1)
+   score=0.86 id_dip=858 cat=18: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.71 id_dip=1099 cat=22: "Master Pro Management de la communication et de l'Information"
+   score=0.63 id_dip=1541 cat=3: "Doctorat en Sciences de l'Information et de la Communication"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Administration des affaires" (occ=1)
+   score=1.00 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=455 cat=22: "Master Pro Administration des Entreprises"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Administration des affaires" (occ=1)
+   score=1.00 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=455 cat=22: "Master Pro Administration des Entreprises"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Administration des affaires" (occ=1)
+   score=1.00 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=455 cat=22: "Master Pro Administration des Entreprises"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Génie logiciel" (occ=2)
+   score=1.00 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=1.00 id_dip=757 cat=22: "Master Pro Génie Logiciel"
+   score=0.67 id_dip=58 cat=5: "BTS Génie Logiciel GL"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=26] "Bachelor Télécommunications" (occ=2)
+   score=1.00 id_dip=348 cat=26: "HND Telecommunications"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=26] "Master Télécommunications" (occ=2)
+   score=1.00 id_dip=348 cat=26: "HND Telecommunications"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=26] "Doctorat Télécommunications" (occ=2)
+   score=1.00 id_dip=348 cat=26: "HND Telecommunications"
+
+[CAT DIFFERENTE cat_attendue=26 cat_trouvee=5] "HND Dessin de mode" (occ=1)
+   score=0.50 id_dip=658 cat=5: "BTS Design de Mode"
+   score=0.50 id_dip=659 cat=18: "Licence Pro Design de Mode"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=26] "Master Management" (occ=1)
+   score=1.00 id_dip=403 cat=26: "HND Management"
+   score=1.00 id_dip=420 cat=14: "Bachelor Management"
+   score=1.00 id_dip=649 cat=18: "Licence Pro Management"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=26] "Doctorat Management" (occ=1)
+   score=1.00 id_dip=403 cat=26: "HND Management"
+   score=1.00 id_dip=420 cat=14: "Bachelor Management"
+   score=1.00 id_dip=649 cat=18: "Licence Pro Management"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=18] "Bachelor Administration des affaires et économie" (occ=1)
+   score=0.60 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=1086 cat=28: "Capacité en Droit et Economie : Administration Publique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Administration des affaires et économie" (occ=1)
+   score=0.60 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=1086 cat=28: "Capacité en Droit et Economie : Administration Publique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Génie logiciel" (occ=1)
+   score=1.00 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=1.00 id_dip=757 cat=22: "Master Pro Génie Logiciel"
+   score=0.67 id_dip=58 cat=5: "BTS Génie Logiciel GL"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Génie logiciel" (occ=1)
+   score=1.00 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=1.00 id_dip=757 cat=22: "Master Pro Génie Logiciel"
+   score=0.67 id_dip=58 cat=5: "BTS Génie Logiciel GL"
+
+[CAT DIFFERENTE cat_attendue=14 cat_trouvee=17] "Bachelor Réseaux et systèmes d'informations" (occ=1)
+   score=0.60 id_dip=1803 cat=17: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.60 id_dip=1804 cat=20: "Master Réseaux, Systèmes et Sécurités"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=17] "Master Réseaux et systèmes d'informations" (occ=1)
+   score=0.60 id_dip=1803 cat=17: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.60 id_dip=1804 cat=20: "Master Réseaux, Systèmes et Sécurités"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=17] "Doctorat Réseaux et systèmes d'informations" (occ=1)
+   score=0.60 id_dip=1803 cat=17: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.60 id_dip=1804 cat=20: "Master Réseaux, Systèmes et Sécurités"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=20] "DSEP Droit des affaires" (occ=2)
+   score=0.75 id_dip=574 cat=20: "Master en Droit des Affaires"
+   score=0.75 id_dip=1524 cat=18: "Licence Pro en Droit des Affaires"
+   score=0.60 id_dip=462 cat=22: "Master Pro Fiscalité et Droit des Affaires"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=9] "DSEP Mécanique automobile" (occ=1)
+   score=0.67 id_dip=896 cat=9: "CQP Mécanique automobile"
+   score=0.50 id_dip=841 cat=5: "BTS Mécanique et Electronique Automobile "
+   score=0.50 id_dip=868 cat=18: "Licence Pro Génie Mécanique option Mécanique Automobile"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Thermique et énergie" (occ=1)
+   score=0.75 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Urbanisme" (occ=1)
+   score=1.00 id_dip=102 cat=5: "BTS Urbanisme"
+   score=1.00 id_dip=1625 cat=18: "Licence Pro Urbanisme"
+   score=1.00 id_dip=1630 cat=22: "Master Pro Urbanisme"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Construction mécanique" (occ=1)
+   score=1.00 id_dip=46 cat=5: "BTS Construction Mécanique"
+   score=1.00 id_dip=1623 cat=18: "Licence Pro Construction Mécanique"
+   score=1.00 id_dip=1629 cat=22: "Master Pro Construction Mécanique"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Travaux publics" (occ=1)
+   score=1.00 id_dip=1079 cat=18: "Licence Pro Travaux Publics"
+   score=1.00 id_dip=1092 cat=22: "Master Pro Travaux Publics"
+   score=0.67 id_dip=241 cat=18: "Licence Pro Bâtiment-Travaux-Publics"
+
+[MEME CAT] "BTS Génie civil - aménagement urbain" (occ=2)
+   score=0.50 id_dip=692 cat=5: "BTS Génie Civil"
+   score=0.50 id_dip=791 cat=18: "Licence Pro Génie Civil"
+   score=0.50 id_dip=993 cat=22: "Master Pro Génie Civil"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Gestion et maîtrise de l'eau" (occ=1)
+   score=0.60 id_dip=388 cat=5: "BTS Gestion de l'Eau"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Production animale" (occ=1)
+   score=1.00 id_dip=79 cat=5: "BTS Production Animale"
+   score=1.00 id_dip=234 cat=18: "Licence Pro Production Animale"
+   score=1.00 id_dip=313 cat=22: "Master Pro Production Animale"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=18] "BTS Productique et commercialisation du bois" (occ=1)
+   score=0.50 id_dip=1520 cat=18: "Licence Pro Production et Commercialisation Bois"
+
+[CAT DIFFERENTE cat_attendue=17 cat_trouvee=18] "Licence Productique et commercialisation du bois" (occ=1)
+   score=0.50 id_dip=1520 cat=18: "Licence Pro Production et Commercialisation Bois"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Génie logiciel et réseaux" (occ=2)
+   score=0.60 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.50 id_dip=249 cat=18: "Licence Pro Génie Logiciel"
+   score=0.50 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+
+[MEME CAT] "Licence Pro Réseaux et multimédia" (occ=1)
+   score=0.50 id_dip=248 cat=18: "Licence Pro Réseaux et Sécurité"
+   score=0.50 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+
+[MEME CAT] "Licence Pro Informatique industrielle - réseaux locaux" (occ=1)
+   score=0.50 id_dip=1624 cat=18: "Licence Pro Informatique Industrielle"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Commerce international" (occ=1)
+   score=1.00 id_dip=33 cat=5: "BTS  Commerce international"
+   score=1.00 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=1.00 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Commerce international" (occ=1)
+   score=1.00 id_dip=33 cat=5: "BTS  Commerce international"
+   score=1.00 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=1.00 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Communication et information" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Communication et information" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=22] "Doctorat Communication et information" (occ=1)
+   score=0.60 id_dip=1860 cat=22: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.50 id_dip=1083 cat=18: "Licence Pro Communication et Négociation"
+   score=0.50 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Droit des affaires et carrières juridiques" (occ=1)
+   score=0.57 id_dip=462 cat=22: "Master Pro Fiscalité et Droit des Affaires"
+   score=0.57 id_dip=1426 cat=5: "BTS Droit des affaires et TIC"
+   score=0.50 id_dip=400 cat=5: "BTS droit des affaires et de l'entreprise"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Commerce international - transport et logistique" (occ=1)
+   score=0.80 id_dip=454 cat=22: "Master Pro Logistique et Commerce International"
+   score=0.50 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=0.50 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Communication des organisations et relations publiques" (occ=1)
+   score=1.00 id_dip=1082 cat=18: "Licence Pro Communication des Organisations et Relations Publiques"
+   score=1.00 id_dip=1421 cat=22: "Master Pro Communication des Organisations et Relations Publiques"
+   score=0.50 id_dip=411 cat=18: "Licence Pro Communication des Organisations"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Communication des organisations et relations publiques" (occ=1)
+   score=1.00 id_dip=1082 cat=18: "Licence Pro Communication des Organisations et Relations Publiques"
+   score=1.00 id_dip=1421 cat=22: "Master Pro Communication des Organisations et Relations Publiques"
+   score=0.50 id_dip=411 cat=18: "Licence Pro Communication des Organisations"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Comptabilité et fiscalité d'entreprise" (occ=1)
+   score=0.60 id_dip=31 cat=5: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.60 id_dip=416 cat=18: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.60 id_dip=752 cat=22: "Master Pro Comptabilité et Gestion d'Entreprise"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Comptabilité et fiscalité d'entreprise" (occ=1)
+   score=0.60 id_dip=31 cat=5: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.60 id_dip=416 cat=18: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.60 id_dip=752 cat=22: "Master Pro Comptabilité et Gestion d'Entreprise"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Comptabilité et fiscalité d'entreprise" (occ=1)
+   score=0.60 id_dip=31 cat=5: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.60 id_dip=416 cat=18: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.60 id_dip=752 cat=22: "Master Pro Comptabilité et Gestion d'Entreprise"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Droit" (occ=1)
+   score=0.50 id_dip=1668 cat=5: "BTS Droit Social"
+   score=0.50 id_dip=1669 cat=5: "BTS Droit Commercial"
+   score=0.50 id_dip=1671 cat=5: "BTS Droit Publique"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Droit" (occ=1)
+   score=0.50 id_dip=1668 cat=5: "BTS Droit Social"
+   score=0.50 id_dip=1669 cat=5: "BTS Droit Commercial"
+   score=0.50 id_dip=1671 cat=5: "BTS Droit Publique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Finance et comptabilité" (occ=1)
+   score=1.00 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=1.00 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=1.00 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Finance et comptabilité" (occ=1)
+   score=1.00 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=1.00 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=1.00 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Gestion des entreprises et des administrations" (occ=2)
+   score=1.00 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=1.00 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Commerce international" (occ=1)
+   score=1.00 id_dip=33 cat=5: "BTS  Commerce international"
+   score=1.00 id_dip=417 cat=18: "Licence Pro Commerce International"
+   score=1.00 id_dip=2090 cat=14: "Bachelor Commerce International"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=18] "DSEP Génie mécanique" (occ=1)
+   score=1.00 id_dip=990 cat=18: "Licence Pro Génie Mécanique"
+   score=1.00 id_dip=992 cat=22: "Master Pro Génie Mécanique"
+   score=0.67 id_dip=1067 cat=19: "Ingénieur Génie Mécanique "
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=14] "DSEP Information-communication" (occ=1)
+   score=0.67 id_dip=2220 cat=14: "Bachelor Information communication Technology"
+   score=0.50 id_dip=1019 cat=26: "HND Information and Communication Technologie"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Comptabilité et gestion des entreprises" (occ=2)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=25] "BTS Expertise comptable" (occ=1)
+   score=1.00 id_dip=1175 cat=25: "DSEP Expertise Comptable"
+   score=1.00 id_dip=1821 cat=18: "Licence Pro Expertise Comptable"
+   score=0.50 id_dip=1824 cat=22: "Master Pro Audit et Expertise Comptable"
+
+[MEME CAT] "BTS Gestion des entreprises et administration" (occ=1)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Gestion des entreprises et administration" (occ=1)
+   score=0.67 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.67 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=17] "DSEP Sciences pharmaceutiques" (occ=1)
+   score=0.67 id_dip=1449 cat=17: "Licence en Sciences Pharmaceutiques"
+   score=0.67 id_dip=1455 cat=20: "Master en Sciences Pharmaceutiques"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Génie électrique" (occ=1)
+   score=1.00 id_dip=650 cat=18: "Licence Pro Génie Electrique"
+   score=1.00 id_dip=994 cat=22: "Master Pro Génie Electrique"
+   score=1.00 id_dip=1934 cat=5: "BTS Génie Electrique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Génie mécanique" (occ=1)
+   score=1.00 id_dip=990 cat=18: "Licence Pro Génie Mécanique"
+   score=1.00 id_dip=992 cat=22: "Master Pro Génie Mécanique"
+   score=0.67 id_dip=1067 cat=19: "Ingénieur Génie Mécanique "
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Génie mécanique" (occ=1)
+   score=1.00 id_dip=990 cat=18: "Licence Pro Génie Mécanique"
+   score=1.00 id_dip=992 cat=22: "Master Pro Génie Mécanique"
+   score=0.67 id_dip=1067 cat=19: "Ingénieur Génie Mécanique "
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Gestion des entreprises et des administrations" (occ=1)
+   score=1.00 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=1.00 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Gestion des entreprises et des administrations" (occ=1)
+   score=1.00 id_dip=688 cat=5: "BTS Gestion des Entreprises et des Administrations"
+   score=1.00 id_dip=1176 cat=25: "DSEP Gestion des Entreprises et des Administrations"
+   score=0.67 id_dip=907 cat=18: "Licence Pro Gestion des Entreprises et des Coopératives"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Gestion logistique et transport" (occ=1)
+   score=1.00 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=1.00 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+   score=1.00 id_dip=323 cat=22: "Master Pro Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Gestion logistique et transport" (occ=1)
+   score=1.00 id_dip=36 cat=5: "BTS  Gestion logistique et transport"
+   score=1.00 id_dip=281 cat=18: "Licence Pro: Gestion Logistique et Transport"
+   score=1.00 id_dip=323 cat=22: "Master Pro Gestion Logistique et Transport"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=19] "Doctorat Informatique" (occ=1)
+   score=0.50 id_dip=600 cat=19: "Ingénieur Informatique"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.50 id_dip=918 cat=5: "BTS Informatique Industriel "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=30] "Licence Pro Maintenance informatique" (occ=1)
+   score=0.67 id_dip=962 cat=30: "DQP Maintenance Informatique"
+   score=0.50 id_dip=963 cat=30: "DQP Maintenance Réseau informatique"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Management des entreprises touristiques" (occ=1)
+   score=0.75 id_dip=1865 cat=22: "Master Pro Management des Entreprises"
+   score=0.57 id_dip=284 cat=18: "Licence Création et Management des entreprises hôtelières et touristiques"
+   score=0.57 id_dip=327 cat=22: "Master Pro Création et Management des entreprises hôtelières et touristiques"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Publicité" (occ=1)
+   score=1.00 id_dip=1084 cat=18: "Licence Pro Publicité"
+   score=1.00 id_dip=1314 cat=5: "BTS Publicité"
+   score=0.50 id_dip=853 cat=18: "Licence Pro Marchandising & Publicité"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Publicité" (occ=1)
+   score=1.00 id_dip=1084 cat=18: "Licence Pro Publicité"
+   score=1.00 id_dip=1314 cat=5: "BTS Publicité"
+   score=0.50 id_dip=853 cat=18: "Licence Pro Marchandising & Publicité"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=26] "Licence Pro Management commercial" (occ=1)
+   score=0.50 id_dip=403 cat=26: "HND Management"
+   score=0.50 id_dip=420 cat=14: "Bachelor Management"
+   score=0.50 id_dip=649 cat=18: "Licence Pro Management"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Tourisme et management de l'hébergement et produit du terroir" (occ=1)
+   score=0.56 id_dip=1948 cat=22: "Master Pro Management de l'Hôtellerie et du Tourisme"
+
+[MEME CAT] "Licence Pro Système informatiques et réseaux" (occ=1)
+   score=0.60 id_dip=240 cat=18: "Licence Pro Administration Système et Réseaux"
+   score=0.60 id_dip=308 cat=22: "Master Pro Administration Système et Réseaux"
+   score=0.50 id_dip=886 cat=9: "CQP Télécom et réseaux informatiques"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Kinésithérapie" (occ=1)
+   score=1.00 id_dip=91 cat=5: "BTS Kinésithérapie"
+   score=1.00 id_dip=228 cat=18: "Licence Pro Kinésithérapie"
+   score=1.00 id_dip=300 cat=22: "Master Pro Kinésithérapie"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Kinésithérapie" (occ=1)
+   score=1.00 id_dip=91 cat=5: "BTS Kinésithérapie"
+   score=1.00 id_dip=228 cat=18: "Licence Pro Kinésithérapie"
+   score=1.00 id_dip=300 cat=22: "Master Pro Kinésithérapie"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Génie informatique et réseaux" (occ=1)
+   score=0.60 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=22] "Master Génie informatique et réseaux" (occ=1)
+   score=0.60 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=22] "Doctorat Génie informatique et réseaux" (occ=1)
+   score=0.60 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=693 cat=5: "BTS Génie Informatique"
+
+[MEME CAT] "Licence Pro Génie logiciel et bases de données" (occ=1)
+   score=0.50 id_dip=1633 cat=18: "Licence Pro Systèmes d'Information et Bases de Données"
+
+[MEME CAT] "Licence Pro Génie thermique et énergétique" (occ=1)
+   score=0.60 id_dip=860 cat=18: "Licence Pro Génie Energétique et Minier"
+   score=0.60 id_dip=1156 cat=18: "Licence Pro Génie Thermique et Energie."
+   score=0.60 id_dip=1951 cat=22: "Master Pro Génie Energétique et Environnement"
+
+[MEME CAT] "Licence Pro Guide touristique national" (occ=1)
+   score=0.67 id_dip=1131 cat=18: "Licence Pro Guide Touristique"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Informatique de gestion" (occ=1)
+   score=1.00 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=1.00 id_dip=1081 cat=18: "Licence Pro Informatique de Gestion"
+   score=1.00 id_dip=1419 cat=22: "Master Pro Informatique de Gestion"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Informatique de gestion" (occ=1)
+   score=1.00 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=1.00 id_dip=1081 cat=18: "Licence Pro Informatique de Gestion"
+   score=1.00 id_dip=1419 cat=22: "Master Pro Informatique de Gestion"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Maintenance des systèmes industriels" (occ=1)
+   score=1.00 id_dip=99 cat=5: "BTS Maintenance des Systèmes industriels"
+   score=0.60 id_dip=55 cat=5: "BTS Maintenance des Systèmes Electroniques"
+   score=0.60 id_dip=100 cat=5: "BTS Maintenance des équipements Industriels"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Maintenance des systèmes industriels" (occ=1)
+   score=1.00 id_dip=99 cat=5: "BTS Maintenance des Systèmes industriels"
+   score=0.60 id_dip=55 cat=5: "BTS Maintenance des Systèmes Electroniques"
+   score=0.60 id_dip=100 cat=5: "BTS Maintenance des équipements Industriels"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Maintenance des systèmes industriels" (occ=1)
+   score=1.00 id_dip=99 cat=5: "BTS Maintenance des Systèmes industriels"
+   score=0.60 id_dip=55 cat=5: "BTS Maintenance des Systèmes Electroniques"
+   score=0.60 id_dip=100 cat=5: "BTS Maintenance des équipements Industriels"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Tourisme et management de l'animation" (occ=1)
+   score=0.57 id_dip=1948 cat=22: "Master Pro Management de l'Hôtellerie et du Tourisme"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Tourisme et management de l'hôtellerie de plein air" (occ=1)
+   score=0.63 id_dip=1948 cat=22: "Master Pro Management de l'Hôtellerie et du Tourisme"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Ressources humaines" (occ=1)
+   score=1.00 id_dip=108 cat=5: "BTS Ressources Humaines"
+   score=0.50 id_dip=152 cat=5: "BTS Gestion des Ressources Humaines "
+   score=0.50 id_dip=279 cat=18: "Licence Pro Gestion des Ressources Humaines"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=18] "Master Techniques de santé publique" (occ=1)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=18] "Doctorat Techniques de santé publique" (occ=1)
+   score=0.50 id_dip=225 cat=18: "Licence Pro Santé Publique"
+   score=0.50 id_dip=295 cat=22: "Master Pro Santé Publique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Comptabilité et finances" (occ=1)
+   score=0.50 id_dip=450 cat=18: "Licence Pro Finance et Comptabilité"
+   score=0.50 id_dip=564 cat=22: "Master Pro Comptabilité et Finance"
+   score=0.50 id_dip=737 cat=18: "Licence Pro Comptabilité et Finance"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Entrepreneuriat" (occ=1)
+   score=0.50 id_dip=917 cat=22: "Master Pro en Entrepreneuriat "
+   score=0.50 id_dip=2171 cat=22: "Master Pro Entrepreneuriat Agropastoral "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=25] "Licence Pro Génie électrique et télécom" (occ=1)
+   score=0.60 id_dip=1177 cat=25: "DSEP Génie Electrique et Télécommunication"
+   score=0.50 id_dip=310 cat=22: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.50 id_dip=650 cat=18: "Licence Pro Génie Electrique"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Traduction" (occ=1)
+   score=1.00 id_dip=1312 cat=5: "BTS Traduction"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=5] "Master Pro Traduction" (occ=1)
+   score=1.00 id_dip=1312 cat=5: "BTS Traduction"
+
+[CAT DIFFERENTE cat_attendue=20 cat_trouvee=5] "Master Techniques pharmaceutiques" (occ=1)
+   score=1.00 id_dip=86 cat=5: "BTS Techniques Pharmaceutiques"
+   score=1.00 id_dip=779 cat=18: "Licence Pro Techniques Pharmaceutiques "
+
+[CAT DIFFERENTE cat_attendue=3 cat_trouvee=5] "Doctorat Techniques pharmaceutiques" (occ=1)
+   score=1.00 id_dip=86 cat=5: "BTS Techniques Pharmaceutiques"
+   score=1.00 id_dip=779 cat=18: "Licence Pro Techniques Pharmaceutiques "
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Génie des réseaux et télécommunications" (occ=1)
+   score=0.80 id_dip=931 cat=22: "Master Pro Génie Réseaux et Télécommunications"
+   score=0.67 id_dip=697 cat=19: "Ingénieur Génie Réseaux et Télécommunications"
+   score=0.60 id_dip=689 cat=5: "BTS Réseaux et Télécommunications"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Génie informatique" (occ=2)
+   score=1.00 id_dip=693 cat=5: "BTS Génie Informatique"
+   score=0.67 id_dip=696 cat=19: "Ingénieur Génie Informatique"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=22] "Licence Pro Gestion de l'environnement" (occ=1)
+   score=0.60 id_dip=1768 cat=22: "Master Pro Exploitation et Gestion de l'Environnement"
+   score=0.50 id_dip=32 cat=5: "BTS Informatique de gestion"
+   score=0.50 id_dip=388 cat=5: "BTS Gestion de l'Eau"
+
+[CAT DIFFERENTE cat_attendue=18 cat_trouvee=5] "Licence Pro Génie mécanique - maintenance et après vente automobile" (occ=1)
+   score=0.57 id_dip=51 cat=5: "BTS Maintenance Après Vente Automobile"
+   score=0.57 id_dip=1974 cat=18: "Licence Pro Maintenance Après Vente Automobile"
+
+[MEME CAT] "Licence Pro Génie mécanique - fabrication et constructions mécanique" (occ=1)
+   score=0.50 id_dip=255 cat=18: "Licence Pro Génie industriel et Mécanique."
+   score=0.50 id_dip=311 cat=22: "Master Pro Génie industriel et Mécanique"
+   score=0.50 id_dip=789 cat=5: "BTS Génie Mécanique et Productique"
+
+[CAT DIFFERENTE cat_attendue=5 cat_trouvee=9] "BTS Gestion hôtelière" (occ=1)
+   score=0.50 id_dip=1141 cat=9: "CQP Gestion Hôtelière & Restauration"
+   score=0.50 id_dip=1142 cat=30: "DQP Gestion Hôtelière & Restauration"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Industries alimentaires" (occ=1)
+   score=1.00 id_dip=92 cat=5: "BTS Industries Alimentaires"
+   score=0.50 id_dip=230 cat=18: "Licence Pro Industries Agricoles et Alimentaires"
+   score=0.50 id_dip=302 cat=22: "Master Pro Industries Agricoles et Alimentaires"
+
+[CAT DIFFERENTE cat_attendue=25 cat_trouvee=5] "DSEP Diététique" (occ=1)
+   score=1.00 id_dip=93 cat=5: "BTS Diététique"
+   score=0.50 id_dip=1208 cat=18: "Licence Pro en Diététique"
+
+[CAT DIFFERENTE cat_attendue=22 cat_trouvee=18] "Master Pro Administration des affaires" (occ=1)
+   score=1.00 id_dip=855 cat=18: "Licence Pro Administration des Affaires"
+   score=0.50 id_dip=455 cat=22: "Master Pro Administration des Entreprises"

@@ -1,0 +1,25 @@
+=== Institutions parentes uniques (21) ===
+
+[PUBLIQUE CONFIRMÉE] "Université de Douala" — 434 entrées, 11 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Maroua" — 304 entrées, 7 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Yaoundé 1" — 249 entrées, 7 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Ngaoundéré" — 231 entrées, 10 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Dschang" — 176 entrées, 10 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Bamenda" — 173 entrées, 12 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Buea" — 169 entrées, 10 écoles/facultés distinctes — convention(s): school-university
+[PUBLIQUE CONFIRMÉE] "Université de Yaoundé 2" — 109 entrées, 5 écoles/facultés distinctes — convention(s): school-university
+[À CLASSIFIER] "Institut Universitaire privé Laic de l'Equateur" — 83 entrées, 3 écoles/facultés distinctes — convention(s): university-school,university-school-nospace
+[À CLASSIFIER] "Centre International des Etudes Polytechniques d'Obala" — 69 entrées, 3 écoles/facultés distinctes — convention(s): university-school-nospace
+[À CLASSIFIER] "Institut Universitaire Protestant de Yaoundé" — 42 entrées, 3 écoles/facultés distinctes — convention(s): university-school
+[PUBLIQUE CONFIRMÉE] "Université d'Ebolowa" — 23 entrées, 1 écoles/facultés distinctes — convention(s): school-university
+[À CLASSIFIER] "Institut Universitaire Evangélique du Cameroun" — 22 entrées, 1 écoles/facultés distinctes — convention(s): university-school-nospace
+[PUBLIQUE CONFIRMÉE] "Université de Garoua" — 20 entrées, 1 écoles/facultés distinctes — convention(s): school-university
+[À CLASSIFIER] "Institut Universitaire de Bertoua" — 18 entrées, 3 écoles/facultés distinctes — convention(s): university-school-nospace
+[PUBLIQUE CONFIRMÉE] "Université de Bertoua" — 17 entrées, 1 écoles/facultés distinctes — convention(s): school-university
+[À CLASSIFIER] "Institut Supérieur Protestant des sciences et de Technologie" — 12 entrées, 1 écoles/facultés distinctes — convention(s): university-school-nospace
+[À CLASSIFIER] "Université Adventiste Cosendai" — 7 entrées, 3 écoles/facultés distinctes — convention(s): university-school
+[À CLASSIFIER] "(AUTONOME) Ecole Nationale des Postes et Télécommunications" — 7 entrées, 1 écoles/facultés distinctes — convention(s): none
+[À CLASSIFIER] "(AUTONOME) Institut National de la Jeunesse et des Sports" — 6 entrées, 1 écoles/facultés distinctes — convention(s): autonomous
+[À CLASSIFIER] "(AUTONOME) Institut Sous-regional des Statistiques et d'Economie Appliquée" — 3 entrées, 1 écoles/facultés distinctes — convention(s): autonomous
+
+Fichier écrit: D:\AppsAngular\CamerDiplome\Plateforme\ec_back\scripts\phase1_public_parsed3.json

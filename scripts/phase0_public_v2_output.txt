@@ -1,0 +1,1033 @@
+=== 1. Universités existantes (id_univ, nom_univ, type_univ) ===
+[
+  {
+    "id_univ": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale",
+    "sigle_univ": "UCAC",
+    "type_univ": "Privé conféssionnelle"
+  },
+  {
+    "id_univ": 6,
+    "nom_univ": "Université de Ngaoundéré",
+    "sigle_univ": "UN",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 7,
+    "nom_univ": "Institut Universitaire de la Côte",
+    "sigle_univ": "IUC",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 8,
+    "nom_univ": "Université de Dschang",
+    "sigle_univ": "UDs",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 14,
+    "nom_univ": "Université de Douala",
+    "sigle_univ": "UD",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 18,
+    "nom_univ": "Université de Bamenda",
+    "sigle_univ": "UBa",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 19,
+    "nom_univ": "Université de Buea",
+    "sigle_univ": "UB",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 20,
+    "nom_univ": "Université de Maroua",
+    "sigle_univ": "UM",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 21,
+    "nom_univ": "Université de Yaoundé 1",
+    "sigle_univ": "UY1",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 22,
+    "nom_univ": "Université de Yaoundé 2",
+    "sigle_univ": "UY2",
+    "type_univ": "publique"
+  },
+  {
+    "id_univ": 23,
+    "nom_univ": "IPES de Adamaoua",
+    "sigle_univ": "IPES AD",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 24,
+    "nom_univ": "IPES du Nord",
+    "sigle_univ": "IPES NO",
+    "type_univ": null
+  },
+  {
+    "id_univ": 25,
+    "nom_univ": "IPES de l'Extrème Nord",
+    "sigle_univ": "IPES EN",
+    "type_univ": null
+  },
+  {
+    "id_univ": 28,
+    "nom_univ": "INSTITUT UNIVERSITAIRE DES SCIENCES ET TECHNIQUES DE YAOUNDE",
+    "sigle_univ": "IUSTY",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 29,
+    "nom_univ": "IPES Centre",
+    "sigle_univ": "IPES CE",
+    "type_univ": null
+  },
+  {
+    "id_univ": 30,
+    "nom_univ": "Université Saint Jean-Paul II",
+    "sigle_univ": "USJP2",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 31,
+    "nom_univ": "IPES Litoral",
+    "sigle_univ": "IPES LI",
+    "type_univ": null
+  },
+  {
+    "id_univ": 32,
+    "nom_univ": "Université deAffaires et Carrières",
+    "sigle_univ": "BCU",
+    "type_univ": "Instituts privés"
+  },
+  {
+    "id_univ": 33,
+    "nom_univ": "Université des affaires",
+    "sigle_univ": "UAF",
+    "type_univ": "LIbre"
+  },
+  {
+    "id_univ": 34,
+    "nom_univ": "Université des Affaires et Carrières",
+    "sigle_univ": "BCU",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 35,
+    "nom_univ": "Université Protestante d'Afrique Centrale",
+    "sigle_univ": "UPAC",
+    "type_univ": "privé confessionel"
+  },
+  {
+    "id_univ": 36,
+    "nom_univ": "IPES NORD",
+    "sigle_univ": null,
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 37,
+    "nom_univ": "IPES Nord Ouest",
+    "sigle_univ": null,
+    "type_univ": "Instituts privés"
+  },
+  {
+    "id_univ": 38,
+    "nom_univ": "IPES de l'Ouest",
+    "sigle_univ": "IPES OU",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 39,
+    "nom_univ": "IPES du Sud",
+    "sigle_univ": "IPES SU",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 40,
+    "nom_univ": "IPES de l'Est",
+    "sigle_univ": "IPES ES",
+    "type_univ": "privé"
+  },
+  {
+    "id_univ": 41,
+    "nom_univ": "IPES du Sud-Ouest",
+    "sigle_univ": "IPES SO",
+    "type_univ": "privé"
+  }
+]
+
+=== 2. Vérification des 3 universités publiques manquantes ===
+Université de Bertoua: ABSENTE
+Université d'Ebolowa: ABSENTE
+Université de Garoua: ABSENTE
+
+=== 3. Vérification des universités privées à facultés internes ===
+"Institut Universitaire Protestant de Yaoundé": ABSENTE (exact) — proches: [{"id_univ":21,"nom_univ":"Université de Yaoundé 1","type_univ":"publique"},{"id_univ":22,"nom_univ":"Université de Yaoundé 2","type_univ":"publique"},{"id_univ":28,"nom_univ":"INSTITUT UNIVERSITAIRE DES SCIENCES ET TECHNIQUES DE YAOUNDE","type_univ":"privé"}]
+"Institut Universitaire Évangélique du Cameroun": ABSENTE (exact) — proches: []
+"Institut Universitaire de Bertoua": ABSENTE (exact) — proches: []
+"Centre International des Études Polytechniques d'Obala": ABSENTE (exact) — proches: []
+"Institut Supérieur Protestant des Sciences et de Technologie": ABSENTE (exact) — proches: []
+"Institut Universitaire privé Laïc de l'Équateur": ABSENTE (exact) — proches: []
+
+=== 4. Vérification des 2 instituts publics autonomes ===
+"Institut National de la Jeunesse et des Sports": introuvable dans ecoles
+"Institut Sous-regional des Statistiques et d'Economie Appliquée": introuvable dans ecoles
+
+=== 5. Écoles/facultés existantes rattachées aux universités publiques ===
+Total: 102
+[
+  {
+    "id_ecol": 3,
+    "nom_e": "Faculté de Sciences Sociales et de Gestion",
+    "sigle_e": "UCAC-FSSG",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 64,
+    "nom_e": "Institut Ucac-Icam",
+    "sigle_e": "UCAC-ICam",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 63,
+    "nom_e": "UCAC Département de Droit Canonique",
+    "sigle_e": "UCAC-DDC",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 65,
+    "nom_e": "UCAC Ecole des Science de la Santé",
+    "sigle_e": "UCAC-ESS",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 62,
+    "nom_e": "UCAC Faculté de Philosophie ",
+    "sigle_e": "UCAC-FP",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 60,
+    "nom_e": "UCAC Faculté de sciences juridiques et politiques",
+    "sigle_e": "UCAC-FSJP",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 61,
+    "nom_e": "UCAC Faculté de Théologie ",
+    "sigle_e": "UCAC-FT",
+    "universites_id": 2,
+    "nom_univ": "Université Catholique d’Afrique Centrale"
+  },
+  {
+    "id_ecol": 284,
+    "nom_e": "Bamenda University Institute of Science and Technology",
+    "sigle_e": "BUIST",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 205,
+    "nom_e": "Bamenda University of Science and Technology",
+    "sigle_e": "BUST",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 311,
+    "nom_e": "College of Technology",
+    "sigle_e": "ColTech",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 307,
+    "nom_e": "Faculty of Arts",
+    "sigle_e": "FA",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 38,
+    "nom_e": "Faculty of Economics and Management Science de Bamenda",
+    "sigle_e": "FEMS",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 39,
+    "nom_e": "Faculty of Education de Bamenda",
+    "sigle_e": "FE",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 308,
+    "nom_e": "Faculty of Health Sciences",
+    "sigle_e": "FHS",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 309,
+    "nom_e": "Faculty of Law and Political Science",
+    "sigle_e": "FLPS",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 314,
+    "nom_e": "Higher Institute of Commerce and Management",
+    "sigle_e": "HICOM",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 312,
+    "nom_e": "Higher Institute of Transport and Logistics",
+    "sigle_e": "HITL",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 310,
+    "nom_e": "Higher Technical Teacher Training College",
+    "sigle_e": "HTTTC",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 313,
+    "nom_e": "National Higher Polytechnic Institute",
+    "sigle_e": "NAHPI",
+    "universites_id": 18,
+    "nom_univ": "Université de Bamenda"
+  },
+  {
+    "id_ecol": 322,
+    "nom_e": "Advanced School of Translators and Interpreters",
+    "sigle_e": "ASTI-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 324,
+    "nom_e": "College of Technology",
+    "sigle_e": "ColTech-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 319,
+    "nom_e": "Faculty of Agriculture and Veterinary Medicine",
+    "sigle_e": "FAVM",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 315,
+    "nom_e": "Faculty of Arts",
+    "sigle_e": "FA-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 317,
+    "nom_e": "Faculty of Education",
+    "sigle_e": "FE-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 318,
+    "nom_e": "Faculty of Engineering and Technology",
+    "sigle_e": "FET-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 316,
+    "nom_e": "Faculty of Health Sciences",
+    "sigle_e": "FHS-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 320,
+    "nom_e": "Faculty of Sciences",
+    "sigle_e": "FS-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 321,
+    "nom_e": "Faculty of Social and Management Sciences",
+    "sigle_e": "FSMS-UB",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 323,
+    "nom_e": "Higher Technical Training College Kumba",
+    "sigle_e": "HTTCK",
+    "universites_id": 19,
+    "nom_univ": "Université de Buea"
+  },
+  {
+    "id_ecol": 331,
+    "nom_e": "Ecole Nationale Supérieure Polytechnique de Douala",
+    "sigle_e": "ENSPD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 330,
+    "nom_e": "Ecole Normale Supérieure de l'Enseignement Technique de Douala",
+    "sigle_e": "ENSET-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 335,
+    "nom_e": "Ecole Supérieure des Sciences Economiques et Commerciales de Douala",
+    "sigle_e": "ESSEC-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 329,
+    "nom_e": "Faculté de Médecine et des Sciences Pharmaceutiques de Douala",
+    "sigle_e": "FMSP-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 325,
+    "nom_e": "Faculté des Lettres et des Sciences Humaines de Douala",
+    "sigle_e": "FLSH-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 328,
+    "nom_e": "Faculté des Sciences de Douala",
+    "sigle_e": "FS-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 327,
+    "nom_e": "Faculté des Sciences Economiques et de Gestion Appliquée",
+    "sigle_e": "FSEGA",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 326,
+    "nom_e": "Faculté des Sciences Juridiques et Politiques de Douala",
+    "sigle_e": "FSJP-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 334,
+    "nom_e": "Institut des Beaux Arts de Douala",
+    "sigle_e": "IBA-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 333,
+    "nom_e": "Institut des Sciences Halieutiques",
+    "sigle_e": "ISH-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 332,
+    "nom_e": "Institut Universitaire de Technologie de Douala",
+    "sigle_e": "IUT-UD",
+    "universites_id": 14,
+    "nom_univ": "Université de Douala"
+  },
+  {
+    "id_ecol": 21,
+    "nom_e": "Faculté d'Agronomie et des Sciences Agricoles de Dschang",
+    "sigle_e": "FASA",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 24,
+    "nom_e": "Faculté de Médecine et des Sciences Pharmaceutiques de Dschang",
+    "sigle_e": "FMSP",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 17,
+    "nom_e": "Faculté des Lettres et Sciences Humaines de Dschang",
+    "sigle_e": "FLSH",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 20,
+    "nom_e": "Faculté des Sciences de Dschang",
+    "sigle_e": "FS",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 18,
+    "nom_e": "Faculté des Sciences Economiques et de Gestion de Dschang",
+    "sigle_e": "FSEG",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 19,
+    "nom_e": "Faculté des Sciences Juridiques et Politiques de Dschang",
+    "sigle_e": "FSJP",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 23,
+    "nom_e": "Institut des Beaux-Arts de Foumban",
+    "sigle_e": "IBAF",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 22,
+    "nom_e": "Institut Universitaire FOTSO Victor de Bandjoun",
+    "sigle_e": "IUT",
+    "universites_id": 8,
+    "nom_univ": "Université de Dschang"
+  },
+  {
+    "id_ecol": 341,
+    "nom_e": "Ecole Nationale Supérieure Polytechnique de Maroua",
+    "sigle_e": "ENSPM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 359,
+    "nom_e": "Ecole Nationale Supérieure Polytechnique de Maroua",
+    "sigle_e": "ENSPM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 342,
+    "nom_e": "Ecole Normale Supérieure de Maroua",
+    "sigle_e": "ENS-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 360,
+    "nom_e": "Ecole Normale Supérieure de Maroua",
+    "sigle_e": "ENS-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 338,
+    "nom_e": "Faculté des Arts, Lettres et Sciences Humaines de Maroua",
+    "sigle_e": "FALSH-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 356,
+    "nom_e": "Faculté des Arts, Lettres et Sciences Humaines de Maroua",
+    "sigle_e": "FALSH-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 340,
+    "nom_e": "Faculté des Mines et des Industries Pétrolières",
+    "sigle_e": "FMIP",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 358,
+    "nom_e": "Faculté des Mines et des Industries Pétrolières",
+    "sigle_e": "FMIP",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 336,
+    "nom_e": "Faculté des Sciences de Maroua",
+    "sigle_e": "FS-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 354,
+    "nom_e": "Faculté des Sciences de Maroua",
+    "sigle_e": "FS-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 339,
+    "nom_e": "Faculté des Sciences Economiques et de Gestion de Maroua",
+    "sigle_e": "FSEG-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 357,
+    "nom_e": "Faculté des Sciences Economiques et de Gestion de Maroua",
+    "sigle_e": "FSEG-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 337,
+    "nom_e": "Faculté des Sciences Juridiques et Politiques de Maroua",
+    "sigle_e": "FSJP-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 355,
+    "nom_e": "Faculté des Sciences Juridiques et Politiques de Maroua",
+    "sigle_e": "FSJP-UM",
+    "universites_id": 20,
+    "nom_univ": "Université de Maroua"
+  },
+  {
+    "id_ecol": 352,
+    "nom_e": "Ecole de Génie Chimique et des Industries Minérales",
+    "sigle_e": "EGCIM",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 35,
+    "nom_e": "Ecole de Géologie et d'Exploitation Minière",
+    "sigle_e": "EGEM",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 351,
+    "nom_e": "Ecole des Sciences et de Médecine Vétérinaire",
+    "sigle_e": "ESMV",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 349,
+    "nom_e": "Ecole Nationale Supérieure des Sciences Agro-Industrielles",
+    "sigle_e": "ENSAI",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 353,
+    "nom_e": "Ecole Normale Supérieure de Ngaoundéré",
+    "sigle_e": "ENS-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 344,
+    "nom_e": "Faculté de Médecine et des Sciences Biomédicales de Ngaoundéré",
+    "sigle_e": "FMSB",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 345,
+    "nom_e": "Faculté des Arts, Lettres et Sciences Humaines de Ngaoundéré",
+    "sigle_e": "FALSH-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 348,
+    "nom_e": "Faculté des Sciences de l'Education de Ngaoundéré",
+    "sigle_e": "FSE-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 347,
+    "nom_e": "Faculté des Sciences de Ngaoundéré",
+    "sigle_e": "FS-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 343,
+    "nom_e": "Faculté des Sciences Economiques et de Gestion de Ngaoundéré",
+    "sigle_e": "FSEG-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 346,
+    "nom_e": "Faculté des Sciences Juridiques et Politiques de Ngaoundéré",
+    "sigle_e": "FSJP-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 350,
+    "nom_e": "Institut Universitaire de Technologie de Ngaoundéré",
+    "sigle_e": "IUT-UN",
+    "universites_id": 6,
+    "nom_univ": "Université de Ngaoundéré"
+  },
+  {
+    "id_ecol": 365,
+    "nom_e": "Ecole Nationale Supérieure Polytechnique de Yaoundé",
+    "sigle_e": "ENSPY",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 367,
+    "nom_e": "Ecole Normale Supérieure de l'Enseignement Technique de Yaoundé",
+    "sigle_e": "ENSET-UY1",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 364,
+    "nom_e": "Faculté de Médecine et des Sciences Biomédicales de Yaoundé I",
+    "sigle_e": "FMSB-UY1",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 361,
+    "nom_e": "Faculté des Arts, Lettres et Sciences Humaines de Yaoundé I",
+    "sigle_e": "FALSH-UY1",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 363,
+    "nom_e": "Faculté des Sciences de l'Education de Yaoundé I",
+    "sigle_e": "FSE-UY1",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 362,
+    "nom_e": "Faculté des Sciences de Yaoundé I",
+    "sigle_e": "FS-UY1",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 366,
+    "nom_e": "Institut Universitaire de Technologie du Bois de Mbalmayo",
+    "sigle_e": "IUTB",
+    "universites_id": 21,
+    "nom_univ": "Université de Yaoundé 1"
+  },
+  {
+    "id_ecol": 372,
+    "nom_e": "Ecole Supérieure des Sciences et Techniques de l'Information et de la Communication",
+    "sigle_e": "ESSTIC",
+    "universites_id": 22,
+    "nom_univ": "Université de Yaoundé 2"
+  },
+  {
+    "id_ecol": 369,
+    "nom_e": "Faculté de Sciences Economiques et de Gestion de Yaoundé II",
+    "sigle_e": "FSEG-UY2",
+    "universites_id": 22,
+    "nom_univ": "Université de Yaoundé 2"
+  },
+  {
+    "id_ecol": 368,
+    "nom_e": "Faculté de Sciences Juridiques et Politiques de Yaoundé II",
+    "sigle_e": "FSJP-UY2",
+    "universites_id": 22,
+    "nom_univ": "Université de Yaoundé 2"
+  },
+  {
+    "id_ecol": 370,
+    "nom_e": "Institut de Formation et Recherche Démographiques",
+    "sigle_e": "IFORD",
+    "universites_id": 22,
+    "nom_univ": "Université de Yaoundé 2"
+  },
+  {
+    "id_ecol": 371,
+    "nom_e": "Institut des Relations Internationales du Cameroun",
+    "sigle_e": "IRIC",
+    "universites_id": 22,
+    "nom_univ": "Université de Yaoundé 2"
+  },
+  {
+    "id_ecol": 104,
+    "nom_e": "BCU Faculté Medico Sanitaire",
+    "sigle_e": "BCU",
+    "universites_id": 32,
+    "nom_univ": "Université deAffaires et Carrières"
+  },
+  {
+    "id_ecol": 110,
+    "nom_e": "BCU Faculté Carrieres Juridiques",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 109,
+    "nom_e": "BCU Faculté Communication",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 108,
+    "nom_e": "BCU Faculté d'Agriculture",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 112,
+    "nom_e": "BCU Faculté de Management",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 113,
+    "nom_e": "BCU Faculte Environmental Sciences",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 106,
+    "nom_e": "BCU Faculté Génie Civil",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 105,
+    "nom_e": "BCU Faculté Génie Electrique",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 107,
+    "nom_e": "BCU Faculté Génie Informatique",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 111,
+    "nom_e": "BCU Faculte Science of Education",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 114,
+    "nom_e": "BCU Faculty of Business and Finance",
+    "sigle_e": "BCU",
+    "universites_id": 34,
+    "nom_univ": "Université des Affaires et Carrières"
+  },
+  {
+    "id_ecol": 152,
+    "nom_e": "UPAC Faculté de Theologie Protestante et des Sciences Religieuses",
+    "sigle_e": "UPAC-FTPSR",
+    "universites_id": 35,
+    "nom_univ": "Université Protestante d'Afrique Centrale"
+  },
+  {
+    "id_ecol": 149,
+    "nom_e": "UPAC Faculté des Sciences de la Santé",
+    "sigle_e": "UPAC-FSS",
+    "universites_id": 35,
+    "nom_univ": "Université Protestante d'Afrique Centrale"
+  },
+  {
+    "id_ecol": 150,
+    "nom_e": "UPAC Faculté des Technologies de l'Information et de la Communication ",
+    "sigle_e": "UPAC-FTIC",
+    "universites_id": 35,
+    "nom_univ": "Université Protestante d'Afrique Centrale"
+  },
+  {
+    "id_ecol": 151,
+    "nom_e": "UPAC-Faculté des Sciences Sociales et des Relations Internationales",
+    "sigle_e": "UPAC-FSSRI",
+    "universites_id": 35,
+    "nom_univ": "Université Protestante d'Afrique Centrale"
+  },
+  {
+    "id_ecol": 71,
+    "nom_e": "Institut Saint Jean",
+    "sigle_e": "ISJ",
+    "universites_id": 30,
+    "nom_univ": "Université Saint Jean-Paul II"
+  }
+]
+
+=== 6. Catégories existantes ===
+[
+  {
+    "id_cat": 3,
+    "nom_cat": "Doctorat"
+  },
+  {
+    "id_cat": 4,
+    "nom_cat": "CAP"
+  },
+  {
+    "id_cat": 5,
+    "nom_cat": "BTS"
+  },
+  {
+    "id_cat": 6,
+    "nom_cat": "BUT"
+  },
+  {
+    "id_cat": 7,
+    "nom_cat": "DSCG"
+  },
+  {
+    "id_cat": 8,
+    "nom_cat": "MBA"
+  },
+  {
+    "id_cat": 9,
+    "nom_cat": "CQP"
+  },
+  {
+    "id_cat": 10,
+    "nom_cat": "BP"
+  },
+  {
+    "id_cat": 11,
+    "nom_cat": "Bac Pro"
+  },
+  {
+    "id_cat": 12,
+    "nom_cat": "DUT"
+  },
+  {
+    "id_cat": 13,
+    "nom_cat": "Prépa International"
+  },
+  {
+    "id_cat": 14,
+    "nom_cat": "Bachelor"
+  },
+  {
+    "id_cat": 15,
+    "nom_cat": "DGC"
+  },
+  {
+    "id_cat": 16,
+    "nom_cat": "Diplôme d'Etat"
+  },
+  {
+    "id_cat": 17,
+    "nom_cat": "Licence"
+  },
+  {
+    "id_cat": 18,
+    "nom_cat": "Licence Pro"
+  },
+  {
+    "id_cat": 19,
+    "nom_cat": "Ingénieur de conception"
+  },
+  {
+    "id_cat": 20,
+    "nom_cat": "Master"
+  },
+  {
+    "id_cat": 22,
+    "nom_cat": "Master Pro"
+  },
+  {
+    "id_cat": 23,
+    "nom_cat": "Attestation de Formation"
+  },
+  {
+    "id_cat": 24,
+    "nom_cat": "Formation Qualifiante"
+  },
+  {
+    "id_cat": 25,
+    "nom_cat": "DSEP"
+  },
+  {
+    "id_cat": 26,
+    "nom_cat": "HND"
+  },
+  {
+    "id_cat": 27,
+    "nom_cat": "Certification Internationale"
+  },
+  {
+    "id_cat": 28,
+    "nom_cat": "Capacité en Droit"
+  },
+  {
+    "id_cat": 30,
+    "nom_cat": "DQP"
+  },
+  {
+    "id_cat": 31,
+    "nom_cat": "Prépa Concours"
+  },
+  {
+    "id_cat": 32,
+    "nom_cat": "Ingénieur de Travaux"
+  },
+  {
+    "id_cat": 33,
+    "nom_cat": "DT"
+  },
+  {
+    "id_cat": 34,
+    "nom_cat": "BQP "
+  },
+  {
+    "id_cat": 35,
+    "nom_cat": "DTS"
+  },
+  {
+    "id_cat": 36,
+    "nom_cat": "Vocational Diplomas"
+  }
+]

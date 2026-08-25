@@ -1,0 +1,1173 @@
+Total campus: 234
+[
+  {
+    "id_camp": 241,
+    "nom_camp": "Campus IFPROVADET / ISGC Abang",
+    "ville_cam": "Abang"
+  },
+  {
+    "id_camp": 5,
+    "nom_camp": "IUT Bandjoun",
+    "ville_cam": "Badjoun"
+  },
+  {
+    "id_camp": 150,
+    "nom_camp": "Campus ISB Bafang",
+    "ville_cam": "Bafang"
+  },
+  {
+    "id_camp": 151,
+    "nom_camp": "Campus ISB-B",
+    "ville_cam": "Bafang"
+  },
+  {
+    "id_camp": 152,
+    "nom_camp": "Campus IURB-N",
+    "ville_cam": "Bafang"
+  },
+  {
+    "id_camp": 128,
+    "nom_camp": "Campus KEYCE Baf",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 131,
+    "nom_camp": "Campus GTES",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 132,
+    "nom_camp": "Campus ICAB",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 133,
+    "nom_camp": "Campus IKES",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 134,
+    "nom_camp": "Campus INTIME",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 135,
+    "nom_camp": "Campus IS Bafoussam",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 136,
+    "nom_camp": "Campus SUP GECO",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 137,
+    "nom_camp": "Campus ISMTA",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 138,
+    "nom_camp": "Campus ISAMET",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 139,
+    "nom_camp": "Campus INSSAS",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 140,
+    "nom_camp": "Campus ISSTECOA",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 141,
+    "nom_camp": "Campus IMK",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 142,
+    "nom_camp": "Campus ISPBI",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 143,
+    "nom_camp": "Campus ISSAB",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 144,
+    "nom_camp": "Campus ROTAS-ISMG",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 145,
+    "nom_camp": "Campus THIB",
+    "ville_cam": "Bafoussam"
+  },
+  {
+    "id_camp": 16,
+    "nom_camp": "Campus de l'UBa",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 121,
+    "nom_camp": "Campus BUST",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 122,
+    "nom_camp": "Campus BIHL",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 123,
+    "nom_camp": "Campus CHIHSBT",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 125,
+    "nom_camp": "Campus CATUC",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 206,
+    "nom_camp": "Campus BUIST",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 207,
+    "nom_camp": "Campus CUI",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 208,
+    "nom_camp": "Campus CUI-Mbatu",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 209,
+    "nom_camp": "Campus FNHIHBS",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 210,
+    "nom_camp": "Campus FONAB",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 211,
+    "nom_camp": "Campus HHIST",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 212,
+    "nom_camp": "Campus HIBMS-BDA",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 213,
+    "nom_camp": "Campus HIPDET",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 215,
+    "nom_camp": "Campus HIST",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 216,
+    "nom_camp": "Campus HITAM",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 218,
+    "nom_camp": "Campus IUBda",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 219,
+    "nom_camp": "Campus JOMATT",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 220,
+    "nom_camp": "Campus LAHIBA",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 221,
+    "nom_camp": "Campus NPUI",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 223,
+    "nom_camp": "Campus PC-HITECH",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 224,
+    "nom_camp": "Campus PYHI",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 225,
+    "nom_camp": "Campus SJ-PHIB",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 226,
+    "nom_camp": "Campus SLHIHS",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 227,
+    "nom_camp": "Campus SHIPS",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 228,
+    "nom_camp": "Campus THIL",
+    "ville_cam": "Bamenda"
+  },
+  {
+    "id_camp": 159,
+    "nom_camp": "Campus IUEC Bandjoun",
+    "ville_cam": "Bandjoun"
+  },
+  {
+    "id_camp": 146,
+    "nom_camp": "Campus ISST",
+    "ville_cam": "Bangangté"
+  },
+  {
+    "id_camp": 147,
+    "nom_camp": "Campus ISTEC Bangangté",
+    "ville_cam": "Bangangté"
+  },
+  {
+    "id_camp": 148,
+    "nom_camp": "Campus ISSS",
+    "ville_cam": "Bangangté"
+  },
+  {
+    "id_camp": 149,
+    "nom_camp": "Campus ISTIC Bangangté",
+    "ville_cam": "Bangangté"
+  },
+  {
+    "id_camp": 157,
+    "nom_camp": "Campus ISPB",
+    "ville_cam": "Bansoa"
+  },
+  {
+    "id_camp": 155,
+    "nom_camp": "Campus ISTACO",
+    "ville_cam": "Bayangam"
+  },
+  {
+    "id_camp": 167,
+    "nom_camp": "Campus ESSAB",
+    "ville_cam": "Bertoua"
+  },
+  {
+    "id_camp": 168,
+    "nom_camp": "Campus ISA Bertoua",
+    "ville_cam": "Bertoua"
+  },
+  {
+    "id_camp": 169,
+    "nom_camp": "Campus ISIM",
+    "ville_cam": "Bertoua"
+  },
+  {
+    "id_camp": 170,
+    "nom_camp": "Campus IMETIAC-SUP",
+    "ville_cam": "Bertoua"
+  },
+  {
+    "id_camp": 171,
+    "nom_camp": "Campus IUCAB",
+    "ville_cam": "Bertoua"
+  },
+  {
+    "id_camp": 172,
+    "nom_camp": "Campus Access-HIPS Buea",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 173,
+    "nom_camp": "Campus PAID Buea",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 174,
+    "nom_camp": "Campus ACHAS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 175,
+    "nom_camp": "Campus AHIPS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 176,
+    "nom_camp": "Campus BUIB",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 177,
+    "nom_camp": "Campus Buea Polytechnic",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 178,
+    "nom_camp": "Campus CUIB",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 179,
+    "nom_camp": "Campus CHIC",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 180,
+    "nom_camp": "Campus CHITECHMA",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 181,
+    "nom_camp": "Campus FOMIC Polytechnic",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 182,
+    "nom_camp": "Campus FHI",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 183,
+    "nom_camp": "Campus HIBMT",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 184,
+    "nom_camp": "Campus HIAMS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 185,
+    "nom_camp": "Campus HIBMS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 186,
+    "nom_camp": "Campus HIMS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 187,
+    "nom_camp": "Campus HIPS",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 188,
+    "nom_camp": "Campus HIT",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 189,
+    "nom_camp": "Campus SMU",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 190,
+    "nom_camp": "Campus STJOA",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 191,
+    "nom_camp": "Campus TRUSTECH",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 192,
+    "nom_camp": "Campus RHIB",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 229,
+    "nom_camp": "Campus de l'UBuea",
+    "ville_cam": "Buea"
+  },
+  {
+    "id_camp": 6,
+    "nom_camp": "IUC Logbessou",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 7,
+    "nom_camp": "IUC Akwa",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 26,
+    "nom_camp": "IPES Dla",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 79,
+    "nom_camp": "Campus DIT",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 80,
+    "nom_camp": "Campus PIGIER",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 82,
+    "nom_camp": "Campus HINTP",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 83,
+    "nom_camp": "Campus HIB",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 84,
+    "nom_camp": "Campus HIPE",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 85,
+    "nom_camp": "Campus ISDK",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 86,
+    "nom_camp": "Campus ISCAC",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 87,
+    "nom_camp": "Campus ISCOM",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 88,
+    "nom_camp": "Campus ISG",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 89,
+    "nom_camp": "Campus ISGD",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 90,
+    "nom_camp": "Campus IUL",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 92,
+    "nom_camp": "Campus ISMA",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 93,
+    "nom_camp": "Campus ISTAMA",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 95,
+    "nom_camp": "Campus ISTG-AC",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 96,
+    "nom_camp": "Campus ISTTAM",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 97,
+    "nom_camp": "Campus ISFA",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 98,
+    "nom_camp": "Campus Odeci",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 99,
+    "nom_camp": "Campus SIGMEN",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 100,
+    "nom_camp": "Campus ISSER",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 101,
+    "nom_camp": "Campus ISSTECO",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 102,
+    "nom_camp": "Campus ISTEC",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 103,
+    "nom_camp": "Campus ISGTE",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 104,
+    "nom_camp": "Campus ISTHAC",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 105,
+    "nom_camp": "Campus ISETAG",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 106,
+    "nom_camp": "Campus ISLAPE",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 107,
+    "nom_camp": "Campus ISPR",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 108,
+    "nom_camp": "Campus ISICO",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 109,
+    "nom_camp": "Campus IUCSJD",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 110,
+    "nom_camp": "Campus IUGET",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 111,
+    "nom_camp": "Campus IUES",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 112,
+    "nom_camp": "Campus IUG",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 113,
+    "nom_camp": "Campus PIST",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 114,
+    "nom_camp": "Campus SFAA",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 115,
+    "nom_camp": "Campus St Louis UI",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 116,
+    "nom_camp": "Campus SHHIEB",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 127,
+    "nom_camp": "Campus KEYCE Dla",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 231,
+    "nom_camp": "Campus de l'UD",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 242,
+    "nom_camp": "Campus PHIBMAT A — SONEL Rail",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 243,
+    "nom_camp": "Campus PHIBMAT B — Gare Routière",
+    "ville_cam": "Douala"
+  },
+  {
+    "id_camp": 3,
+    "nom_camp": "Université de Dschang",
+    "ville_cam": "Dschang"
+  },
+  {
+    "id_camp": 33,
+    "nom_camp": "Campus de Tchuale",
+    "ville_cam": "Dschang"
+  },
+  {
+    "id_camp": 153,
+    "nom_camp": "Campus IESF",
+    "ville_cam": "Dschang"
+  },
+  {
+    "id_camp": 154,
+    "nom_camp": "Campus ISSTN",
+    "ville_cam": "Dschang"
+  },
+  {
+    "id_camp": 160,
+    "nom_camp": "Campus ICABE",
+    "ville_cam": "Ebolowa"
+  },
+  {
+    "id_camp": 165,
+    "nom_camp": "Campus ISPSTE",
+    "ville_cam": "Ebolowa"
+  },
+  {
+    "id_camp": 166,
+    "nom_camp": "Campus IUPLE",
+    "ville_cam": "Ebolowa"
+  },
+  {
+    "id_camp": 94,
+    "nom_camp": "Campus ISTG",
+    "ville_cam": "Edea"
+  },
+  {
+    "id_camp": 4,
+    "nom_camp": "IBAF Foumban",
+    "ville_cam": "Foumban"
+  },
+  {
+    "id_camp": 156,
+    "nom_camp": "Campus ISIF",
+    "ville_cam": "Foumban"
+  },
+  {
+    "id_camp": 20,
+    "nom_camp": "Campus ISFMB",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 117,
+    "nom_camp": "Campus ISSTSM",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 118,
+    "nom_camp": "Campus ISIC",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 119,
+    "nom_camp": "Campus ISSEG",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 120,
+    "nom_camp": "Campus ISYD",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 129,
+    "nom_camp": "Campus KEYCE Gar",
+    "ville_cam": "Garoua"
+  },
+  {
+    "id_camp": 163,
+    "nom_camp": "Campus ISEMIT",
+    "ville_cam": "Kribi"
+  },
+  {
+    "id_camp": 193,
+    "nom_camp": "Campus EHIMBS",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 194,
+    "nom_camp": "Campus HIPSCD",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 195,
+    "nom_camp": "Campus IPS Kumba",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 196,
+    "nom_camp": "Campus RAPHIHK",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 197,
+    "nom_camp": "Campus SHIBAT",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 230,
+    "nom_camp": "Campus HTTCK",
+    "ville_cam": "Kumba"
+  },
+  {
+    "id_camp": 124,
+    "nom_camp": "Campus CSHSS",
+    "ville_cam": "Kumbo"
+  },
+  {
+    "id_camp": 214,
+    "nom_camp": "Campus HIPT",
+    "ville_cam": "Kumbo"
+  },
+  {
+    "id_camp": 217,
+    "nom_camp": "Campus IP-KBO",
+    "ville_cam": "Kumbo"
+  },
+  {
+    "id_camp": 198,
+    "nom_camp": "Campus GFHIP",
+    "ville_cam": "Limbe"
+  },
+  {
+    "id_camp": 199,
+    "nom_camp": "Campus HFI Limbe",
+    "ville_cam": "Limbe"
+  },
+  {
+    "id_camp": 200,
+    "nom_camp": "Campus ISEC Limbe",
+    "ville_cam": "Limbe"
+  },
+  {
+    "id_camp": 201,
+    "nom_camp": "Campus CUIM",
+    "ville_cam": "Mamfe"
+  },
+  {
+    "id_camp": 19,
+    "nom_camp": "Campus IPES Extrème Nord",
+    "ville_cam": "Maroua"
+  },
+  {
+    "id_camp": 130,
+    "nom_camp": "Campus KEYCE",
+    "ville_cam": "Maroua"
+  },
+  {
+    "id_camp": 233,
+    "nom_camp": "Campus de l'UM",
+    "ville_cam": "Maroua"
+  },
+  {
+    "id_camp": 235,
+    "nom_camp": "Campus de l'UM",
+    "ville_cam": "Maroua"
+  },
+  {
+    "id_camp": 46,
+    "nom_camp": "Campus ISTECSM",
+    "ville_cam": "Mbalmayo"
+  },
+  {
+    "id_camp": 237,
+    "nom_camp": "Campus IUTB",
+    "ville_cam": "Mbalmayo"
+  },
+  {
+    "id_camp": 158,
+    "nom_camp": "Campus ISSTA",
+    "ville_cam": "Mbouda"
+  },
+  {
+    "id_camp": 1,
+    "nom_camp": "EGEM",
+    "ville_cam": "Meiganga"
+  },
+  {
+    "id_camp": 164,
+    "nom_camp": "Campus IS TIC",
+    "ville_cam": "Meyomessala"
+  },
+  {
+    "id_camp": 27,
+    "nom_camp": "IMS Monatele",
+    "ville_cam": "Monatele"
+  },
+  {
+    "id_camp": 202,
+    "nom_camp": "Campus JSF",
+    "ville_cam": "Muea"
+  },
+  {
+    "id_camp": 203,
+    "nom_camp": "Campus LHI",
+    "ville_cam": "Muea"
+  },
+  {
+    "id_camp": 76,
+    "nom_camp": "Campus UAC",
+    "ville_cam": "Nanga Eboko"
+  },
+  {
+    "id_camp": 15,
+    "nom_camp": "Institut d’Emergence de la Santé et des Sciences Biomédicales de Ngaoundéré",
+    "ville_cam": "Ngaoundéré"
+  },
+  {
+    "id_camp": 17,
+    "nom_camp": "Campus IPES Adamaoua",
+    "ville_cam": "Ngaoundéré"
+  },
+  {
+    "id_camp": 234,
+    "nom_camp": "Campus de l'UN",
+    "ville_cam": "Ngaoundéré"
+  },
+  {
+    "id_camp": 222,
+    "nom_camp": "Campus PN-HIMSAT",
+    "ville_cam": "Njinikom"
+  },
+  {
+    "id_camp": 30,
+    "nom_camp": "Campus ISMAM",
+    "ville_cam": "Nkongsamba"
+  },
+  {
+    "id_camp": 81,
+    "nom_camp": "Campus ESSET ",
+    "ville_cam": "Nkongsamba"
+  },
+  {
+    "id_camp": 25,
+    "nom_camp": "Campus CIEPO Obala",
+    "ville_cam": "Obala"
+  },
+  {
+    "id_camp": 29,
+    "nom_camp": "ISAGO",
+    "ville_cam": "Obala"
+  },
+  {
+    "id_camp": 43,
+    "nom_camp": "Campus Issaeer",
+    "ville_cam": "Obala"
+  },
+  {
+    "id_camp": 50,
+    "nom_camp": "Campus ISTAO",
+    "ville_cam": "Ombessa"
+  },
+  {
+    "id_camp": 161,
+    "nom_camp": "Campus IPSSSA",
+    "ville_cam": "Sangmélima"
+  },
+  {
+    "id_camp": 162,
+    "nom_camp": "Campus IS-CC",
+    "ville_cam": "Sangmélima"
+  },
+  {
+    "id_camp": 238,
+    "nom_camp": "Campus de Soa UY2",
+    "ville_cam": "Soa"
+  },
+  {
+    "id_camp": 204,
+    "nom_camp": "Campus LTPIC",
+    "ville_cam": "Tiko"
+  },
+  {
+    "id_camp": 205,
+    "nom_camp": "Campus MHIHS",
+    "ville_cam": "Tiko"
+  },
+  {
+    "id_camp": 232,
+    "nom_camp": "Campus ISH",
+    "ville_cam": "Yabassi"
+  },
+  {
+    "id_camp": 2,
+    "nom_camp": "UCAC Nkolbisson",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 8,
+    "nom_camp": "UCAC Messa",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 9,
+    "nom_camp": "UCAC Ekounou",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 22,
+    "nom_camp": "Campus IUSTY Omnisport",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 23,
+    "nom_camp": "Campus IUSTY Nyom",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 24,
+    "nom_camp": "Campus IPES CE",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 28,
+    "nom_camp": "Campus Saint Jean Ingénieur",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 32,
+    "nom_camp": "Campus ISMTI",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 34,
+    "nom_camp": "Campus CIA Shell Anguissa",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 35,
+    "nom_camp": "Campus ACERFI Ngousso",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 36,
+    "nom_camp": "Campus ISMI Odza",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 37,
+    "nom_camp": "Campus ISPIM Simbock",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 38,
+    "nom_camp": "Campus ISTB ",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 39,
+    "nom_camp": "Campus ISTM Messassi",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 40,
+    "nom_camp": "Campus ISTIC de Nkolbisson",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 41,
+    "nom_camp": "Campus ISA ",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 42,
+    "nom_camp": "Campus ISMND",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 44,
+    "nom_camp": "Campus ISSBA",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 45,
+    "nom_camp": "Campus ESSE Capitol",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 47,
+    "nom_camp": "Campus ISSTS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 48,
+    "nom_camp": "Campus I2STS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 49,
+    "nom_camp": "Campus ISSAM",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 51,
+    "nom_camp": "Campus ISPM",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 52,
+    "nom_camp": "Campus ISH",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 53,
+    "nom_camp": "Campus JIMIT",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 54,
+    "nom_camp": "Campus Rosière",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 55,
+    "nom_camp": "Campus ISL",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 56,
+    "nom_camp": "Campus ISPY",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 57,
+    "nom_camp": "Campus ISPA",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 58,
+    "nom_camp": "Campus ISRD",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 59,
+    "nom_camp": "Campus ISJP",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 60,
+    "nom_camp": "Campus INUCASTY",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 61,
+    "nom_camp": "Campus IUSM",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 62,
+    "nom_camp": "Campus IUSPM",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 63,
+    "nom_camp": "Campus ISTAG (IUTro)",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 64,
+    "nom_camp": "Campus IUNP",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 65,
+    "nom_camp": "Campus IUNS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 66,
+    "nom_camp": "Campus ISPS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 67,
+    "nom_camp": "Campus IUV",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 68,
+    "nom_camp": "Campus UPAC ",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 69,
+    "nom_camp": "Campus IUS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 70,
+    "nom_camp": "Campus IUSBAA",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 71,
+    "nom_camp": "Campus IBAY-SUP",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 72,
+    "nom_camp": "Campus INIESAT",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 73,
+    "nom_camp": "Campus KEBHIPS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 74,
+    "nom_camp": "Campus MPHY",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 75,
+    "nom_camp": "Campus PrepaVogt",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 77,
+    "nom_camp": "Campus YIBS",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 78,
+    "nom_camp": "Campus YSEM",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 126,
+    "nom_camp": "Campus KEYCE Yde",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 236,
+    "nom_camp": "Campus de l'UY1",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 239,
+    "nom_camp": "Campus Ngoa Ekelle UY2",
+    "ville_cam": "Yaoundé"
+  },
+  {
+    "id_camp": 240,
+    "nom_camp": "Campus Obili UY2",
+    "ville_cam": "Yaoundé"
+  }
+]

@@ -1,0 +1,247 @@
+51 | BTS Banque | cat=5 | niveau=Bac
+35 | BTS Assurances | cat=5 | niveau=Bac
+22 | HND Comptabilité | cat=26 | niveau=Bac
+13 | HND Assurances | cat=26 | niveau=Bac
+13 | Licence Pro Banque | cat=18 | niveau=Bacc
+12 | HND Études de secrétariat | cat=26 | niveau=Bac
+11 | HND Ingénierie informatique | cat=26 | niveau=Bac
+8 | Licence Pro Comptabilité | cat=18 | niveau=Bacc
+8 | HND Études de laboratoire médical | cat=26 | niveau=Bac
+6 | DSEP Études médicales | cat=25 | niveau=Bac
+4 | DSEP Études pharmaceutiques | cat=25 | niveau=Bac
+4 | Licence Pro Assurances | cat=18 | niveau=Bacc
+4 | HND Orientation professionnelle et conseil aux étudiants | cat=26 | niveau=Bac
+4 | Bachelor Comptabilité | cat=14 | niveau=Bacc
+4 | HND Secrétariat exécutif et service public et administration | cat=26 | niveau=Bac
+4 | DSEP Carrières juridiques | cat=25 | niveau=Bac
+3 | Bachelor Assurances | cat=14 | niveau=Bacc
+3 | HND Économie domestique | cat=26 | niveau=Bac
+3 | HND Études professionnelles en éducation | cat=26 | niveau=Bac
+3 | HPD Études de laboratoire médical | cat=26 | niveau=Bac
+3 | HND Secrétariat exécutif | cat=26 | niveau=Bac
+3 | DSEP Petites et moyennes organisations | cat=25 | niveau=Bac
+3 | BTS Communication de l'entreprise | cat=5 | niveau=Bac
+3 | Licence Pro Merchandising | cat=18 | niveau=Bacc
+2 | BTS Productions végétales | cat=5 | niveau=Bac
+2 | Bachelor Études forestières et conservation | cat=14 | niveau=Bacc
+2 | Bachelor Ingénierie du textile et des fibres | cat=14 | niveau=Bacc
+2 | Bachelor Technologie alimentaire | cat=14 | niveau=Bacc
+2 | HND Didactique | cat=26 | niveau=Bac
+2 | Bachelor Études d'élevage | cat=14 | niveau=Bacc
+2 | Bachelor Génie agricole | cat=14 | niveau=Bacc
+2 | Bachelor Ingénieur chimiste | cat=14 | niveau=Bacc
+2 | Bachelor Secrétariat exécutif | cat=14 | niveau=Bacc
+2 | HND Agriculture et sciences de l'alimentation | cat=26 | niveau=Bac
+2 | Licence Pro Études de laboratoire médical | cat=18 | niveau=Bacc
+2 | Master Pro Comptabilité | cat=22 | niveau=Licence
+2 | Licence Pro Économie domestique | cat=18 | niveau=Bacc
+2 | Licence Pro Didactique des sciences | cat=18 | niveau=Bacc
+2 | Licence Pro Didactique des lettres | cat=18 | niveau=Bacc
+2 | Licence Pro Langues et sciences humaines | cat=18 | niveau=Bacc
+2 | HND Obstétrique | cat=26 | niveau=Bac
+2 | BTS Génie forestier | cat=5 | niveau=Bac
+2 | Master Innovation et information stratégique | cat=20 | niveau=Licence
+2 | BTS Mine | cat=5 | niveau=Bac
+2 | Licence Pro Production et gestion de l'énergie | cat=18 | niveau=Bacc
+2 | Licence Pro Activités et techniques de communication | cat=18 | niveau=Bacc
+2 | Licence Pro Études médicales | cat=18 | niveau=Bacc
+2 | HND Formation continue et à distance | cat=26 | niveau=Bac
+2 | DSEP Bâtiments | cat=25 | niveau=Bac
+2 | Licence Pro Attaché de direction | cat=18 | niveau=Bacc
+1 | BTS Technique commerciale agricole | cat=5 | niveau=Bac
+1 | BTS Aquaculture | cat=5 | niveau=Bac
+1 | Bachelor Sciences informatiques | cat=14 | niveau=Bacc
+1 | ATD Boulangerie et transformation des aliments | cat=26 | niveau=Bac
+1 | ATD Comptabilité | cat=26 | niveau=Bac
+1 | ATD Ingénierie électrique | cat=26 | niveau=Bac
+1 | ATD Sciences du bâtiment | cat=26 | niveau=Bac
+1 | Licence Pro Études de secrétariat | cat=18 | niveau=Bacc
+1 | ATD Enseignement et formation | cat=26 | niveau=Bac
+1 | ATD Maintenance du matériel informatique | cat=26 | niveau=Bac
+1 | HPD Petites et moyennes entreprises | cat=26 | niveau=Bac
+1 | BTS Automatismes industriels | cat=5 | niveau=Bac
+1 | HND Études professionnelles en éducation - deuxième cycle du secondaire | cat=26 | niveau=Bac
+1 | HND Gestion et administration de l'éducation | cat=26 | niveau=Bac
+1 | HND Planification et développement de l'éducation | cat=26 | niveau=Bac
+1 | HND Infirmier d'état | cat=26 | niveau=Bac
+1 | HPD Infirmier d'état | cat=26 | niveau=Bac
+1 | Licence Pro Infirmier d'état | cat=18 | niveau=Bacc
+1 | HND Études professionnelles en éducation - petite enfance | cat=26 | niveau=Bac
+1 | HND Affaires et information | cat=26 | niveau=Bac
+1 | HND Éducation et développement professionnel | cat=26 | niveau=Bac
+1 | HPD Comptabilité | cat=26 | niveau=Bac
+1 | HND Métallurgie minière et extractive | cat=26 | niveau=Bac
+1 | HPD Métallurgie minière et extractive | cat=26 | niveau=Bac
+1 | Master Pro Métallurgie minière et extractive | cat=22 | niveau=Licence
+1 | HND Technologie du génie pétrolier | cat=26 | niveau=Bac
+1 | HPD Technologie du génie pétrolier | cat=26 | niveau=Bac
+1 | HND Études de laboratoire | cat=26 | niveau=Bac
+1 | HPD Carrières juridiques | cat=26 | niveau=Bac
+1 | HPD Études médicales | cat=26 | niveau=Bac
+1 | HND Logistique et transports | cat=26 | niveau=Bac
+1 | HND Sciences animales appliquées | cat=26 | niveau=Bac
+1 | HPD Sciences animales appliquées | cat=26 | niveau=Bac
+1 | HND Sciences de l'alimentation et nutrition | cat=26 | niveau=Bac
+1 | HPD Sciences de l'alimentation et nutrition | cat=26 | niveau=Bac
+1 | HND Beauty therapy | cat=26 | niveau=Bac
+1 | HPD Études pharmaceutiques | cat=26 | niveau=Bac
+1 | Licence Pro Didactique - planification de l'éducation et développement du curriculum | cat=18 | niveau=Bacc
+1 | Licence Pro Agriculture | cat=18 | niveau=Bacc
+1 | Licence Pro Développement communautaire | cat=18 | niveau=Bacc
+1 | Licence Pro Communauté et éducation des adultes | cat=18 | niveau=Bacc
+1 | Licence Pro Enseignement pédagogique | cat=18 | niveau=Bacc
+1 | Licence Pro Orientation et conseil | cat=18 | niveau=Bacc
+1 | Licence Pro Sciences animales appliquées | cat=18 | niveau=Bacc
+1 | Master Pro Sciences animales appliquées | cat=22 | niveau=Licence
+1 | Licence Pro Secrétariat exécutif | cat=18 | niveau=Bacc
+1 | Licence Pro Agronomie et scinces du sol | cat=18 | niveau=Bacc
+1 | Licence Pro Études environnementales et gestion des ressources hydriques | cat=18 | niveau=Bacc
+1 | Licence Pro Nutrition humaine et restauration | cat=18 | niveau=Bacc
+1 | Licence Pro Développement humain | cat=18 | niveau=Bacc
+1 | Licence Pro Communication de masse et journalisme | cat=18 | niveau=Bacc
+1 | Licence Pro Sciences de l'alimentation et nutrition | cat=18 | niveau=Bacc
+1 | Master Pro Sciences de l'alimentation et nutrition | cat=22 | niveau=Licence
+1 | DSEP Français et sa didactique | cat=25 | niveau=Bac
+1 | DSEP Svt et leurs didactiques | cat=25 | niveau=Bac
+1 | Licence Pro Psychopédagogie | cat=18 | niveau=Bacc
+1 | DSEP Anglais et sa didactique | cat=25 | niveau=Bac
+1 | DSEP Mathématiques et leurs didactiques | cat=25 | niveau=Bac
+1 | Bachelor Études de laboratoire médical | cat=14 | niveau=Bacc
+1 | HND Maintenance du matériel | cat=26 | niveau=Bac
+1 | HND Système d'alimentation électrique | cat=26 | niveau=Bac
+1 | Licence Chirurgie dentaire | cat=17 | niveau=Bacc
+1 | Master Chirurgie dentaire | cat=20 | niveau=Licence
+1 | Doctorat Chirurgie dentaire | cat=3 | niveau=Master
+1 | Licence Pro Ingénierie électrique | cat=18 | niveau=Bacc
+1 | Licence Études vétérinaires | cat=17 | niveau=Bacc
+1 | Master Études vétérinaires | cat=20 | niveau=Licence
+1 | Doctorat Études vétérinaires | cat=3 | niveau=Master
+1 | Licence Pro Maintenance du matériel biomédical | cat=18 | niveau=Bacc
+1 | BTS Architecture d'intérieur et design de création | cat=5 | niveau=Bac
+1 | BTS Dessin animé | cat=5 | niveau=Bac
+1 | BTS Modélisme et organisation de production de l'habillement | cat=5 | niveau=Bac
+1 | Licence Pro Innovation et information stratégique | cat=18 | niveau=Bacc
+1 | HND Études de secrétariat, administration et service public | cat=26 | niveau=Bac
+1 | DSEP Automatique | cat=25 | niveau=Bac
+1 | DSEP Santé au travail | cat=25 | niveau=Bac
+1 | DSEP Assurances | cat=25 | niveau=Bac
+1 | DSEP Métiers de l'hôtellerie | cat=25 | niveau=Bac
+1 | BTS Atmosphérique | cat=5 | niveau=Bac
+1 | BTS Chimie de la pollution | cat=5 | niveau=Bac
+1 | BTS Gestion des risques chimiques | cat=5 | niveau=Bac
+1 | BTS Environnementaux et hospitaliers | cat=5 | niveau=Bac
+1 | Licence Pro Administration et planification | cat=18 | niveau=Bacc
+1 | Licence Pro Psychopédagogie et orthopédagogie | cat=18 | niveau=Bacc
+1 | Licence Pro Sciences médicales | cat=18 | niveau=Bacc
+1 | Licence Pro Didactique des disciplines | cat=18 | niveau=Bacc
+1 | Licence Pro Pédagogie | cat=18 | niveau=Bacc
+1 | Licence Pro Sciences médico-sanitaires | cat=18 | niveau=Bacc
+1 | DUT Génie urbain | cat=12 | niveau=Bacc
+1 | Diplôme d'Ingénieur de Travaux Génie urbain | cat=32 | niveau=Bac
+1 | Diplôme d'Ingénieur Génie urbain | cat=19 | niveau=Bac
+1 | DUT Topographie-cadastre | cat=12 | niveau=Bacc
+1 | Diplôme d'Ingénieur de Travaux Topographie-cadastre | cat=32 | niveau=Bac
+1 | Diplôme d'Ingénieur Topographie-cadastre | cat=19 | niveau=Bac
+1 | Licence Pro Assistance adminsitrative bilingue | cat=18 | niveau=Bacc
+1 | Licence Pro Informatique multimédia | cat=18 | niveau=Bacc
+1 | Licence Commercialisation du bois | cat=17 | niveau=Bacc
+1 | Master Pro Commercialisation du bois | cat=22 | niveau=Licence
+1 | Licence Banque et établissements financiers | cat=17 | niveau=Bacc
+1 | Master Banque et établissements financiers | cat=20 | niveau=Licence
+1 | Licence Sciences de l'ingénieur | cat=17 | niveau=Bacc
+1 | Master Sciences de l'ingénieur | cat=20 | niveau=Licence
+1 | Licence Construction du bois | cat=17 | niveau=Bacc
+1 | Master Pro Construction du bois | cat=22 | niveau=Licence
+1 | Licence Sciences de la vie | cat=17 | niveau=Bacc
+1 | Master Sciences de la vie | cat=20 | niveau=Licence
+1 | Licence Sciences sociales | cat=17 | niveau=Bacc
+1 | Doctorat Sciences sociales | cat=3 | niveau=Master
+1 | Bachelor Technicien dentaire | cat=14 | niveau=Bacc
+1 | Bachelor Information et technologie | cat=14 | niveau=Bacc
+1 | Bachelor Radiologie | cat=14 | niveau=Bacc
+1 | HND Échographie | cat=26 | niveau=Bac
+1 | Bachelor Échographie | cat=14 | niveau=Bacc
+1 | Master Communication sociale | cat=20 | niveau=Licence
+1 | Doctorat Communication sociale | cat=3 | niveau=Master
+1 | Master Gestion de la communication marketing et publicitaire | cat=20 | niveau=Licence
+1 | Doctorat Gestion de la communication marketing et publicitaire | cat=3 | niveau=Master
+1 | Master Édition et multimédia | cat=20 | niveau=Licence
+1 | Doctorat Édition et multimédia | cat=3 | niveau=Master
+1 | Licence Pro Management des achats et vente à l'international | cat=18 | niveau=Bacc
+1 | Licence Pro Audit | cat=18 | niveau=Bacc
+1 | Licence Pro Gestion technico-commerciale | cat=18 | niveau=Bacc
+1 | Licence Pro Métier du barreau | cat=18 | niveau=Bacc
+1 | Licence Pro Métier du notaire | cat=18 | niveau=Bacc
+1 | Master Distribution | cat=20 | niveau=Licence
+1 | Master Communication de données et mise en réseau | cat=20 | niveau=Licence
+1 | Master Gouvernance et action publique | cat=20 | niveau=Licence
+1 | Master Micro-finance (en ligne) | cat=20 | niveau=Licence
+1 | Master Touristique et social | cat=20 | niveau=Licence
+1 | Doctorat Touristique et social | cat=3 | niveau=Master
+1 | Master Démographie et statistique appliquée | cat=20 | niveau=Licence
+1 | Master Planification du développement | cat=20 | niveau=Licence
+1 | Licence Pro Génie indutsriel et technologique | cat=18 | niveau=Bacc
+1 | Master Pro Banque | cat=22 | niveau=Licence
+1 | Licence Pro Droit fiscal | cat=18 | niveau=Bacc
+1 | Licence Pro Conception et création multimédia | cat=18 | niveau=Bacc
+1 | Licence Pro Électrosonography | cat=18 | niveau=Bacc
+1 | Licence Pro Études pharmaceutiques | cat=18 | niveau=Bacc
+1 | Licence Pro Communication publicitaire | cat=18 | niveau=Bacc
+1 | Master Pro Communication publicitaire | cat=22 | niveau=Licence
+1 | HND Programmation informatique | cat=26 | niveau=Bac
+1 | HND Ressource humaine | cat=26 | niveau=Bac
+1 | HPD Radiologie et technologie à ultrasons | cat=26 | niveau=Bac
+1 | HPD Thérapie dentaire | cat=26 | niveau=Bac
+1 | BTS Développement agropastoral | cat=5 | niveau=Bac
+1 | BTS Métiers d'entrepreneur agéopasoral | cat=5 | niveau=Bac
+1 | BTS Métiers agent de développement agropastoral | cat=5 | niveau=Bac
+1 | Doctorat Communication de données et mise en réseau | cat=3 | niveau=Master
+1 | Bachelor Banque | cat=14 | niveau=Bacc
+1 | Master Banque | cat=20 | niveau=Licence
+1 | Doctorat Banque | cat=3 | niveau=Master
+1 | Bachelor Ingénierie informatique | cat=14 | niveau=Bacc
+1 | Master Assurances | cat=20 | niveau=Licence
+1 | Doctorat Assurances | cat=3 | niveau=Master
+1 | BTS Bâtiments | cat=5 | niveau=Bac
+1 | Bachelor Journalisme / gestion de l'impression | cat=14 | niveau=Bacc
+1 | Bachelor Communication de données et mise en réseau | cat=14 | niveau=Bacc
+1 | HND Boulangerie et transformation des aliments | cat=26 | niveau=Bac
+1 | Bachelor Management pour le développement durable | cat=14 | niveau=Bacc
+1 | HND Gestion bancaire et financière | cat=26 | niveau=Bac
+1 | HND Vêtements et textiles | cat=26 | niveau=Bac
+1 | BTS Logistique et transports | cat=5 | niveau=Bac
+1 | BTS Chaudronnerie | cat=5 | niveau=Bac
+1 | BTS Agriculture | cat=5 | niveau=Bac
+1 | DSEP Agriculture | cat=25 | niveau=Bac
+1 | DSEP Productions végétales | cat=25 | niveau=Bac
+1 | BTS Technico-commerciale agricole | cat=5 | niveau=Bac
+1 | DSEP Technico-commerciale agricole | cat=25 | niveau=Bac
+1 | BTS Génie du bois - menuiserie et ébénisterie | cat=5 | niveau=Bac
+1 | Licence Pro Italian languages | cat=18 | niveau=Bacc
+1 | Licence Pro Langues et culture camerounaise spécifique | cat=18 | niveau=Bacc
+1 | Licence Pro Commissariat aux comptes | cat=18 | niveau=Bacc
+1 | Licence Pro Contrôle financier | cat=18 | niveau=Bacc
+1 | Licence Pro Carrières juridiques | cat=18 | niveau=Bacc
+1 | Master Carrières juridiques | cat=20 | niveau=Licence
+1 | Doctorat Carrières juridiques | cat=3 | niveau=Master
+1 | DSEP Génie forestier | cat=25 | niveau=Bac
+1 | DSEP Banque | cat=25 | niveau=Bac
+1 | Licence Pro Production mécanique | cat=18 | niveau=Bacc
+1 | Licence Pro Affaire internationales | cat=18 | niveau=Bacc
+1 | Master Études médicales | cat=20 | niveau=Licence
+1 | Doctorat Études médicales | cat=3 | niveau=Master
+1 | Licence Pro Éducation civique | cat=18 | niveau=Bacc
+1 | Licence Pro Géographie | cat=18 | niveau=Bacc
+1 | Licence Pro Histoire | cat=18 | niveau=Bacc
+1 | Licence Pro Lettres modernes française | cat=18 | niveau=Bacc
+1 | Licence Pro Communication de l'entreprise | cat=18 | niveau=Bacc
+1 | Licence Pro Lettres modernes anglaises | cat=18 | niveau=Bacc
+1 | Licence Pro Langage des signes | cat=18 | niveau=Bacc
+1 | Master Pro Langage des signes | cat=22 | niveau=Licence
+1 | BTS Art de la table et du service | cat=5 | niveau=Bac
+1 | BTS Hébergement | cat=5 | niveau=Bac
+1 | BTS Art culinaire | cat=5 | niveau=Bac
+1 | BTS Vente et production touristique | cat=5 | niveau=Bac
+1 | BTS Industries de l'habillement | cat=5 | niveau=Bac
+1 | BTS Techniques commerciales et marketing | cat=5 | niveau=Bac
+1 | Master Pro Interprétation des conférences | cat=22 | niveau=Licence

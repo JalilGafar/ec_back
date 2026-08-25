@@ -1,0 +1,1550 @@
+Combinaisons uniques (formation, type_diplome): 1750
+Diplômes déjà en base (exact): 48
+Diplômes déjà en base (auto-matché par similarité forte): 61
+Diplômes ambigus (à valider manuellement): 233
+Nouveaux diplômes à créer: 1408
+TOTAL: 1750 / 1750
+
+Fichier écrit: D:\AppsAngular\CamerDiplome\Plateforme\ec_back\scripts\phase2_public_diplomes_resolved.json
+
+=== TOUS les cas ambigus (233) ===
+
+"Licence Linguistiques et langues africaines" (formation="linguistiques et langues africaines", type="LICENCE", occurrences=1)
+   score=0.6  id_dip=142: "Licence Langues Africaines et Linguistique"
+   score=0.33  id_dip=140: "Licence Littérature et Cultures Africaines"
+   score=0.17  id_dip=1809: "Licence Didactiques des langues"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+
+"Master Linguistiques et langues africaines" (formation="linguistiques et langues africaines", type="MASTER", occurrences=1)
+   score=0.6  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.33  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.14  id_dip=149: "Master Géographie, Aménagement et Environnement"
+   score=0.14  id_dip=595: "Master Éthique et Philosophie Politique"
+
+"Licence Géographie et planification" (formation="géographie et planification", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+   score=0.2  id_dip=1807: "Licence Psychopédagogie avec un minor en administration scolaire et planification"
+   score=0.2  id_dip=1808: "Licence Administration Scolaire et Planification avec un Minor en Psychopédagogie"
+   score=0.2  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.17  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Master Géographie et planification" (formation="géographie et planification", type="MASTER", occurrences=1)
+   score=0.4  id_dip=149: "Master Géographie, Aménagement et Environnement"
+   score=0.2  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.17  id_dip=595: "Master Éthique et Philosophie Politique"
+
+"Master Droit public" (formation="droit public", type="MASTER", occurrences=5)
+   score=0.4  id_dip=585: "Master en Droit Public des Affaires"
+   score=0.25  id_dip=597: "Master en Droit Canonique"
+   score=0.25  id_dip=2204: "Master Public Health Epidemiology"
+   score=0.25  id_dip=2205: "Master Public Health Education"
+   score=0.2  id_dip=574: "Master en Droit des Affaires"
+
+"Licence Physique" (formation="physique", type="LICENCE", occurrences=6)
+   score=0.5  id_dip=2128: "Licence Physique Fondamentale"
+
+"Master Sciences de l'informatique" (formation="sciences de l'informatique", type="MASTER", occurrences=1)
+   score=0.4  id_dip=1815: "Master Sciences Fondamentales de l'Education"
+   score=0.25  id_dip=151: "Master Pro Sciences Infirmières"
+   score=0.2  id_dip=593: "Master Philosophie de l’Éducation"
+   score=0.2  id_dip=1192: "Master en Sciences Biomédicales"
+   score=0.2  id_dip=1455: "Master en Sciences Pharmaceutiques"
+
+"Licence Soins infirmiers et obstétricaux" (formation="soins infirmiers et obstétricaux", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=1452: "Licence Soins Infirmiers / IDE"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+   score=0.14  id_dip=142: "Licence Langues Africaines et Linguistique"
+   score=0.14  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+
+"Master Management" (formation="management", type="MASTER", occurrences=3)
+   score=0.5  id_dip=1308: "Master Development Management"
+   score=0.5  id_dip=1734: "Master of Management"
+   score=0.5  id_dip=2057: "Master Financial Management"
+   score=0.33  id_dip=2058: "Master Human Ressource Management"
+   score=0.33  id_dip=2130: "Master Sale Force Management"
+
+"Master Marketing" (formation="marketing", type="MASTER", occurrences=3)
+   score=0.5  id_dip=2120: "Master Digital Marketing"
+   score=0.25  id_dip=1303: "Master Strategic Marketing and Management"
+   score=0.2  id_dip=582: "Master en Communication et Marketing Politique"
+
+"Licence Technologie et sciences alimentaires" (formation="technologie et sciences alimentaires", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1436: "Licence en Diététique et Sciences Alimentaires"
+   score=0.29  id_dip=1499: "Licence en Histoire et Sciences Religieuses"
+   score=0.29  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.22  id_dip=568: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.22  id_dip=570: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+
+"Licence Philosophie" (formation="philosophie", type="LICENCE", occurrences=6)
+   score=0.5  id_dip=591: "Licence Philosophie Classique"
+   score=0.33  id_dip=592: "Licence Philosophie de l’Éducation"
+
+"Master Master en science" (formation="master en science", type="MASTER", occurrences=1)
+   score=0.5  id_dip=1494: "Master en Science Economique"
+   score=0.33  id_dip=1482: "Master en Science de l'information Documentaire"
+   score=0.29  id_dip=1440: "Master en Science Infirmière: Option Médecine Interne"
+   score=0.25  id_dip=589: "Master en Théologie"
+   score=0.25  id_dip=1189: "Master en Kinésithérapie"
+
+"Diplôme d'Ingénieur Génie mécanique et industriel" (formation="génie mécanique et industriel", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1001: "Ingénieur Génie Mécanique et Productique"
+   score=0.5  id_dip=2021: "Ingénieur Génie Mécanique et Energétique"
+   score=0.4  id_dip=1067: "Ingénieur Génie Mécanique "
+   score=0.4  id_dip=1920: "Ingénieur Génie Industriel"
+   score=0.29  id_dip=697: "Ingénieur Génie Réseaux et Télécommunications"
+
+"Licence Études en communication et developpement" (formation="études en communication et developpement", type="LICENCE", occurrences=1)
+   score=0.43  id_dip=1197: "Licence en Etudes Francophones et Traduction"
+   score=0.4  id_dip=1195: "Licence en Communication"
+   score=0.3  id_dip=1484: "Licence en Communication Publique et des Collectivités Territoriales Decentralisées"
+   score=0.27  id_dip=1464: "Licence en Sciences Sociales et Relations Internationales : Option Paix et Développement"
+   score=0.25  id_dip=1198: "Licence en Linguistique Appliquée et Traduction"
+
+"Diplôme d'Ingénieur Génie des biotechnologies et des procédés alimentaires" (formation="génie des biotechnologies et des procédés alimentaires", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.44  id_dip=1651: "Ingénieur Halieutique : Technologies et Génie des Procédés"
+   score=0.33  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.33  id_dip=1762: "Ingénieur Minéralurgie et Génie des Matériaux"
+   score=0.3  id_dip=1350: "Ingénieur Génie Hydraulique et Maitrise des Eaux"
+   score=0.3  id_dip=1958: "Ingénieur Génie des Procédés Spécialité Chimie Industrielle"
+
+"Doctorat Médecine et pharmacologie traditionnelle" (formation="médecine et pharmacologie traditionnelle", type="DOCTORAT PhD", occurrences=1)
+   score=0.43  id_dip=1647: "Médecine Vétérinaire : Pharmacologie, Pharmacie et Toxicologie"
+   score=0.29  id_dip=1646: "Médecine Vétérinaire : Parasitologie et Immunologie"
+   score=0.2  id_dip=1643: "Médecine Vétérinaire "
+   score=0.2  id_dip=1648: "Médecine Vétérinaire : Santé des Animaux d'Elevage et Santé Publique"
+   score=0.17  id_dip=1181: "Doctorat en Médecine Générale"
+
+"Master Médecine et spécialités" (formation="médecine et spécialités", type="MASTER", occurrences=1)
+   score=0.43  id_dip=1460: "Master en Sciences Infirmières : Option Médecine et Spécialités"
+   score=0.2  id_dip=1180: "Master en Médecine Générale"
+   score=0.2  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+
+"Licence Pro Génie logistique et transport (GLT)" (formation="génie logistique et transport (GLT)", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=281: "Licence Pro: Gestion Logistique et Transport"
+   score=0.5  id_dip=864: "Licence Pro Transport et Logistique Industrielle"
+   score=0.5  id_dip=865: "Licence Pro Transport et Logistique Pétrolière"
+   score=0.43  id_dip=461: "Licence Pro Transport, Transit, Douane et Logistique"
+   score=0.29  id_dip=255: "Licence Pro Génie industriel et Mécanique."
+
+"Doctorat Marketing et stratégie" (formation="marketing et stratégie", type="DOCTORAT PhD", occurrences=2)
+   score=0.4  id_dip=1487: "Doctorat en Communication et Marketing"
+   score=0.29  id_dip=1392: "Doctorat en Marketing, Socio-Psychologie et Communication"
+   score=0.14  id_dip=1377: "Doctorat en Fiscalité Nationale et Internationale"
+   score=0.14  id_dip=1385: "Doctorat en Diplomatie et Institution Internationales"
+   score=0.14  id_dip=1389: "Doctorat en Stocks Transports et Manutentions"
+
+"Diplôme d'Ingénieur Génie sanitaire et environnement" (formation="génie sanitaire et environnement", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.38  id_dip=1957: "Ingénieur Génie Minier Spécialité Energies et Environnement"
+   score=0.33  id_dip=1011: "Ingénieur Génie Chimique, Environnement"
+   score=0.29  id_dip=697: "Ingénieur Génie Réseaux et Télécommunications"
+   score=0.29  id_dip=1001: "Ingénieur Génie Mécanique et Productique"
+   score=0.29  id_dip=1351: "Ingénieur Génie Textile et Cuir"
+
+"Diplôme d'Ingénieur Génie logiciel" (formation="génie logiciel", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=1620: "Ingénieur Génie Logiciel"
+   score=0.25  id_dip=695: "Ingénieur Génie Civil"
+   score=0.25  id_dip=696: "Ingénieur Génie Informatique"
+   score=0.25  id_dip=698: "Ingénieur Génie Electrique"
+   score=0.25  id_dip=1067: "Ingénieur Génie Mécanique "
+
+"Licence Biologie des organismes végétaux" (formation="biologie des organismes végétaux", type="LICENCE", occurrences=2)
+   score=0.5  id_dip=2126: "Licence Biologie des Organismes et Animaux"
+   score=0.17  id_dip=1438: "Licence en Biologie Clinique"
+   score=0.17  id_dip=1805: "Licence Economie des Collectivités"
+   score=0.17  id_dip=1809: "Licence Didactiques des langues"
+   score=0.14  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+
+"Diplôme d'Ingénieur Production végétale" (formation="production végétale", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.4  id_dip=806: "Ingénieur Agronome option Production Végétale"
+   score=0.17  id_dip=807: "Ingénieur Agronome option Production Animale"
+   score=0.13  id_dip=1763: "Ingénieur Exploration et Production du Pétrole et du Gaz"
+
+"Diplôme d'Ingénieur Transport et stockage du pétrole et du gaz" (formation="transport et stockage du pétrole et du gaz", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.44  id_dip=1763: "Ingénieur Exploration et Production du Pétrole et du Gaz"
+   score=0.3  id_dip=1766: "Ingénieur Management des Mines, Pétrole et Gaz"
+   score=0.2  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.11  id_dip=1016: "Ingénieur Géophysique et Mine"
+   score=0.11  id_dip=1764: "Ingénieur Raffinage et Pétrochimie"
+
+"Diplôme d'Ingénieur Economie et de gestion du pétrole et du gaz" (formation="economie et de gestion du pétrole et du gaz", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.4  id_dip=1763: "Ingénieur Exploration et Production du Pétrole et du Gaz"
+   score=0.27  id_dip=1766: "Ingénieur Management des Mines, Pétrole et Gaz"
+   score=0.2  id_dip=1353: "Ingénieur Agroforesterie et Gestion Forestière"
+   score=0.18  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.17  id_dip=805: "Ingénieur Agronome option Economie et Sociologie Rurale"
+
+"Diplôme d'Ingénieur de Travaux Hydraulique et maîtrise des eaux" (formation="hydraulique et maîtrise des eaux", type="DIPLÔME D'INGÉNIEUR DE TRAVAUX", occurrences=1)
+   score=0.63  id_dip=1341: "Ingénieur des Travaux Génie Hydraulique et Maitrise des Eaux"
+   score=0.22  id_dip=1000: "Ingénieur des Travaux Réseaux et Télécommunication "
+   score=0.22  id_dip=1015: "Ingénieur des Travaux Géophysique et Mine"
+   score=0.2  id_dip=996: "Ingénieur des Travaux Génie Mécanique et Productique"
+   score=0.2  id_dip=999: "Ingénieur des Travaux Génie des Mines et Pétrole "
+
+"Diplôme d'Ingénieur de Travaux Génie mécanique et electrique" (formation="génie mécanique et electrique", type="DIPLÔME D'INGÉNIEUR DE TRAVAUX", occurrences=1)
+   score=0.38  id_dip=996: "Ingénieur des Travaux Génie Mécanique et Productique"
+   score=0.38  id_dip=998: "Ingénieur de Travaux Génie Electrique et Electrotechnique"
+   score=0.22  id_dip=999: "Ingénieur des Travaux Génie des Mines et Pétrole "
+   score=0.22  id_dip=1342: "Ingénieur des Travaux Génie Thermique et Energie"
+   score=0.22  id_dip=1343: "Ingénieur des Travaux Génie Agroalimentaire et Industriel"
+
+"Diplôme d'Ingénieur Génie mécanique et electrique" (formation="génie mécanique et electrique", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1001: "Ingénieur Génie Mécanique et Productique"
+   score=0.5  id_dip=1371: "Ingénieur Génie Electrique et Electronique"
+   score=0.5  id_dip=2021: "Ingénieur Génie Mécanique et Energétique"
+   score=0.43  id_dip=1540: "Ingénieur Génie Electrique et Informatique Industrielle"
+   score=0.43  id_dip=2117: "Ingénieur Génie Electrique et Système Intelligent"
+
+"Diplôme d'Ingénieur Sécurité industrielle, qualité et environnement" (formation="sécurité industrielle, qualité et environnement", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.38  id_dip=1434: "Ingénieur Hygiène, Sûreté et Sécurité Industrielle"
+   score=0.31  id_dip=1765: "Ingénieur Qualité, Hygiène, Sécurité et Environnement dans le secteur minier, pétrolier et gazier"
+   score=0.25  id_dip=1584: "Ingénieur Environnement Minier et Hydrogéologie"
+   score=0.22  id_dip=1540: "Ingénieur Génie Electrique et Informatique Industrielle"
+   score=0.22  id_dip=2019: "Ingénieur Agronomie Agro-Alimentaire et Environnement"
+
+"Licence Pro Psychopédagogie et éducation spécialisée" (formation="psychopédagogie et éducation spécialisée", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=1064: "Licence Pro en Education Spécialisée"
+   score=0.17  id_dip=248: "Licence Pro Réseaux et Sécurité"
+   score=0.17  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.17  id_dip=277: "Licence Pro Contrôle et Audit"
+   score=0.17  id_dip=409: "Licence Pro Froid et climatisation"
+
+"Licence Droit privé général et sciences criminelles" (formation="droit privé général et sciences criminelles", type="LICENCE", occurrences=1)
+   score=0.44  id_dip=568: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.3  id_dip=570: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+   score=0.22  id_dip=1436: "Licence en Diététique et Sciences Alimentaires"
+   score=0.22  id_dip=1499: "Licence en Histoire et Sciences Religieuses"
+   score=0.18  id_dip=2098: "Licence en Droit des Affaires et Conseil d'Entreprise"
+
+"Licence Biologie des organismes vivants" (formation="biologie des organismes vivants", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2126: "Licence Biologie des Organismes et Animaux"
+   score=0.17  id_dip=1438: "Licence en Biologie Clinique"
+   score=0.17  id_dip=1805: "Licence Economie des Collectivités"
+   score=0.17  id_dip=1809: "Licence Didactiques des langues"
+   score=0.14  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+
+"Licence Physique-chimie" (formation="physique-chimie", type="LICENCE", occurrences=2)
+   score=0.5  id_dip=2127: "Licence Chimie"
+   score=0.33  id_dip=2128: "Licence Physique Fondamentale"
+
+"Licence Droit des affaires" (formation="droit des affaires", type="LICENCE", occurrences=2)
+   score=0.43  id_dip=2098: "Licence en Droit des Affaires et Conseil d'Entreprise"
+   score=0.2  id_dip=1805: "Licence Economie des Collectivités"
+   score=0.2  id_dip=1809: "Licence Didactiques des langues"
+   score=0.17  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+   score=0.14  id_dip=2126: "Licence Biologie des Organismes et Animaux"
+
+"Doctorat Droit des affaires" (formation="droit des affaires", type="DOCTORAT PhD", occurrences=1)
+   score=0.38  id_dip=1388: "Doctorat en Droit des Affaires, Procédures et Voies d'Execution"
+   score=0.2  id_dip=1386: "Doctorat en Droit International"
+   score=0.17  id_dip=1489: "Doctorat en Communication des Organisations"
+   score=0.14  id_dip=1488: "Doctorat en Gestion des Ressources Humaines"
+   score=0.13  id_dip=1393: "Doctorat en Directions et Stratégies des Organisations "
+
+"Licence Chimie physique" (formation="chimie physique", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2127: "Licence Chimie"
+   score=0.33  id_dip=2128: "Licence Physique Fondamentale"
+
+"Licence Mathématiques appliquées" (formation="mathématiques appliquées", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2125: "Licence Mathématiques"
+
+"Licence Didactiques  mathématiques" (formation="didactiques  mathématiques", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2125: "Licence Mathématiques"
+   score=0.25  id_dip=1809: "Licence Didactiques des langues"
+   score=0.2  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+
+"Licence Chimie industrielle" (formation="chimie industrielle", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2127: "Licence Chimie"
+   score=0.25  id_dip=1982: "Licence Technique Construction Industrielle"
+   score=0.17  id_dip=1994: "Licence Technique Maintenance Industrielle et Productique"
+   score=0.14  id_dip=1996: "Licence Technique Qualité Hygiène et Sureté Industrielle"
+
+"Licence Architecture et réseaux" (formation="architecture et réseaux", type="LICENCE", occurrences=2)
+   score=0.4  id_dip=1803: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.33  id_dip=2002: "Licence Technique Administration et Sécurité Réseaux"
+   score=0.29  id_dip=1981: "Licence Technique Concepteur Développeur Réseaux et Internet"
+   score=0.2  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.17  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Master Architecture et réseaux" (formation="architecture et réseaux", type="MASTER", occurrences=2)
+   score=0.4  id_dip=1804: "Master Réseaux, Systèmes et Sécurités"
+   score=0.2  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.17  id_dip=149: "Master Géographie, Aménagement et Environnement"
+
+"Licence Mathématiques pures" (formation="mathématiques pures", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2125: "Licence Mathématiques"
+
+"Master Pro Gestion de service alimentaire" (formation="gestion de service alimentaire", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=1419: "Master Pro Informatique de Gestion"
+   score=0.29  id_dip=443: "Master Pro Finance et Contrôle de Gestion"
+   score=0.29  id_dip=466: "Master Pro Audit et Controle de Gestion"
+   score=0.29  id_dip=758: "Master Pro Gestion des Bases de Données"
+   score=0.29  id_dip=1768: "Master Pro Exploitation et Gestion de l'Environnement"
+
+"Licence Sécurité et sûreté industrielle" (formation="sécurité et sûreté industrielle", type="LICENCE", occurrences=1)
+   score=0.43  id_dip=1996: "Licence Technique Qualité Hygiène et Sureté Industrielle"
+   score=0.29  id_dip=1994: "Licence Technique Maintenance Industrielle et Productique"
+   score=0.29  id_dip=2002: "Licence Technique Administration et Sécurité Réseaux"
+   score=0.25  id_dip=1526: "Licence Pro Exploitation Forestière et Sécurité de l'Environnement"
+   score=0.25  id_dip=1997: "Licence Technique Qualité, Hygiène, Sécurité et Environnement"
+
+"Licence Technologie de l´environnement et maîtrise de l´énergie" (formation="technologie de l´environnement et maîtrise de l´énergie", type="LICENCE", occurrences=1)
+   score=0.38  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.33  id_dip=1526: "Licence Pro Exploitation Forestière et Sécurité de l'Environnement"
+   score=0.18  id_dip=1199: "Licence en Industrie de la Langue et Traduction"
+   score=0.13  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.13  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+
+"Licence Mécatronique" (formation="mécatronique", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1995: "Licence Technique Mécatronique"
+
+"Licence Français et études francophones spécialité littérature" (formation="français et études francophones spécialité littérature", type="LICENCE", occurrences=1)
+   score=0.38  id_dip=1197: "Licence en Etudes Francophones et Traduction"
+   score=0.25  id_dip=140: "Licence Littérature et Cultures Africaines"
+   score=0.13  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.11  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.11  id_dip=142: "Licence Langues Africaines et Linguistique"
+
+"Master Communication politique" (formation="communication politique", type="MASTER", occurrences=2)
+   score=0.4  id_dip=582: "Master en Communication et Marketing Politique"
+   score=0.25  id_dip=1265: "Master in Corporate Communication"
+   score=0.2  id_dip=595: "Master Éthique et Philosophie Politique"
+   score=0.17  id_dip=1904: "Master of Information and Communication Network"
+   score=0.14  id_dip=1817: "Master Information Communication Technology in Teacher Education"
+
+"Licence Géographie physique et environnement" (formation="géographie physique et environnement", type="LICENCE", occurrences=1)
+   score=0.6  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+   score=0.25  id_dip=1997: "Licence Technique Qualité, Hygiène, Sécurité et Environnement"
+   score=0.2  id_dip=2128: "Licence Physique Fondamentale"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Master Géographie physique et environnement" (formation="géographie physique et environnement", type="MASTER", occurrences=1)
+   score=0.6  id_dip=149: "Master Géographie, Aménagement et Environnement"
+   score=0.29  id_dip=1776: "Master Qualité, Hygiène, Sécurité et Environnement"
+   score=0.17  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.14  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.14  id_dip=143: "Master Langues Africaines et Linguistique"
+
+"Licence Philosophie des sciences" (formation="philosophie des sciences", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+   score=0.25  id_dip=591: "Licence Philosophie Classique"
+   score=0.2  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.2  id_dip=1191: "Licence en Sciences Biomédicales"
+   score=0.2  id_dip=1435: "Licence en Sciences Infirmières"
+
+"Licence Français et études francophones spécialité langue" (formation="français et études francophones spécialité langue", type="LICENCE", occurrences=1)
+   score=0.38  id_dip=1197: "Licence en Etudes Francophones et Traduction"
+   score=0.18  id_dip=1199: "Licence en Industrie de la Langue et Traduction"
+   score=0.13  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.11  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.11  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Licence Géographie humaine et aménagement" (formation="géographie humaine et aménagement", type="LICENCE", occurrences=1)
+   score=0.6  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+   score=0.14  id_dip=142: "Licence Langues Africaines et Linguistique"
+   score=0.14  id_dip=1803: "Licence Réseaux, Systèmes et Sécuritésl"
+
+"Master Géographie humaine et aménagement" (formation="géographie humaine et aménagement", type="MASTER", occurrences=1)
+   score=0.6  id_dip=149: "Master Géographie, Aménagement et Environnement"
+   score=0.17  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.14  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.14  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.14  id_dip=595: "Master Éthique et Philosophie Politique"
+
+"Doctorat Histoire politique et relations internationales" (formation="histoire politique et relations internationales", type="DOCTORAT PhD", occurrences=1)
+   score=0.4  id_dip=1477: "Doctorat en Sciences Sociales et Relations Internationales : Option Science Politique"
+   score=0.33  id_dip=1475: "Doctorat en Sciences Sociales et Relations Internationales : Option Relations Internationales"
+   score=0.27  id_dip=1468: "Doctorat en Sciences Sociales et Relations Internationales : Option Développement Durable"
+   score=0.27  id_dip=1470: "Doctorat en Sciences Sociales et Relations Internationales : Option Droit Humanitaire"
+   score=0.27  id_dip=1473: "Doctorat en Sciences Sociales et Relations Internationales : Option Paix et Développement"
+
+"Licence Histoire de la philosophie" (formation="histoire de la philosophie", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.22  id_dip=1199: "Licence en Industrie de la Langue et Traduction"
+   score=0.2  id_dip=591: "Licence Philosophie Classique"
+   score=0.13  id_dip=1481: "Licence en Sciences de l'Information Documentaire"
+   score=0.13  id_dip=1499: "Licence en Histoire et Sciences Religieuses"
+
+"Licence Construction industrielle" (formation="construction industrielle", type="LICENCE", occurrences=1)
+   score=0.67  id_dip=1982: "Licence Technique Construction Industrielle"
+   score=0.17  id_dip=1994: "Licence Technique Maintenance Industrielle et Productique"
+   score=0.14  id_dip=1996: "Licence Technique Qualité Hygiène et Sureté Industrielle"
+
+"Licence Construction civile et industrielle" (formation="construction civile et industrielle", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=1982: "Licence Technique Construction Industrielle"
+   score=0.29  id_dip=1994: "Licence Technique Maintenance Industrielle et Productique"
+   score=0.25  id_dip=1996: "Licence Technique Qualité Hygiène et Sureté Industrielle"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Licence Pro Évaluation et gestion des risques et catastrophes" (formation="évaluation et gestion des risques et catastrophes", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.38  id_dip=636: "Licence Pro Analyse et Evaluation des Projets"
+   score=0.38  id_dip=907: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.38  id_dip=1117: "Licence Pro Gestion des Opérations et Production"
+   score=0.38  id_dip=1901: "Licence Pro Gestion et Administration des Ports"
+   score=0.33  id_dip=633: "Licence Pro Gestion et Développement des Organisations Sportives "
+
+"Master Pro Évaluation et gestion des risques et catastrophes" (formation="évaluation et gestion des risques et catastrophes", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=326: "Master Pro Analyse et évaluation des projets"
+   score=0.38  id_dip=1096: "Master Pro Gestion des Programmes et des Projets"
+   score=0.38  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.38  id_dip=1839: "Master Pro Gestion des Opération et Logistique"
+   score=0.38  id_dip=1840: "Master Pro Gestion des Voyages et Tourisme"
+
+"Licence Pro Entrepreneuriat, création d´entreprises et management des PME/PMI" (formation="entrepreneuriat, création d´entreprises et management des PME/PMI", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.44  id_dip=631: "Licence Pro Entrepreneuriat et Développement des PME"
+   score=0.36  id_dip=284: "Licence Création et Management des entreprises hôtelières et touristiques"
+   score=0.36  id_dip=1204: "Licence Pro en création et gestion de PME / PMI"
+   score=0.3  id_dip=1820: "Licence Pro Création et Administration des Entreprise"
+   score=0.3  id_dip=1836: "Licence Pro Management et Pilotage des Projets"
+
+"Licence Pro Conseil Juridique et Fiscal" (formation="conseil Juridique et Fiscal", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.6  id_dip=1357: "Licence Pro Conseil Juridique et Fiscale"
+   score=0.29  id_dip=1290: "Licence Pro Droit et Pratique Juridique et Judiciaire"
+   score=0.2  id_dip=407: "Licence Pro Conseil Agropastoral"
+   score=0.17  id_dip=248: "Licence Pro Réseaux et Sécurité"
+   score=0.17  id_dip=257: "Licence Pro Télécommunications et Informatique"
+
+"Master Pro Conseil Juridique et Fiscal" (formation="conseil Juridique et Fiscal", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.6  id_dip=1949: "Master Pro Conseil Juridique et Fiscale"
+   score=0.29  id_dip=1293: "Master Pro Droit et Pratique Juridique et Judiciaire"
+   score=0.22  id_dip=954: "Master Pro Informatique option Système d'information Audit et Conseil"
+   score=0.17  id_dip=298: "Master Pro Anesthésie et Réanimation"
+   score=0.17  id_dip=306: "Master Pro Télécommunications et Informatique"
+
+"Licence Soins infirmiers" (formation="soins infirmiers", type="LICENCE", occurrences=1)
+   score=0.67  id_dip=1452: "Licence Soins Infirmiers / IDE"
+
+"BTS Comptabilité et gestion des entreprises" (formation="comptabilité et gestion des entreprises", type="BTS", occurrences=3)
+   score=0.67  id_dip=688: "BTS Gestion des Entreprises et des Administrations"
+   score=0.5  id_dip=31: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.43  id_dip=1899: "BTS Gestion et Administration des ports"
+   score=0.4  id_dip=112: "BTS Gestion des Collectivités Territoriales option:  Comptabilité et Finances Publiques"
+   score=0.38  id_dip=54: "BTS Maintenace et Gestion des Systèmes Fluides"
+
+"Licence Génie electrique" (formation="génie electrique", type="LICENCE", occurrences=1)
+   score=0.4  id_dip=1986: "Licence Technique Génie Electrique et Automatisme"
+   score=0.4  id_dip=1992: "Licence Technique Ingénierie de Génie Electrique "
+   score=0.25  id_dip=1984: "Licence Technique Génie Chimique"
+   score=0.25  id_dip=1987: "Licence Technique Génie Logiciel"
+   score=0.25  id_dip=1988: "Licence Technique Génie Thermique"
+
+"Master Sciences de laboratoire" (formation="sciences de laboratoire", type="MASTER", occurrences=1)
+   score=0.4  id_dip=1815: "Master Sciences Fondamentales de l'Education"
+   score=0.25  id_dip=151: "Master Pro Sciences Infirmières"
+   score=0.2  id_dip=593: "Master Philosophie de l’Éducation"
+   score=0.2  id_dip=1192: "Master en Sciences Biomédicales"
+   score=0.2  id_dip=1455: "Master en Sciences Pharmaceutiques"
+
+"Diplôme d'Etudes Supérieures Marketing" (formation="marketing", type="DIPLÔME D'ETUDES SUPERIEURES", occurrences=1)
+   score=0.5  id_dip=2120: "Master Digital Marketing"
+   score=0.25  id_dip=1303: "Master Strategic Marketing and Management"
+   score=0.2  id_dip=582: "Master en Communication et Marketing Politique"
+
+"Diplôme d'Etudes Professionnelles Gestion, analyse et évaluation des projets" (formation="gestion, analyse et évaluation des projets", type="DIPLÔME D'ETUDES PROFESSIONNELLES", occurrences=1)
+   score=0.38  id_dip=1176: "DSEP Gestion des Entreprises et des Administrations"
+   score=0.13  id_dip=1173: "DSEP Comptabilité et Finance"
+   score=0.11  id_dip=1174: "DSEP Marketing, Commerce et Vente"
+   score=0.11  id_dip=1177: "DSEP Génie Electrique et Télécommunication"
+
+"Doctorat Comptabilité, audit et contrôle" (formation="comptabilité, audit et contrôle", type="DOCTORAT PhD", occurrences=1)
+   score=0.43  id_dip=1378: "Doctorat en Gestion, Audit et Contrôle de Gestion"
+   score=0.25  id_dip=1373: "Doctorat en Comptabilité, Fiscalité et Finances Privées"
+   score=0.2  id_dip=1375: "Doctorat en Comptabilité Privée Aux Normes Nationales et Internationales"
+   score=0.14  id_dip=1487: "Doctorat en Communication et Marketing"
+   score=0.13  id_dip=1377: "Doctorat en Fiscalité Nationale et Internationale"
+
+"MBA Gestion du commerce international" (formation="gestion du commerce international", type="Master en Administration des Affaires MBA", occurrences=1)
+   score=0.5  id_dip=2096: "MBA Commerce International"
+   score=0.25  id_dip=1224: "MBA international en Commerce Réseau Grande Distribution"
+   score=0.17  id_dip=829: "MBA in International Trade"
+   score=0.17  id_dip=1221: "MBA international en Finance"
+   score=0.14  id_dip=1220: "MBA international en Management Stratégique"
+
+"Doctorat en Médecine/Pharmacie/Buccodentaire Médecine" (formation="médecine", type="Doctorat en Médecine, en pharmacie ou en buccodentaire", occurrences=2)
+   score=0.5  id_dip=1643: "Médecine Vétérinaire "
+   score=0.33  id_dip=1181: "Doctorat en Médecine Générale"
+   score=0.33  id_dip=1645: "Médecine Vétérinaire : Clinique Vétérinaire"
+   score=0.25  id_dip=1644: "Médecine Vétérinaire : Anatomie Histologie"
+   score=0.2  id_dip=1646: "Médecine Vétérinaire : Parasitologie et Immunologie"
+
+"Diplôme d'Ingénieur Production de pétrole et gaz" (formation="production de pétrole et gaz", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1763: "Ingénieur Exploration et Production du Pétrole et du Gaz"
+   score=0.33  id_dip=1766: "Ingénieur Management des Mines, Pétrole et Gaz"
+   score=0.22  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.2  id_dip=2022: "Ingénieur  Physique, Chimie et Science de l'Ingénieur"
+   score=0.17  id_dip=1539: "Ingénieur Génie des Systèmes d'Information et de la Communication"
+
+"Diplôme d'Ingénieur Ingénierie du pétrole et du gaz" (formation="ingénierie du pétrole et du gaz", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1763: "Ingénieur Exploration et Production du Pétrole et du Gaz"
+   score=0.33  id_dip=1766: "Ingénieur Management des Mines, Pétrole et Gaz"
+   score=0.25  id_dip=624: "Ingénierie politique, juridique et administrative"
+   score=0.22  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.13  id_dip=1016: "Ingénieur Géophysique et Mine"
+
+"Licence Pro Génie thermique et énergétique" (formation="génie thermique et énergétique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.6  id_dip=860: "Licence Pro Génie Energétique et Minier"
+   score=0.6  id_dip=1156: "Licence Pro Génie Thermique et Energie."
+   score=0.5  id_dip=256: "Licence Pro Génie Thermique et Energies Renouvelables"
+   score=0.4  id_dip=862: "Licence Pro Génie Energétique & Industriel"
+   score=0.33  id_dip=255: "Licence Pro Génie industriel et Mécanique."
+
+"Licence Pro Industries alimentaires et biotechnologies" (formation="industries alimentaires et biotechnologies", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.6  id_dip=230: "Licence Pro Industries Agricoles et Alimentaires"
+   score=0.17  id_dip=248: "Licence Pro Réseaux et Sécurité"
+   score=0.17  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.17  id_dip=277: "Licence Pro Contrôle et Audit"
+   score=0.17  id_dip=409: "Licence Pro Froid et climatisation"
+
+"Licence Pro Génie chimique et environnementale" (formation="génie chimique et environnementale", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=1157: "Licence Pro Génie Chimique et des Procédés "
+   score=0.33  id_dip=255: "Licence Pro Génie industriel et Mécanique."
+   score=0.33  id_dip=652: "Licence Pro Génie Industriel et Maintenance"
+   score=0.33  id_dip=860: "Licence Pro Génie Energétique et Minier"
+   score=0.33  id_dip=930: "Licence Pro Génie Télécommunication et Réseau"
+
+"Licence Pro Maintenance industrielle et productique" (formation="maintenance industrielle et productique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=231: "Licence Pro Maintenance Industrielle"
+   score=0.33  id_dip=247: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.33  id_dip=646: "Licence Pro Maintenance Réseau et Système"
+   score=0.33  id_dip=652: "Licence Pro Génie Industriel et Maintenance"
+   score=0.33  id_dip=864: "Licence Pro Transport et Logistique Industrielle"
+
+"Licence Pro Génie informatique" (formation="génie informatique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=938: "Licence Pro Génie Electrique et Informatique Industrielle"
+   score=0.33  id_dip=236: "Licence Pro Génie Rural"
+   score=0.33  id_dip=249: "Licence Pro Génie Logiciel"
+   score=0.33  id_dip=650: "Licence Pro Génie Electrique"
+   score=0.33  id_dip=651: "Licence Pro Génie Biomédical"
+
+"Diplôme de Spécialisation en Médecine/Pharmacie Santé publique spécialité psychiatrie" (formation="santé publique spécialité psychiatrie", type="DIPLÔME DE SPECIALISATION EN MEDECINE/PHARMACIE", occurrences=1)
+   score=0.4  id_dip=1187: "Doctorat en Santé Publique"
+   score=0.22  id_dip=622: "Doctorat en sciences de la santé option Santé publique"
+   score=0.2  id_dip=1648: "Médecine Vétérinaire : Santé des Animaux d'Elevage et Santé Publique"
+   score=0.13  id_dip=1383: "Doctorat en Finance Publique, Fiscalité, Géopolitiques"
+   score=0.11  id_dip=1376: "Doctorat en Comptabilité Publique aux Normes Internationales"
+
+"Licence Pro Cadre des collectivités locales et décentralisées" (formation="cadre des collectivités locales et décentralisées", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.44  id_dip=283: "Licence Administration et gestion des collectivités territoriales décentralisées."
+   score=0.43  id_dip=1833: "Licence Pro Gestion des Collectivités Locales"
+   score=0.25  id_dip=1026: "Licence Pro Gestion des Collectivités Territoriales option:  Comptabilité et Finances Publiques"
+   score=0.22  id_dip=631: "Licence Pro Entrepreneuriat et Développement des PME"
+   score=0.22  id_dip=636: "Licence Pro Analyse et Evaluation des Projets"
+
+"Licence Pro Fiscalité appliquée" (formation="fiscalité appliquée", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=635: "Licence Pro Fiscalité"
+   score=0.33  id_dip=742: "Licence Pro Fiscalité d'Entreprise"
+   score=0.2  id_dip=243: "Licence Pro Géotechnique et Géologie Appliquée"
+   score=0.2  id_dip=978: "Licence Pro Mine et Géologie Appliquée "
+   score=0.17  id_dip=288: "Licence Pro Banque, Assurance, Finance et Fiscalité"
+
+"Diplôme de Spécialisation en Médecine/Pharmacie Santé publique spécialité épidémiologie" (formation="santé publique spécialité épidémiologie", type="DIPLÔME DE SPECIALISATION EN MEDECINE/PHARMACIE", occurrences=1)
+   score=0.4  id_dip=1187: "Doctorat en Santé Publique"
+   score=0.22  id_dip=622: "Doctorat en sciences de la santé option Santé publique"
+   score=0.2  id_dip=1648: "Médecine Vétérinaire : Santé des Animaux d'Elevage et Santé Publique"
+   score=0.13  id_dip=1383: "Doctorat en Finance Publique, Fiscalité, Géopolitiques"
+   score=0.11  id_dip=1376: "Doctorat en Comptabilité Publique aux Normes Internationales"
+
+"Licence Anglais-français" (formation="anglais-français", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.4  id_dip=134: "Licence Lettre trillingue Français - Anglais - Allemand"
+   score=0.4  id_dip=136: "Licence Lettre trillingue Français - Anglais - Espagnol"
+   score=0.4  id_dip=138: "Licence Lettre trillingue Français - Anglais - Italien"
+
+"Licence Psychologie de l'éducation" (formation="psychologie de l'éducation", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.14  id_dip=1481: "Licence en Sciences de l'Information Documentaire"
+   score=0.14  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.14  id_dip=1992: "Licence Technique Ingénierie de Génie Electrique "
+   score=0.13  id_dip=1526: "Licence Pro Exploitation Forestière et Sécurité de l'Environnement"
+
+"Master Psychologie de l'éducation" (formation="psychologie de l'éducation", type="MASTER", occurrences=1)
+   score=0.5  id_dip=593: "Master Philosophie de l’Éducation"
+   score=0.4  id_dip=1815: "Master Sciences Fondamentales de l'Education"
+   score=0.2  id_dip=1814: "Master Didactiques de Disciplines"
+   score=0.17  id_dip=594: "Master Histoire de la Philosophie"
+   score=0.17  id_dip=1478: "Master en Journalisme de Paix"
+
+"Licence Pro Comptabilité et finances" (formation="comptabilité et finances", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=450: "Licence Pro Finance et Comptabilité"
+   score=0.5  id_dip=737: "Licence Pro Comptabilité et Finance"
+   score=0.4  id_dip=416: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.4  id_dip=449: "Licence Pro Comptabilité, Contrôle et audit"
+   score=0.4  id_dip=647: "Licence Pro Comptabilité, Finance et Audit"
+
+"Licence Pro Informatique et génie logiciel" (formation="informatique et génie logiciel", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=249: "Licence Pro Génie Logiciel"
+   score=0.5  id_dip=938: "Licence Pro Génie Electrique et Informatique Industrielle"
+   score=0.5  id_dip=1217: "Bachelor International Informatique Génie Logiciel, Développement Web et Mobile"
+   score=0.5  id_dip=1427: "Licence Pro Systèmes d'Information et Génie Logiciel"
+   score=0.4  id_dip=257: "Licence Pro Télécommunications et Informatique"
+
+"Licence Pro Gestion et administration de l'eglise" (formation="gestion et administration de l'eglise", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.43  id_dip=459: "Licence Pro Audit et Contrôle de Gestion"
+   score=0.43  id_dip=1116: "Licence Pro Gestion de Projets et Entrepreneuriat"
+   score=0.43  id_dip=1901: "Licence Pro Gestion et Administration des Ports"
+   score=0.38  id_dip=694: "Licence Pro Gestion de Projet et Développement Durable"
+   score=0.33  id_dip=283: "Licence Administration et gestion des collectivités territoriales décentralisées."
+
+"Licence Pro Gestion des entreprises et des administrations" (formation="gestion des entreprises et des administrations", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.67  id_dip=907: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.43  id_dip=1117: "Licence Pro Gestion des Opérations et Production"
+   score=0.43  id_dip=1901: "Licence Pro Gestion et Administration des Ports"
+   score=0.38  id_dip=633: "Licence Pro Gestion et Développement des Organisations Sportives "
+   score=0.38  id_dip=905: "Licence Pro Environnement et Gestion des Ressources Naturelles"
+
+"Licence Pro Informatique et gestion" (formation="informatique et gestion", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.5  id_dip=1081: "Licence Pro Informatique de Gestion"
+   score=0.4  id_dip=247: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.4  id_dip=281: "Licence Pro: Gestion Logistique et Transport"
+   score=0.4  id_dip=416: "Licence Pro Comptabilité et gestion d'entreprise"
+
+"Licence Biochimie médicale" (formation="biochimie médicale", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2124: "Licence Biochimie"
+
+"Licence Administration de l'éducation" (formation="administration de l'éducation", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.14  id_dip=1481: "Licence en Sciences de l'Information Documentaire"
+   score=0.14  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.14  id_dip=1992: "Licence Technique Ingénierie de Génie Electrique "
+   score=0.14  id_dip=2002: "Licence Technique Administration et Sécurité Réseaux"
+
+"Master Administration de l'éducation" (formation="administration de l'éducation", type="MASTER", occurrences=1)
+   score=0.5  id_dip=593: "Master Philosophie de l’Éducation"
+   score=0.4  id_dip=1815: "Master Sciences Fondamentales de l'Education"
+   score=0.25  id_dip=2208: "Master Nursing Administration"
+   score=0.2  id_dip=1814: "Master Didactiques de Disciplines"
+   score=0.2  id_dip=2197: "Master of Educational Administration"
+
+"Licence Traduction et études interculturelles" (formation="traduction et études interculturelles", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1197: "Licence en Etudes Francophones et Traduction"
+   score=0.29  id_dip=1198: "Licence en Linguistique Appliquée et Traduction"
+   score=0.22  id_dip=1199: "Licence en Industrie de la Langue et Traduction"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Licence Biochimie et laboratoire de technologie chimique" (formation="biochimie et laboratoire de technologie chimique", type="LICENCE", occurrences=1)
+   score=0.38  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.2  id_dip=1526: "Licence Pro Exploitation Forestière et Sécurité de l'Environnement"
+   score=0.2  id_dip=1985: "Licence Technique Génie Chimique et des Procédés"
+   score=0.18  id_dip=1199: "Licence en Industrie de la Langue et Traduction"
+   score=0.17  id_dip=2124: "Licence Biochimie"
+
+"Licence Science matériel et technologie" (formation="science matériel et technologie", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.29  id_dip=566: "Licence Science Juridique et Politique Option Science Politique"
+   score=0.17  id_dip=1493: "Licence en Science Economique"
+   score=0.17  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.14  id_dip=140: "Licence Littérature et Cultures Africaines"
+
+"Licence Maintenance des réseaux et systèmes informatiques" (formation="maintenance des réseaux et systèmes informatiques", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1975: "Licence Pro Maintenance des Systèmes Electriques et Automatiques"
+   score=0.43  id_dip=1803: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.22  id_dip=1993: "Licence Technique Instrumentation et Maintenance Biomédicale"
+   score=0.22  id_dip=1994: "Licence Technique Maintenance Industrielle et Productique"
+   score=0.22  id_dip=2002: "Licence Technique Administration et Sécurité Réseaux"
+
+"Master Maintenance des réseaux et systèmes informatiques" (formation="maintenance des réseaux et systèmes informatiques", type="MASTER", occurrences=1)
+   score=0.43  id_dip=1804: "Master Réseaux, Systèmes et Sécurités"
+   score=0.3  id_dip=1813: "Master Gestion, Pilotage et Evaluation des Systèmes Educatifs"
+   score=0.25  id_dip=1531: "Master Pro Mécatronique et Systèmes Embarqués"
+   score=0.2  id_dip=571: "Master Analyse et Gouvernance des Sociétés Politiques"
+   score=0.2  id_dip=575: "Master en Droits et Protection des Victimes"
+
+"Licence Sciences alimentaires et nutrition" (formation="sciences alimentaires et nutrition", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=1436: "Licence en Diététique et Sciences Alimentaires"
+   score=0.29  id_dip=1499: "Licence en Histoire et Sciences Religieuses"
+   score=0.22  id_dip=568: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.22  id_dip=570: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+   score=0.2  id_dip=1450: "Licence en Nutrition"
+
+"Licence Génie logiciel" (formation="génie logiciel", type="LICENCE", occurrences=1)
+   score=0.67  id_dip=1987: "Licence Technique Génie Logiciel"
+   score=0.25  id_dip=1984: "Licence Technique Génie Chimique"
+   score=0.25  id_dip=1988: "Licence Technique Génie Thermique"
+   score=0.17  id_dip=1986: "Licence Technique Génie Electrique et Automatisme"
+   score=0.17  id_dip=1992: "Licence Technique Ingénierie de Génie Electrique "
+
+"Licence Pro Génie des réseaux et télécommunications (GRT)" (formation="génie des réseaux et télécommunications (GRT)", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=238: "Licence Pro Ingénierie des Télécommunications et Réseaux Mobiles"
+   score=0.38  id_dip=644: "Licence Pro Administration et Sécurité des Réseaux"
+   score=0.38  id_dip=1157: "Licence Pro Génie Chimique et des Procédés "
+   score=0.33  id_dip=239: "Licence Pro Ingénierie des Systèmes Informatiques et Réseaux"
+   score=0.33  id_dip=250: "Licence Pro Conception et développement des Réseaux et Internet"
+
+"Licence Pro Génie logiciel (GL)" (formation="génie logiciel (GL)", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.67  id_dip=249: "Licence Pro Génie Logiciel"
+   score=0.33  id_dip=1427: "Licence Pro Systèmes d'Information et Génie Logiciel"
+   score=0.25  id_dip=236: "Licence Pro Génie Rural"
+   score=0.25  id_dip=650: "Licence Pro Génie Electrique"
+   score=0.25  id_dip=651: "Licence Pro Génie Biomédical"
+
+"Master Développement durable, rural et communautaire" (formation="développement durable, rural et communautaire", type="MASTER", occurrences=1)
+   score=0.38  id_dip=573: "Master en Développement Durable et Changement Climatique"
+   score=0.23  id_dip=1466: "Master en Sciences Sociales et Relations Internationales : Option Coopération Internationale et Développement Durable"
+   score=0.2  id_dip=1465: "Master en Sciences Sociales et Relations Internationales : Option Construction de la Paix et Développement Durable"
+   score=0.15  id_dip=1467: "Master en Sciences Sociales et Relations Internationales : Option Gouvernance, Démocratie et Développement"
+   score=0.14  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+
+"Master Prévention et résolution des conflits" (formation="prévention et résolution des conflits", type="MASTER", occurrences=1)
+   score=0.38  id_dip=586: "Master en Paix et Gestion des Conflits"
+   score=0.22  id_dip=571: "Master Analyse et Gouvernance des Sociétés Politiques"
+   score=0.22  id_dip=575: "Master en Droits et Protection des Victimes"
+   score=0.22  id_dip=579: "Master Action Humanitaires et Protection des réfugiés"
+   score=0.22  id_dip=580: "Master en Contentieux et Arbitrage des Affaires"
+
+"Master Dogmatique et éthique" (formation="dogmatique et éthique", type="MASTER", occurrences=1)
+   score=0.4  id_dip=595: "Master Éthique et Philosophie Politique"
+   score=0.2  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.17  id_dip=149: "Master Géographie, Aménagement et Environnement"
+
+"Licence Biologie des organismes" (formation="biologie des organismes", type="LICENCE", occurrences=1)
+   score=0.6  id_dip=2126: "Licence Biologie des Organismes et Animaux"
+   score=0.2  id_dip=1438: "Licence en Biologie Clinique"
+   score=0.2  id_dip=1805: "Licence Economie des Collectivités"
+   score=0.2  id_dip=1809: "Licence Didactiques des langues"
+   score=0.17  id_dip=1810: "Licence Didactiques des Sciences Humaines"
+
+"Licence Chimie appliquée" (formation="chimie appliquée", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2127: "Licence Chimie"
+   score=0.17  id_dip=1198: "Licence en Linguistique Appliquée et Traduction"
+
+"Licence Chimie organique" (formation="chimie organique", type="LICENCE", occurrences=2)
+   score=0.5  id_dip=2127: "Licence Chimie"
+
+"Master Géochimie et cartographie" (formation="géochimie et cartographie", type="MASTER", occurrences=1)
+   score=0.4  id_dip=1778: "Master Cartographie Géologique et Géomatique"
+   score=0.2  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.17  id_dip=149: "Master Géographie, Aménagement et Environnement"
+
+"Licence Chimie inorganique" (formation="chimie inorganique", type="LICENCE", occurrences=2)
+   score=0.5  id_dip=2127: "Licence Chimie"
+
+"Doctorat Médecine" (formation="médecine", type="DOCTORAT PhD", occurrences=1)
+   score=0.5  id_dip=1643: "Médecine Vétérinaire "
+   score=0.33  id_dip=1181: "Doctorat en Médecine Générale"
+   score=0.33  id_dip=1645: "Médecine Vétérinaire : Clinique Vétérinaire"
+   score=0.25  id_dip=1644: "Médecine Vétérinaire : Anatomie Histologie"
+   score=0.2  id_dip=1646: "Médecine Vétérinaire : Parasitologie et Immunologie"
+
+"Licence Management de l´éducation" (formation="management de l´éducation", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=592: "Licence Philosophie de l’Éducation"
+   score=0.14  id_dip=1481: "Licence en Sciences de l'Information Documentaire"
+   score=0.14  id_dip=1811: "Licence Didactique de Science et Technologie"
+   score=0.14  id_dip=1992: "Licence Technique Ingénierie de Génie Electrique "
+   score=0.13  id_dip=1526: "Licence Pro Exploitation Forestière et Sécurité de l'Environnement"
+
+"Master Management de l´éducation" (formation="management de l´éducation", type="MASTER", occurrences=1)
+   score=0.5  id_dip=593: "Master Philosophie de l’Éducation"
+   score=0.4  id_dip=1815: "Master Sciences Fondamentales de l'Education"
+   score=0.25  id_dip=1308: "Master Development Management"
+   score=0.25  id_dip=1734: "Master of Management"
+   score=0.25  id_dip=2057: "Master Financial Management"
+
+"Master Pro Sécurité industrielle et management de l´environnement" (formation="sécurité industrielle et management de l´environnement", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=304: "Master Pro Chimie Industrielle et Génie de l'Environnement"
+   score=0.44  id_dip=959: "Master Pro Management de la Qualité, Sécurité et Environnement"
+   score=0.38  id_dip=301: "Master Pro Santé et Génie de l'Environnement"
+   score=0.38  id_dip=1607: "Master Pro Sécurité Industrielle, Qualité et Environnement"
+   score=0.38  id_dip=1768: "Master Pro Exploitation et Gestion de l'Environnement"
+
+"Diplôme d'Ingénieur Industries agricoles et alimentaires" (formation="industries agricoles et alimentaires", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.57  id_dip=810: "Ingénieur Agroalimentaire option Industries Agricoles et Alimentaires"
+   score=0.14  id_dip=1016: "Ingénieur Géophysique et Mine"
+   score=0.14  id_dip=1764: "Ingénieur Raffinage et Pétrochimie"
+   score=0.13  id_dip=624: "Ingénierie politique, juridique et administrative"
+   score=0.13  id_dip=697: "Ingénieur Génie Réseaux et Télécommunications"
+
+"Diplôme d'Ingénieur Génie analytique et productique" (formation="génie analytique et productique", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1001: "Ingénieur Génie Mécanique et Productique"
+   score=0.29  id_dip=697: "Ingénieur Génie Réseaux et Télécommunications"
+   score=0.29  id_dip=1351: "Ingénieur Génie Textile et Cuir"
+   score=0.29  id_dip=1371: "Ingénieur Génie Electrique et Electronique"
+   score=0.29  id_dip=1616: "Ingénieur Construction Mécanique et Productique"
+
+"Diplôme d'Ingénieur Génie des matériaux" (formation="génie des matériaux", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.5  id_dip=1762: "Ingénieur Minéralurgie et Génie des Matériaux"
+   score=0.4  id_dip=1066: "Ingénieur Génie des Télécommunications"
+   score=0.29  id_dip=1002: "Ingénieur Génie des Mines et Pétrole"
+   score=0.25  id_dip=1350: "Ingénieur Génie Hydraulique et Maitrise des Eaux"
+   score=0.25  id_dip=1651: "Ingénieur Halieutique : Technologies et Génie des Procédés"
+
+"Master Pro Comptabilité et finances" (formation="comptabilité et finances", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=564: "Master Pro Comptabilité et Finance"
+   score=0.4  id_dip=427: "Master Pro Comptabilité Contrôle et Audit"
+   score=0.4  id_dip=641: "Master en Comptabilité et Gestion "
+   score=0.4  id_dip=752: "Master Pro Comptabilité et Gestion d'Entreprise"
+   score=0.4  id_dip=1893: "Master Pro Comptabilité-Audit et Fiscalité"
+
+"Master Pro Transport internationaux subsahariens et logistique" (formation="transport internationaux subsahariens et logistique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=323: "Master Pro Gestion Logistique et Transport"
+   score=0.43  id_dip=1097: "Master Pro en Ingénierie Logistique et Transport"
+   score=0.29  id_dip=454: "Master Pro Logistique et Commerce International"
+   score=0.25  id_dip=465: "Master Pro Transport et Supply Chain Management"
+   score=0.25  id_dip=1839: "Master Pro Gestion des Opération et Logistique"
+
+"Master Coopération internationale, action humanitaire et développement durable" (formation="coopération internationale, action humanitaire et développement durable", type="MASTER", occurrences=1)
+   score=0.38  id_dip=1466: "Master en Sciences Sociales et Relations Internationales : Option Coopération Internationale et Développement Durable"
+   score=0.3  id_dip=573: "Master en Développement Durable et Changement Climatique"
+   score=0.2  id_dip=581: "Master en Gouvernances et Action Publiques"
+   score=0.18  id_dip=579: "Master Action Humanitaires et Protection des réfugiés"
+   score=0.18  id_dip=1465: "Master en Sciences Sociales et Relations Internationales : Option Construction de la Paix et Développement Durable"
+
+"Master Parasitologie - mycologie médicale" (formation="parasitologie - mycologie médicale", type="MASTER", occurrences=1)
+   score=0.5  id_dip=1230: "Master en Parasitologie / mycologie"
+   score=0.13  id_dip=1442: "Master en Sciences Biomédicales : Option Biologie Médicale"
+   score=0.13  id_dip=1456: "Master en Biologie Clinique : Option Microbiologie Parasitologie"
+
+"Licence Pro Laboratoire de technologie médicale" (formation="laboratoire de technologie médicale", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.43  id_dip=1004: "Licence Pro Technique de Laboratoire et d'Analyse Médicale"
+   score=0.22  id_dip=858: "Licence Pro Télécommunications et Technologie de l'Information et de la Communication"
+   score=0.22  id_dip=1827: "Licence Pro Analyse des Affaires et Technologie de l'Information"
+   score=0.2  id_dip=606: "Licence Analyse Médicale"
+   score=0.2  id_dip=777: "Licence Pro Biochimie Médicale"
+
+"Licence Pro Chimie et pétrochimie et informatique" (formation="chimie et pétrochimie et informatique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.4  id_dip=1587: "Licence Pro Pétrochimie et Raffinage"
+   score=0.33  id_dip=247: "Licence Pro Informatique Industrielle et Automatisme"
+   score=0.33  id_dip=702: "Licence Pro Administration et Sécurité Informatique"
+   score=0.29  id_dip=938: "Licence Pro Génie Electrique et Informatique Industrielle"
+
+"BTS Génie communication et réseaux" (formation="génie communication et réseaux", type="BTS", occurrences=1)
+   score=0.4  id_dip=689: "BTS Réseaux et Télécommunications"
+   score=0.33  id_dip=789: "BTS Génie Mécanique et Productique"
+   score=0.29  id_dip=843: "BTS Génie Chimique et des Procédés"
+   score=0.29  id_dip=976: "BTS Génie Géologique, Minier et Pétrolier"
+   score=0.22  id_dip=1936: "BTS Génie Culinaire Commercialisation et Services de Restauration"
+
+"Licence Pro Génie communication et réseaux" (formation="génie communication et réseaux", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=248: "Licence Pro Réseaux et Sécurité"
+   score=0.4  id_dip=1083: "Licence Pro Communication et Négociation"
+   score=0.33  id_dip=240: "Licence Pro Administration Système et Réseaux"
+   score=0.33  id_dip=255: "Licence Pro Génie industriel et Mécanique."
+   score=0.33  id_dip=460: "Licence Pro Communication, Marketing et Digital"
+
+"BTS Mécanique et électricité" (formation="mécanique et électricité", type="BTS", occurrences=1)
+   score=0.4  id_dip=789: "BTS Génie Mécanique et Productique"
+   score=0.4  id_dip=841: "BTS Mécanique et Electronique Automobile "
+   score=0.25  id_dip=46: "BTS Construction Mécanique"
+   score=0.25  id_dip=47: "BTS Fabrication Mécanique"
+   score=0.25  id_dip=1641: "BTS Mécanique Navale"
+
+"Licence Pro Mécanique et électricité" (formation="mécanique et électricité", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=255: "Licence Pro Génie industriel et Mécanique."
+   score=0.4  id_dip=1924: "Licence Pro Ingénierie Mécanique et Environnement"
+   score=0.4  id_dip=1969: "Licence Pro Génie Mécanique et Productique"
+   score=0.25  id_dip=870: "Licence Pro Mécanique Navale"
+   score=0.25  id_dip=990: "Licence Pro Génie Mécanique"
+
+"Master Pro Mécanique et électricité" (formation="mécanique et électricité", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=311: "Master Pro Génie industriel et Mécanique"
+   score=0.25  id_dip=992: "Master Pro Génie Mécanique"
+   score=0.25  id_dip=1629: "Master Pro Construction Mécanique"
+   score=0.25  id_dip=1903: "Master Pro Mécanique Navale"
+   score=0.2  id_dip=298: "Master Pro Anesthésie et Réanimation"
+
+"BTS Commerce et gestion" (formation="commerce et gestion", type="BTS", occurrences=1)
+   score=0.4  id_dip=31: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.4  id_dip=36: "BTS  Gestion logistique et transport"
+   score=0.4  id_dip=121: "BTS Gestion et management hôtelier"
+   score=0.33  id_dip=62: "BTS E-Commerce et Marketing Numérique"
+   score=0.33  id_dip=688: "BTS Gestion des Entreprises et des Administrations"
+
+"Licence Pro Commerce et gestion" (formation="commerce et gestion", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=452: "Licence Pro Commerce et Distribution"
+   score=0.4  id_dip=281: "Licence Pro: Gestion Logistique et Transport"
+   score=0.4  id_dip=416: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.4  id_dip=1346: "Licence Pro Agroforesterie et Gestion Forestière"
+   score=0.4  id_dip=1514: "Licence Pro Organisation et Gestion Administrative"
+
+"Licence Pro Comptabilité et gestion des entreprises" (formation="comptabilité et gestion des entreprises", type="LICENCE PROFESSIONNELLE", occurrences=2)
+   score=0.67  id_dip=907: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.5  id_dip=416: "Licence Pro Comptabilité et gestion d'entreprise"
+   score=0.43  id_dip=1117: "Licence Pro Gestion des Opérations et Production"
+   score=0.43  id_dip=1901: "Licence Pro Gestion et Administration des Ports"
+   score=0.4  id_dip=1026: "Licence Pro Gestion des Collectivités Territoriales option:  Comptabilité et Finances Publiques"
+
+"BTS Secrétariat et bureautique" (formation="secrétariat et bureautique", type="BTS", occurrences=1)
+   score=0.67  id_dip=35: "BTS  Secrétariat bureautique"
+   score=0.2  id_dip=38: "BTS tourisme et loisirs"
+   score=0.2  id_dip=39: "BTS Hôtellerie et Restauration"
+   score=0.2  id_dip=48: "BTS Chaudronnerie et Soudure"
+   score=0.2  id_dip=53: "BTS Froid et Climatisation"
+
+"Licence Pro Agronomie - production végétale" (formation="agronomie - production végétale", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.67  id_dip=233: "Licence Pro Production Végétale"
+   score=0.25  id_dip=234: "Licence Pro Production Animale"
+   score=0.17  id_dip=1520: "Licence Pro Production et Commercialisation Bois"
+   score=0.14  id_dip=1117: "Licence Pro Gestion des Opérations et Production"
+   score=0.13  id_dip=1601: "Licence Pro Exploitation Minière, Production Pétrolière et Gazière"
+
+"Master Pro Agronomie - production végétale" (formation="agronomie - production végétale", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.67  id_dip=314: "Master Pro Production Végétale"
+   score=0.25  id_dip=313: "Master Pro Production Animale"
+   score=0.14  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.13  id_dip=1611: "Master Pro Exploitation Minière, Production Pétrolière et Gazière"
+
+"BTS Génie civil informatique" (formation="génie civil informatique", type="BTS", occurrences=1)
+   score=0.67  id_dip=692: "BTS Génie Civil"
+   score=0.67  id_dip=693: "BTS Génie Informatique"
+   score=0.25  id_dip=98: "BTS Génie Thermique"
+   score=0.25  id_dip=123: "BTS Génie Culinaire"
+   score=0.25  id_dip=918: "BTS Informatique Industriel "
+
+"Licence Pro Génie civil informatique" (formation="génie civil informatique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.67  id_dip=791: "Licence Pro Génie Civil"
+   score=0.33  id_dip=938: "Licence Pro Génie Electrique et Informatique Industrielle"
+   score=0.25  id_dip=236: "Licence Pro Génie Rural"
+   score=0.25  id_dip=249: "Licence Pro Génie Logiciel"
+   score=0.25  id_dip=650: "Licence Pro Génie Electrique"
+
+"Master Pro Génie civil informatique" (formation="génie civil informatique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.67  id_dip=993: "Master Pro Génie Civil"
+   score=0.33  id_dip=310: "Master Pro Génie électrique et Informatique Industrielle"
+   score=0.25  id_dip=316: "Master Pro Génie Rural"
+   score=0.25  id_dip=757: "Master Pro Génie Logiciel"
+   score=0.25  id_dip=787: "Master Pro Génie Sanitaire"
+
+"Licence Pro Système d'information géographique et d'élection à distance" (formation="système d'information géographique et d'élection à distance", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=863: "Licence Pro Système d’Information et d’Aide à la Décision"
+   score=0.33  id_dip=1979: "Licence Pro Topographie et Systèmes d'Information Géographique "
+   score=0.22  id_dip=240: "Licence Pro Administration Système et Réseaux"
+   score=0.22  id_dip=646: "Licence Pro Maintenance Réseau et Système"
+   score=0.2  id_dip=948: "Licence Pro  Ingénierie Système Informatique et Réseaux"
+
+"Master Pro Ressources naturelles et management environnemental." (formation="ressources naturelles et management environnemental.", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=912: "Master Pro Environnement et Gestion des Ressources Naturelles"
+   score=0.29  id_dip=464: "Master Pro Management des Ressources Humaines"
+   score=0.29  id_dip=562: "Master Pro Management et Système d'Information"
+   score=0.25  id_dip=465: "Master Pro Transport et Supply Chain Management"
+   score=0.25  id_dip=1933: "Master Pro Gestion Administrative et Ressources Humaines"
+
+"Master Pro Pêche et production animale" (formation="pêche et production animale", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=313: "Master Pro Production Animale"
+   score=0.29  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.25  id_dip=1611: "Master Pro Exploitation Minière, Production Pétrolière et Gazière"
+   score=0.2  id_dip=314: "Master Pro Production Végétale"
+   score=0.17  id_dip=298: "Master Pro Anesthésie et Réanimation"
+
+"Master Cinéma et audiovisuel" (formation="cinéma et audiovisuel", type="MASTER", occurrences=1)
+   score=0.5  id_dip=1530: "Master Pro Photographie et Audiovisuel"
+   score=0.17  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.17  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.17  id_dip=149: "Master Géographie, Aménagement et Environnement"
+   score=0.17  id_dip=595: "Master Éthique et Philosophie Politique"
+
+"Master Pro Administration des collectivités publiques" (formation="administration des collectivités publiques", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=455: "Master Pro Administration des Entreprises"
+   score=0.38  id_dip=325: "Master Pro Administration et gestion des collectivités territoriales décentralisées"
+   score=0.3  id_dip=1366: "Master Pro Management Opérationnel des Institutions Publiques et des Collectivités Territoriales Décentralisées"
+   score=0.29  id_dip=1902: "Master Pro Gestion et Administration des Ports"
+   score=0.29  id_dip=1950: "Master Pro Administration et Gouvernances Publiques et Locales"
+
+"Master Pro Management des établissementss scolaires" (formation="management des établissementss scolaires", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=1848: "Master Pro Management des Projets"
+   score=0.4  id_dip=1865: "Master Pro Management des Entreprises"
+   score=0.33  id_dip=464: "Master Pro Management des Ressources Humaines"
+   score=0.33  id_dip=933: "Master Pro Management des Systèmes d'Information"
+   score=0.33  id_dip=957: "Master Pro en Management des Transports"
+
+"Master Pro Management des ong" (formation="management des ong", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1848: "Master Pro Management des Projets"
+   score=0.5  id_dip=1865: "Master Pro Management des Entreprises"
+   score=0.4  id_dip=464: "Master Pro Management des Ressources Humaines"
+   score=0.4  id_dip=933: "Master Pro Management des Systèmes d'Information"
+   score=0.4  id_dip=957: "Master Pro en Management des Transports"
+
+"Master Pro Administration publique" (formation="administration publique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=678: "Master en Administration Publique, Budget Programme "
+   score=0.33  id_dip=295: "Master Pro Santé Publique"
+   score=0.33  id_dip=1685: "Master Pro Droit Publique"
+   score=0.25  id_dip=455: "Master Pro Administration des Entreprises"
+   score=0.2  id_dip=308: "Master Pro Administration Système et Réseaux"
+
+"Diplôme d'Ingénieur Génie civil" (formation="génie civil", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=695: "Ingénieur Génie Civil"
+   score=0.29  id_dip=1960: "Ingénieur Génie Civil Spécialité Urbanisme et Aménagement"
+   score=0.25  id_dip=696: "Ingénieur Génie Informatique"
+   score=0.25  id_dip=698: "Ingénieur Génie Electrique"
+   score=0.25  id_dip=1067: "Ingénieur Génie Mécanique "
+
+"Diplôme d'Ingénieur Génie mécanique" (formation="génie mécanique", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=1067: "Ingénieur Génie Mécanique "
+   score=0.4  id_dip=1001: "Ingénieur Génie Mécanique et Productique"
+   score=0.4  id_dip=2021: "Ingénieur Génie Mécanique et Energétique"
+   score=0.25  id_dip=695: "Ingénieur Génie Civil"
+   score=0.25  id_dip=696: "Ingénieur Génie Informatique"
+
+"Diplôme d'Ingénieur Génie électrique" (formation="génie électrique", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=698: "Ingénieur Génie Electrique"
+   score=0.4  id_dip=1371: "Ingénieur Génie Electrique et Electronique"
+   score=0.33  id_dip=1540: "Ingénieur Génie Electrique et Informatique Industrielle"
+   score=0.33  id_dip=2117: "Ingénieur Génie Electrique et Système Intelligent"
+   score=0.25  id_dip=695: "Ingénieur Génie Civil"
+
+"Diplôme d'Ingénieur Génie informatique" (formation="génie informatique", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=696: "Ingénieur Génie Informatique"
+   score=0.33  id_dip=600: "Ingénieur Informatique"
+   score=0.33  id_dip=1540: "Ingénieur Génie Electrique et Informatique Industrielle"
+   score=0.25  id_dip=695: "Ingénieur Génie Civil"
+   score=0.25  id_dip=698: "Ingénieur Génie Electrique"
+
+"Diplôme d'Ingénieur Génie industriel" (formation="génie industriel", type="DIPLÔME D'INGÉNIEUR", occurrences=1)
+   score=0.67  id_dip=1920: "Ingénieur Génie Industriel"
+   score=0.4  id_dip=1953: "Ingénieur Génie Industriel Spécialité Mécatronique"
+   score=0.4  id_dip=1954: "Ingénieur Génie Industriel Spécialité Infotronique"
+   score=0.4  id_dip=1955: "Ingénieur Génie Industriel Spécialité Télécommunications"
+   score=0.25  id_dip=695: "Ingénieur Génie Civil"
+
+"DESS Anesthésie-réanimation" (formation="anesthésie-réanimation", type="DIPLÔME D'ÉTUDES SUPÉRIEURES SPÉCIALISES D.E.S.S", occurrences=1)
+   score=0.67  id_dip=298: "Master Pro Anesthésie et Réanimation"
+   score=0.4  id_dip=609: "Master Sciences Infirmières option Anesthésie réanimation"
+
+"Diplôme d'Ingénieur de Travaux Génie informatique" (formation="génie informatique", type="DIPLÔME D'INGÉNIEUR DE TRAVAUX", occurrences=1)
+   score=0.4  id_dip=995: "Ingénieur des Travaux Génie Informatique "
+   score=0.17  id_dip=997: "Ingénieur de Travaux Génie Civil"
+   score=0.17  id_dip=1345: "Ingénieur des Travaux Génie Météorologique"
+   score=0.17  id_dip=1461: "Ingénieur des Travaux Génie des Télécommunications"
+   score=0.17  id_dip=1462: "Ingénieur de Travaux Génie Industriel"
+
+"Diplôme d'Ingénieur de Travaux Génie industriel" (formation="génie industriel", type="DIPLÔME D'INGÉNIEUR DE TRAVAUX", occurrences=1)
+   score=0.4  id_dip=1462: "Ingénieur de Travaux Génie Industriel"
+   score=0.29  id_dip=1343: "Ingénieur des Travaux Génie Agroalimentaire et Industriel"
+   score=0.17  id_dip=995: "Ingénieur des Travaux Génie Informatique "
+   score=0.17  id_dip=997: "Ingénieur de Travaux Génie Civil"
+   score=0.17  id_dip=1345: "Ingénieur des Travaux Génie Météorologique"
+
+"DESS Sciences et techniques de l'animation" (formation="sciences et techniques de l'animation", type="DIPLÔME D'ÉTUDES SUPÉRIEURES SPÉCIALISES D.E.S.S", occurrences=1)
+   score=0.43  id_dip=956: "Master Pro en Sciences et Techniques Administratives"
+   score=0.33  id_dip=293: "Master Pro Techniques de Laboratoires"
+   score=0.25  id_dip=301: "Master Pro Santé et Génie de l'Environnement"
+   score=0.25  id_dip=443: "Master Pro Finance et Contrôle de Gestion"
+   score=0.25  id_dip=466: "Master Pro Audit et Controle de Gestion"
+
+"BTS Comptabilité et gestion des entreprises (CGE)" (formation="comptabilité et gestion des entreprises (CGE)", type="BTS", occurrences=1)
+   score=0.57  id_dip=688: "BTS Gestion des Entreprises et des Administrations"
+   score=0.43  id_dip=31: "BTS  Comptabilité et gestion d’entreprise"
+   score=0.38  id_dip=1899: "BTS Gestion et Administration des ports"
+   score=0.36  id_dip=112: "BTS Gestion des Collectivités Territoriales option:  Comptabilité et Finances Publiques"
+   score=0.33  id_dip=54: "BTS Maintenace et Gestion des Systèmes Fluides"
+
+"BTS Construction mécanique (CM)" (formation="construction mécanique (CM)", type="BTS", occurrences=1)
+   score=0.67  id_dip=46: "BTS Construction Mécanique"
+   score=0.25  id_dip=47: "BTS Fabrication Mécanique"
+   score=0.25  id_dip=50: "BTS Construction Métallique "
+   score=0.25  id_dip=389: "BTS Construction Rurales"
+   score=0.25  id_dip=1641: "BTS Mécanique Navale"
+
+"BTS Action commerciale (AC)" (formation="action commerciale (AC)", type="BTS", occurrences=1)
+   score=0.67  id_dip=34: "BTS  Action commerciale"
+
+"BTS Fabrication mécanique (FM)" (formation="fabrication mécanique (FM)", type="BTS", occurrences=1)
+   score=0.67  id_dip=47: "BTS Fabrication Mécanique"
+   score=0.25  id_dip=46: "BTS Construction Mécanique"
+   score=0.25  id_dip=1641: "BTS Mécanique Navale"
+   score=0.17  id_dip=789: "BTS Génie Mécanique et Productique"
+   score=0.17  id_dip=841: "BTS Mécanique et Electronique Automobile "
+
+"BTS Électrotechnique (ET)" (formation="électrotechnique (ET)", type="BTS", occurrences=1)
+   score=0.5  id_dip=44: "BTS Electrotechnique"
+   score=0.25  id_dip=38: "BTS tourisme et loisirs"
+   score=0.25  id_dip=39: "BTS Hôtellerie et Restauration"
+   score=0.25  id_dip=48: "BTS Chaudronnerie et Soudure"
+   score=0.25  id_dip=53: "BTS Froid et Climatisation"
+
+"Master Linguistique appliquée aux langues africaines" (formation="linguistique appliquée aux langues africaines", type="MASTER", occurrences=1)
+   score=0.5  id_dip=143: "Master Langues Africaines et Linguistique"
+   score=0.13  id_dip=141: "Master  Littérature et Cultures Africaines"
+   score=0.11  id_dip=1201: "Master en Ingénierie Linguistique et Traduction "
+
+"DEUP Sciences de gestion des entreprises agricoles" (formation="sciences de gestion des entreprises agricoles", type="DEUP", occurrences=1)
+   score=0.38  id_dip=1176: "DSEP Gestion des Entreprises et des Administrations"
+
+"Doctorat Économie publique des ressources humaines" (formation="économie publique des ressources humaines", type="DOCTORAT PhD", occurrences=1)
+   score=0.43  id_dip=1488: "Doctorat en Gestion des Ressources Humaines"
+   score=0.2  id_dip=1395: "Doctorat en Ressources Humaines et Stratégiques, Fonctions et Objectifs"
+   score=0.18  id_dip=1382: "Doctorat en Economie Générale, Economie Publique, Système Constitutionnels et Administratif"
+   score=0.18  id_dip=1648: "Médecine Vétérinaire : Santé des Animaux d'Elevage et Santé Publique"
+   score=0.14  id_dip=1187: "Doctorat en Santé Publique"
+
+"Master Droit des affaires et de l'entreprise (DAE)" (formation="droit des affaires et de l'entreprise (DAE)", type="MASTER", occurrences=1)
+   score=0.6  id_dip=1369: "Master Pro en Droit des Affaires : Option Juriste des Affaires et de l'Entreprise"
+   score=0.44  id_dip=583: "Master en Droit des Affaires et Fiscalités"
+   score=0.4  id_dip=2099: "Master en Droit des Affaires et Conseil d'Entreprise"
+   score=0.38  id_dip=574: "Master en Droit des Affaires"
+   score=0.33  id_dip=584: "Master en Droit International des Affaires"
+
+"Doctorat Droit des affaires et de l'entreprise (DAE)" (formation="droit des affaires et de l'entreprise (DAE)", type="DOCTORAT PhD", occurrences=1)
+   score=0.36  id_dip=1388: "Doctorat en Droit des Affaires, Procédures et Voies d'Execution"
+   score=0.21  id_dip=1390: "Doctorat en Gestion de Risques, Assurance et Réassurance, Optimisation des Garanties"
+   score=0.21  id_dip=1469: "Doctorat en Sciences Sociales et Relations Internationales : Option Droit de l'Homme"
+   score=0.18  id_dip=587: "Doctorat Droits de l’Homme et Actions Humanitaires"
+   score=0.18  id_dip=1378: "Doctorat en Gestion, Audit et Contrôle de Gestion"
+
+"Master Pro Droit et pratique des contentieux" (formation="droit et pratique des contentieux", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1688: "Master Pro Droit et Contentieux Administratif"
+   score=0.43  id_dip=462: "Master Pro Fiscalité et Droit des Affaires"
+   score=0.43  id_dip=1293: "Master Pro Droit et Pratique Juridique et Judiciaire"
+   score=0.38  id_dip=1846: "Master Pro Ingénierie Fiscale et Droit des Affaires"
+   score=0.36  id_dip=1291: "Master Pro Droit Contentieux et Pratique du Travail et de la Sécurité Sociale"
+
+"Master Pro Sciences et techniques comptables et financières" (formation="sciences et techniques comptables et financières", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.43  id_dip=956: "Master Pro en Sciences et Techniques Administratives"
+   score=0.25  id_dip=1856: "Master Pro Modélisation Statistique et Sciences Actuarielles"
+   score=0.22  id_dip=610: "Master Sciences Infirmière option Urgences et catastrophes"
+   score=0.17  id_dip=1655: "Master Pro Sciences Environnementales "
+   score=0.14  id_dip=293: "Master Pro Techniques de Laboratoires"
+
+"Master Pro Administration et gestion des collectivités locale" (formation="administration et gestion des collectivités locale", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.63  id_dip=325: "Master Pro Administration et gestion des collectivités territoriales décentralisées"
+   score=0.57  id_dip=1902: "Master Pro Gestion et Administration des Ports"
+   score=0.38  id_dip=1096: "Master Pro Gestion des Programmes et des Projets"
+   score=0.38  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.38  id_dip=1839: "Master Pro Gestion des Opération et Logistique"
+
+"Master Pro Administration des entresprises" (formation="administration des entresprises", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=455: "Master Pro Administration des Entreprises"
+   score=0.33  id_dip=1902: "Master Pro Gestion et Administration des Ports"
+   score=0.25  id_dip=325: "Master Pro Administration et gestion des collectivités territoriales décentralisées"
+   score=0.2  id_dip=322: "Master Pro Gestion des Projets"
+   score=0.2  id_dip=1580: "Master Pro Gestion des Communes"
+
+"Master Pro Organisation et management" (formation="organisation et management", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=562: "Master Pro Management et Système d'Information"
+   score=0.33  id_dip=465: "Master Pro Transport et Supply Chain Management"
+   score=0.29  id_dip=1099: "Master Pro Management de la communication et de l'Information"
+   score=0.29  id_dip=1578: "Master Pro Commerce International et Supply Chain Management"
+   score=0.29  id_dip=1843: "Master Pro Gouvernance et Management des Marchés Publics"
+
+"Master Pro Gouvernance, gestion des ressources et résolution" (formation="gouvernance, gestion des ressources et résolution", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=912: "Master Pro Environnement et Gestion des Ressources Naturelles"
+   score=0.44  id_dip=1592: "Master Pro Exploitation et Gestion des Ressources Pétrolières et Gazières"
+   score=0.43  id_dip=321: "Master Pro Gestion des Ressources Humaines"
+   score=0.38  id_dip=1096: "Master Pro Gestion des Programmes et des Projets"
+   score=0.38  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+
+"Master Pro Psychologie" (formation="psychologie", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1287: "Master Pro Psychologie Clinique"
+
+"Licence Lettres trillingues français-anglais-allemand" (formation="lettres trillingues français-anglais-allemand", type="LICENCE", occurrences=1)
+   score=0.43  id_dip=134: "Licence Lettre trillingue Français - Anglais - Allemand"
+   score=0.29  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.25  id_dip=136: "Licence Lettre trillingue Français - Anglais - Espagnol"
+   score=0.25  id_dip=138: "Licence Lettre trillingue Français - Anglais - Italien"
+   score=0.14  id_dip=144: "Licence Lettres d´Expression Française"
+
+"Licence Lettres trillingues français-anglais-italien" (formation="lettres trillingues français-anglais-italien", type="LICENCE", occurrences=1)
+   score=0.43  id_dip=138: "Licence Lettre trillingue Français - Anglais - Italien"
+   score=0.29  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.25  id_dip=134: "Licence Lettre trillingue Français - Anglais - Allemand"
+   score=0.25  id_dip=136: "Licence Lettre trillingue Français - Anglais - Espagnol"
+   score=0.14  id_dip=144: "Licence Lettres d´Expression Française"
+
+"Licence Cartographie, topographie et systèmes d'informatio" (formation="cartographie, topographie et systèmes d'informatio", type="LICENCE", occurrences=1)
+   score=0.38  id_dip=2000: "Licence Technique Topographie et Systèmes d'Information Géographique"
+   score=0.29  id_dip=1803: "Licence Réseaux, Systèmes et Sécuritésl"
+   score=0.29  id_dip=1989: "Licence Technique Géomatique et Topographie"
+   score=0.22  id_dip=1975: "Licence Pro Maintenance des Systèmes Electriques et Automatiques"
+   score=0.14  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+
+"Licence Droit privé et sciences criminelles" (formation="droit privé et sciences criminelles", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=568: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.33  id_dip=570: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+   score=0.25  id_dip=1436: "Licence en Diététique et Sciences Alimentaires"
+   score=0.25  id_dip=1499: "Licence en Histoire et Sciences Religieuses"
+   score=0.2  id_dip=2098: "Licence en Droit des Affaires et Conseil d'Entreprise"
+
+"Licence Biochimie clinique" (formation="Biochimie clinique", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=2124: "Licence Biochimie"
+   score=0.25  id_dip=1438: "Licence en Biologie Clinique"
+
+"Master Biochimie clinique" (formation="Biochimie clinique", type="MASTER", occurrences=1)
+   score=0.4  id_dip=1457: "Master en Biologie Clinique : Option Biochimie Clinique"
+   score=0.14  id_dip=1456: "Master en Biologie Clinique : Option Microbiologie Parasitologie"
+   score=0.14  id_dip=1458: "Master en Biologie Clinique : Option Hématologie Sérologie"
+   score=0.13  id_dip=615: "Master en Biologie clinique option Bactériologie et Virologie"
+
+"Licence Lettres trillingues français-anglais-espagnol" (formation="lettres trillingues français-anglais-espagnol", type="LICENCE", occurrences=1)
+   score=0.43  id_dip=136: "Licence Lettre trillingue Français - Anglais - Espagnol"
+   score=0.29  id_dip=132: "Licence Lettre billingue Français - Anglais"
+   score=0.25  id_dip=134: "Licence Lettre trillingue Français - Anglais - Allemand"
+   score=0.25  id_dip=138: "Licence Lettre trillingue Français - Anglais - Italien"
+   score=0.14  id_dip=144: "Licence Lettres d´Expression Française"
+
+"Doctorat Gestion des ressources humaines (GRH)" (formation="gestion des ressources humaines (GRH)", type="DOCTORAT PhD", occurrences=1)
+   score=0.67  id_dip=1488: "Doctorat en Gestion des Ressources Humaines"
+   score=0.2  id_dip=1395: "Doctorat en Ressources Humaines et Stratégiques, Fonctions et Objectifs"
+   score=0.18  id_dip=1384: "Doctorat en Administration et Aménagement des Territoires, Gestion des Populations"
+   score=0.18  id_dip=1394: "Doctorat en Coordination, Gestion des Prévisions et Assistance Planification"
+   score=0.15  id_dip=1390: "Doctorat en Gestion de Risques, Assurance et Réassurance, Optimisation des Garanties"
+
+"Licence Droit public et sciences politiques" (formation="droit public et sciences politiques", type="LICENCE", occurrences=1)
+   score=0.5  id_dip=568: "Licence Sciences Juridiques et Politiques Option Droit Privé"
+   score=0.5  id_dip=570: "Licence Sciences Juridiques et Politiques Option Droit Publique"
+   score=0.27  id_dip=569: "Licence Sciences Juridiques et Politiques Option Law and Legal Practices"
+   score=0.25  id_dip=567: "Licence Sciences Juridiques et Politiques Option Applied Geopolitics and International Relations"
+   score=0.25  id_dip=1436: "Licence en Diététique et Sciences Alimentaires"
+
+"BTS Imagerie médicale" (formation="imagerie médicale", type="BTS", occurrences=1)
+   score=0.5  id_dip=87: "BTS Radiologie et Imagerie Médicale"
+
+"DSEP Comptabilité et gestion des entreprises" (formation="comptabilité et gestion des entreprises", type="DIPLÔME SUPÉRIEUR D'ÉTUDES PROFESSIONNELLES DSEP", occurrences=1)
+   score=0.67  id_dip=1176: "DSEP Gestion des Entreprises et des Administrations"
+   score=0.33  id_dip=1173: "DSEP Comptabilité et Finance"
+   score=0.13  id_dip=1174: "DSEP Marketing, Commerce et Vente"
+   score=0.13  id_dip=1177: "DSEP Génie Electrique et Télécommunication"
+
+"BTS Informatique" (formation="informatique", type="BTS", occurrences=1)
+   score=0.5  id_dip=693: "BTS Génie Informatique"
+   score=0.5  id_dip=918: "BTS Informatique Industriel "
+   score=0.33  id_dip=32: "BTS Informatique de gestion"
+
+"Master Administration et gestion des entreprises" (formation="administration et gestion des entreprises", type="MASTER", occurrences=1)
+   score=0.38  id_dip=586: "Master en Paix et Gestion des Conflits"
+   score=0.33  id_dip=1813: "Master Gestion, Pilotage et Evaluation des Systèmes Educatifs"
+   score=0.22  id_dip=571: "Master Analyse et Gouvernance des Sociétés Politiques"
+   score=0.22  id_dip=575: "Master en Droits et Protection des Victimes"
+   score=0.22  id_dip=579: "Master Action Humanitaires et Protection des réfugiés"
+
+"Master Business law (common law)" (formation="business law (common law)", type="MASTER", occurrences=1)
+   score=0.67  id_dip=2215: "Master Business Law"
+   score=0.25  id_dip=2055: "Master Business Analytics"
+   score=0.25  id_dip=2216: "Master International Law"
+
+"Master Droit des affaires internationales et fiscalité" (formation="droit des affaires internationales et fiscalité", type="MASTER", occurrences=1)
+   score=0.5  id_dip=583: "Master en Droit des Affaires et Fiscalités"
+   score=0.44  id_dip=2099: "Master en Droit des Affaires et Conseil d'Entreprise"
+   score=0.43  id_dip=574: "Master en Droit des Affaires"
+   score=0.38  id_dip=584: "Master en Droit International des Affaires"
+   score=0.38  id_dip=585: "Master en Droit Public des Affaires"
+
+"Master Stratégie, défense, sécurité, gestion des conflits et des catastrophes" (formation="stratégie, défense, sécurité, gestion des conflits et des catastrophes", type="MASTER", occurrences=1)
+   score=0.4  id_dip=586: "Master en Paix et Gestion des Conflits"
+   score=0.25  id_dip=1813: "Master Gestion, Pilotage et Evaluation des Systèmes Educatifs"
+   score=0.18  id_dip=1776: "Master Qualité, Hygiène, Sécurité et Environnement"
+   score=0.17  id_dip=571: "Master Analyse et Gouvernance des Sociétés Politiques"
+   score=0.17  id_dip=575: "Master en Droits et Protection des Victimes"
+
+"Master Ingénierie économique et financière" (formation="ingénierie économique et financière", type="MASTER", occurrences=1)
+   score=0.38  id_dip=1361: "Master Finance International : Option Finance d'entreprise et Ingénierie Financière"
+   score=0.29  id_dip=1201: "Master en Ingénierie Linguistique et Traduction "
+   score=0.22  id_dip=1535: "Master Pro en Ingénierie Electrique, Electrotechnique et Informatique Industrielle "
+   score=0.17  id_dip=1443: "Master en Génie Sanitaire : Option Ingénierie et Gestion de l'Eau et Assainissement"
+   score=0.17  id_dip=1494: "Master en Science Economique"
+
+"Master Politique publique et developpement durable" (formation="politique publique et developpement durable", type="MASTER", occurrences=1)
+   score=0.38  id_dip=573: "Master en Développement Durable et Changement Climatique"
+   score=0.33  id_dip=1363: "Master Finance International : Option Finance Publique et Science Politique"
+   score=0.29  id_dip=595: "Master Éthique et Philosophie Politique"
+   score=0.25  id_dip=582: "Master en Communication et Marketing Politique"
+   score=0.23  id_dip=1466: "Master en Sciences Sociales et Relations Internationales : Option Coopération Internationale et Développement Durable"
+
+"Master Pro Nutrition clinique et diététique" (formation="nutrition clinique et diététique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.6  id_dip=782: "Master Pro Nutrition Diététique et Santé"
+   score=0.22  id_dip=616: "Master en Biologie clinique option Immunologie et Microbiologie"
+   score=0.2  id_dip=297: "Master Pro Biologie Clinique"
+   score=0.2  id_dip=1284: "Master Pro Microbiologie Clinique"
+   score=0.2  id_dip=1287: "Master Pro Psychologie Clinique"
+
+"Master Pro Mines et pétrole" (formation="mines et pétrole", type="MASTER PROFESSIONNEL", occurrences=2)
+   score=0.4  id_dip=982: "Master Pro en Mine et Pétrole"
+   score=0.2  id_dip=298: "Master Pro Anesthésie et Réanimation"
+   score=0.2  id_dip=306: "Master Pro Télécommunications et Informatique"
+   score=0.2  id_dip=319: "Master Pro Contrôle et Audit"
+   score=0.2  id_dip=431: "Master Pro Banque et Finance"
+
+"Master Pro Banque-assurance-bourse" (formation="banque-assurance-bourse", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=638: "Master en Banque et Assurance"
+   score=0.4  id_dip=1432: "Master Pro Banque, Assurance et TIC"
+   score=0.2  id_dip=318: "Master Pro Comptabilité-banque-finance"
+   score=0.2  id_dip=431: "Master Pro Banque et Finance"
+   score=0.2  id_dip=2169: "Master Pro Banque et Microfinance"
+
+"Master Pro Administration des affaires" (formation="administration des affaires", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=455: "Master Pro Administration des Entreprises"
+   score=0.33  id_dip=462: "Master Pro Fiscalité et Droit des Affaires"
+   score=0.33  id_dip=1902: "Master Pro Gestion et Administration des Ports"
+   score=0.29  id_dip=1846: "Master Pro Ingénierie Fiscale et Droit des Affaires"
+   score=0.25  id_dip=325: "Master Pro Administration et gestion des collectivités territoriales décentralisées"
+
+"Master Pro Contentieux administratif, financier et douanier" (formation="contentieux administratif, financier et douanier", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1688: "Master Pro Droit et Contentieux Administratif"
+   score=0.15  id_dip=1291: "Master Pro Droit Contentieux et Pratique du Travail et de la Sécurité Sociale"
+   score=0.14  id_dip=298: "Master Pro Anesthésie et Réanimation"
+   score=0.14  id_dip=306: "Master Pro Télécommunications et Informatique"
+   score=0.14  id_dip=319: "Master Pro Contrôle et Audit"
+
+"Licence Pro Ingénierie juridique des collectivités locales" (formation="ingénierie juridique des collectivités locales", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=1833: "Licence Pro Gestion des Collectivités Locales"
+   score=0.25  id_dip=639: "Licence Pro Ingénierie du Développement des Territoires"
+   score=0.22  id_dip=238: "Licence Pro Ingénierie des Télécommunications et Réseaux Mobiles"
+   score=0.22  id_dip=239: "Licence Pro Ingénierie des Systèmes Informatiques et Réseaux"
+   score=0.22  id_dip=1025: "Licence Pro Gestion des collectivités Territoriales option : Administration des Collectivités Territoriales"
+
+"Master Pro Comptabilité-fiscalité" (formation="comptabilité-fiscalité", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=456: "Master Pro Fiscalité"
+   score=0.5  id_dip=1893: "Master Pro Comptabilité-Audit et Fiscalité"
+   score=0.4  id_dip=1093: "Master Pro Finance et Comptabilité option Comptabilité et Fiscalité"
+   score=0.33  id_dip=754: "Master Pro Fiscalité d'Entreprise"
+   score=0.25  id_dip=318: "Master Pro Comptabilité-banque-finance"
+
+"Master Pro Marketing" (formation="marketing", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=324: "Master Pro Marketing-Communication"
+   score=0.33  id_dip=320: "Master Pro Marketing-Commerce-Vente"
+   score=0.33  id_dip=444: "Master Pro Marketing et Distribution "
+   score=0.33  id_dip=446: "Master Pro Marketing et Publicité"
+   score=0.33  id_dip=453: "Master Pro Marketing Manager Operationel"
+
+"Master Pro Droit, pratique et contentieux des assurances" (formation="droit, pratique et contentieux des assurances", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1684: "Master Pro Droit des Assurances"
+   score=0.43  id_dip=1688: "Master Pro Droit et Contentieux Administratif"
+   score=0.38  id_dip=462: "Master Pro Fiscalité et Droit des Affaires"
+   score=0.38  id_dip=1293: "Master Pro Droit et Pratique Juridique et Judiciaire"
+   score=0.33  id_dip=1291: "Master Pro Droit Contentieux et Pratique du Travail et de la Sécurité Sociale"
+
+"Doctorat Contrôle de gestion" (formation="contrôle de gestion", type="DOCTORAT PhD", occurrences=1)
+   score=0.5  id_dip=1378: "Doctorat en Gestion, Audit et Contrôle de Gestion"
+   score=0.25  id_dip=1380: "Doctorat en Banque Privé et Gestion de Patrimoine"
+   score=0.18  id_dip=1390: "Doctorat en Gestion de Risques, Assurance et Réassurance, Optimisation des Garanties"
+   score=0.14  id_dip=1479: "Doctorat en Journalisme de la Paix"
+   score=0.14  id_dip=1483: "Doctorat en Sciences de l'Information Documentaire"
+
+"Licence Pro Techniques de ventes" (formation="techniques de ventes", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=223: "Licence Pro Techniques de Laboratoires"
+   score=0.25  id_dip=779: "Licence Pro Techniques Pharmaceutiques "
+   score=0.2  id_dip=226: "Licence Pro Santé de Reproduction"
+   score=0.2  id_dip=559: "Licence Pro Economie de Gestion"
+   score=0.2  id_dip=659: "Licence Pro Design de Mode"
+
+"Licence Pro Gestion des collectivités territoriales" (formation="gestion des collectivités territoriales", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.67  id_dip=1025: "Licence Pro Gestion des collectivités Territoriales option : Administration des Collectivités Territoriales"
+   score=0.6  id_dip=1833: "Licence Pro Gestion des Collectivités Locales"
+   score=0.57  id_dip=283: "Licence Administration et gestion des collectivités territoriales décentralisées."
+   score=0.57  id_dip=1024: "Licence Pro Gestion des Collectivité Territoriales option: Fiscalité des Collectivités Territoriales"
+   score=0.44  id_dip=1026: "Licence Pro Gestion des Collectivités Territoriales option:  Comptabilité et Finances Publiques"
+
+"Licence Pro Négociation et promotion immobilière" (formation="négociation et promotion immobilière", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=1083: "Licence Pro Communication et Négociation"
+   score=0.33  id_dip=1863: "Licence Pro Négociation et Communication Multimédia"
+   score=0.17  id_dip=248: "Licence Pro Réseaux et Sécurité"
+   score=0.17  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.17  id_dip=277: "Licence Pro Contrôle et Audit"
+
+"Licence Pro Logistique de transport et déclarant en douane." (formation="logistique de transport et déclarant en douane.", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=461: "Licence Pro Transport, Transit, Douane et Logistique"
+   score=0.38  id_dip=281: "Licence Pro: Gestion Logistique et Transport"
+   score=0.38  id_dip=864: "Licence Pro Transport et Logistique Industrielle"
+   score=0.38  id_dip=865: "Licence Pro Transport et Logistique Pétrolière"
+   score=0.3  id_dip=9: "Licence professionnelle en Architecture et l'Art de l'ingénieur"
+
+"Master Pro Gestion bancaires et des établissements financiers" (formation="gestion bancaires et des établissements financiers", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=1096: "Master Pro Gestion des Programmes et des Projets"
+   score=0.38  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.38  id_dip=1839: "Master Pro Gestion des Opération et Logistique"
+   score=0.38  id_dip=1840: "Master Pro Gestion des Voyages et Tourisme"
+   score=0.38  id_dip=1902: "Master Pro Gestion et Administration des Ports"
+
+"Master Pro Politiques urbaines et des collectivités territoriales décentralisées" (formation="politiques urbaines et des collectivités territoriales décentralisées", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.56  id_dip=325: "Master Pro Administration et gestion des collectivités territoriales décentralisées"
+   score=0.45  id_dip=1366: "Master Pro Management Opérationnel des Institutions Publiques et des Collectivités Territoriales Décentralisées"
+   score=0.4  id_dip=1844: "Master Pro Ingénierie des Collectivités Territoriales et Développement Local"
+   score=0.23  id_dip=677: "Master Audit et Contrôle de Gestion des Collectivité Territoriales Décentralisés  "
+   score=0.2  id_dip=326: "Master Pro Analyse et évaluation des projets"
+
+"Master Pro Intelligence économique, innovation, entrepreneuriat et développement des pme" (formation="intelligence économique, innovation, entrepreneuriat et développement des pme", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.56  id_dip=632: "Master en Entrepreneuriat et Développement des PME"
+   score=0.33  id_dip=1866: "Master Pro Intelligence Artificielle et Intelligence Economique"
+   score=0.3  id_dip=1860: "Master Pro Information, Communication et Intelligence Economique"
+   score=0.25  id_dip=563: "Master Pro Management et Développement des Projets en Afrique"
+   score=0.25  id_dip=634: "Master en Gestion et Développement des Organisations Sportives"
+
+"Master Pro Économie solidaires et microfinance" (formation="économie solidaires et microfinance", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=1850: "Master Pro Microfinance et Développement"
+   score=0.4  id_dip=2169: "Master Pro Banque et Microfinance"
+   score=0.33  id_dip=315: "Master Pro Economie et Sociologie Rurales"
+   score=0.29  id_dip=914: "Master Pro en Economie Sociale et Solidaire"
+   score=0.29  id_dip=1595: "Master Pro Economie Minière, Pétrolière et Gazière"
+
+"Doctorat Gestion des ressources humaines management-stratégique" (formation="gestion des ressources humaines management-stratégique", type="DOCTORAT PhD", occurrences=1)
+   score=0.57  id_dip=1488: "Doctorat en Gestion des Ressources Humaines"
+   score=0.18  id_dip=1395: "Doctorat en Ressources Humaines et Stratégiques, Fonctions et Objectifs"
+   score=0.17  id_dip=1384: "Doctorat en Administration et Aménagement des Territoires, Gestion des Populations"
+   score=0.17  id_dip=1394: "Doctorat en Coordination, Gestion des Prévisions et Assistance Planification"
+   score=0.14  id_dip=1390: "Doctorat en Gestion de Risques, Assurance et Réassurance, Optimisation des Garanties"
+
+"Licence Pro Gestion des microfinances" (formation="gestion des microfinances", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=280: "Licence Gestion des Projets"
+   score=0.5  id_dip=1579: "Licence Pro Gestion des Communes"
+   score=0.4  id_dip=279: "Licence Pro Gestion des Ressources Humaines"
+   score=0.4  id_dip=743: "Licence Pro Gestion des Systèmes Informatiques"
+   score=0.4  id_dip=1080: "Licence Pro Gestion des Etablissements Financiers"
+
+"Master Pro Économie des transports et logistique des échanges" (formation="économie des transports et logistique des échanges", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=1839: "Master Pro Gestion des Opération et Logistique"
+   score=0.25  id_dip=315: "Master Pro Economie et Sociologie Rurales"
+   score=0.25  id_dip=323: "Master Pro Gestion Logistique et Transport"
+   score=0.25  id_dip=454: "Master Pro Logistique et Commerce International"
+   score=0.25  id_dip=957: "Master Pro en Management des Transports"
+
+"Master Pro Gestion de la politique économique" (formation="gestion de la politique économique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=781: "Master Pro Contrôle et Gestion de la Qualité"
+   score=0.38  id_dip=1292: "Master Pro Droit et Politique de la Santé"
+   score=0.33  id_dip=1419: "Master Pro Informatique de Gestion"
+   score=0.29  id_dip=2005: "Master Pro Management de la Logistique"
+   score=0.27  id_dip=916: "Master Pro en Gestion de la Paix, de la Sécurité et du Développement"
+
+"Licence Pro Guide touristique et management des entreprises touristique et hôtelières" (formation="guide touristique et management des entreprises touristique et hôtelières", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.56  id_dip=284: "Licence Création et Management des entreprises hôtelières et touristiques"
+   score=0.33  id_dip=907: "Licence Pro Gestion des Entreprises et des Coopératives"
+   score=0.33  id_dip=1836: "Licence Pro Management et Pilotage des Projets"
+   score=0.3  id_dip=1132: "Licence Pro Développement et Aménagement Touristique des Territoires "
+   score=0.29  id_dip=1131: "Licence Pro Guide Touristique"
+
+"Licence Pro Pharmacie et santé publique" (formation="pharmacie et santé publique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=225: "Licence Pro Santé Publique"
+   score=0.29  id_dip=229: "Licence Pro Santé et Génie de l'Environnement"
+   score=0.25  id_dip=1289: "Licence Pro Droit et Politique de la Santé"
+   score=0.2  id_dip=920: "Licence Pro E-Santé"
+   score=0.2  id_dip=1678: "Licence Pro Droit Publique"
+
+"Master Pro Pharmacie et santé publique" (formation="pharmacie et santé publique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=295: "Master Pro Santé Publique"
+   score=0.33  id_dip=613: "Master Santé Publique option Epidémiologie"
+   score=0.33  id_dip=614: "Master Santé Publique option Santé Communautaire"
+   score=0.33  id_dip=782: "Master Pro Nutrition Diététique et Santé"
+   score=0.29  id_dip=301: "Master Pro Santé et Génie de l'Environnement"
+
+"Doctorat Pharmacie et santé publique" (formation="pharmacie et santé publique", type="DOCTORAT PhD", occurrences=1)
+   score=0.4  id_dip=1187: "Doctorat en Santé Publique"
+   score=0.33  id_dip=1648: "Médecine Vétérinaire : Santé des Animaux d'Elevage et Santé Publique"
+   score=0.25  id_dip=1647: "Médecine Vétérinaire : Pharmacologie, Pharmacie et Toxicologie"
+   score=0.22  id_dip=622: "Doctorat en sciences de la santé option Santé publique"
+   score=0.2  id_dip=1382: "Doctorat en Economie Générale, Economie Publique, Système Constitutionnels et Administratif"
+
+"Licence Pro Management de l'assurance qualité" (formation="management de l'assurance qualité", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.4  id_dip=1829: "Licence Pro Comptabilité de Management"
+   score=0.38  id_dip=463: "Licence Pro Management de la Qualité et des Projets"
+   score=0.33  id_dip=1023: "Licence Pro Gestion de la Qualité"
+   score=0.29  id_dip=851: "Licence Pro Management de la Relation Client"
+   score=0.29  id_dip=1515: "Licence Pro Management des Entreprise de Communication"
+
+"Master Pro Management de l'assurance qualité" (formation="management de l'assurance qualité", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.4  id_dip=911: "Master Pro Management de Projet"
+   score=0.38  id_dip=432: "Master Pro Management de la qualité et des Projets"
+   score=0.38  id_dip=784: "Master Pro Hygiène Alimentaire et Management de la Qualité"
+   score=0.38  id_dip=959: "Master Pro Management de la Qualité, Sécurité et Environnement"
+   score=0.33  id_dip=2005: "Master Pro Management de la Logistique"
+
+"Licence Stylisme modélisme et arts textiles" (formation="stylisme modélisme et arts textiles", type="LICENCE", occurrences=1)
+   score=0.6  id_dip=1908: "Licence Pro Stylisme et Modelisme"
+   score=0.13  id_dip=140: "Licence Littérature et Cultures Africaines"
+   score=0.13  id_dip=142: "Licence Langues Africaines et Linguistique"
+   score=0.13  id_dip=148: "Licence Géographie, Aménagement et Environnement"
+   score=0.13  id_dip=1803: "Licence Réseaux, Systèmes et Sécuritésl"
+
+"Licence Pro Informatique" (formation="informatique", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=1624: "Licence Pro Informatique Industrielle"
+   score=0.33  id_dip=257: "Licence Pro Télécommunications et Informatique"
+   score=0.33  id_dip=468: "Licence Pro Informatique des Organisations"
+   score=0.33  id_dip=1081: "Licence Pro Informatique de Gestion"
+   score=0.25  id_dip=247: "Licence Pro Informatique Industrielle et Automatisme"
+
+"Licence Pro Imagerie médicale" (formation="imagerie médicale", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.5  id_dip=227: "Licence Pro Radiologie et Imagerie Médicale"
+   score=0.33  id_dip=606: "Licence Analyse Médicale"
+   score=0.33  id_dip=777: "Licence Pro Biochimie Médicale"
+   score=0.14  id_dip=1004: "Licence Pro Technique de Laboratoire et d'Analyse Médicale"
+
+"Master Pro Imagerie médicale" (formation="imagerie médicale", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=299: "Master Pro Radiologie et Imagerie Médicale"
+   score=0.2  id_dip=1285: "Master Pro Science Biomédicale : Biochimie Medicale"
+   score=0.2  id_dip=2113: "Master Pro Biochimie Médicale : Pharmacologie Clinique"
+   score=0.2  id_dip=2115: "Master Pro Biochimie Médicale : Médecine Moléculaire"
+   score=0.17  id_dip=1661: "Master Pro Biologie Clinique : Anatomo-Pathologie Médicale"
+
+"Master Pro Comptabilité et gestion des entreprises" (formation="comptabilité et gestion des entreprises", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=641: "Master en Comptabilité et Gestion "
+   score=0.5  id_dip=752: "Master Pro Comptabilité et Gestion d'Entreprise"
+   score=0.43  id_dip=1096: "Master Pro Gestion des Programmes et des Projets"
+   score=0.43  id_dip=1123: "Master Pro Gestion des Opérations et Production"
+   score=0.43  id_dip=1420: "Master Pro Communication des Entreprises et Marketing"
+
+"Licence Pro Technique de laboratoire médical" (formation="technique de laboratoire médical", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.43  id_dip=1004: "Licence Pro Technique de Laboratoire et d'Analyse Médicale"
+   score=0.17  id_dip=223: "Licence Pro Techniques de Laboratoires"
+   score=0.17  id_dip=226: "Licence Pro Santé de Reproduction"
+   score=0.17  id_dip=559: "Licence Pro Economie de Gestion"
+   score=0.17  id_dip=659: "Licence Pro Design de Mode"
+
+"Master Pro Technique de laboratoire médical" (formation="technique de laboratoire médical", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.43  id_dip=1006: "Master Pro Technique de Laboratoire et d'Analyse Médicale"
+   score=0.17  id_dip=293: "Master Pro Techniques de Laboratoires"
+   score=0.17  id_dip=296: "Master Pro Santé de Reproduction"
+   score=0.17  id_dip=911: "Master Pro Management de Projet"
+   score=0.17  id_dip=1419: "Master Pro Informatique de Gestion"
+
+"Master Pro Commerce international" (formation="commerce international", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=454: "Master Pro Logistique et Commerce International"
+   score=0.33  id_dip=1098: "Master Pro Management des Opérations du Commerce International"
+   score=0.33  id_dip=1578: "Master Pro Commerce International et Supply Chain Management"
+   score=0.25  id_dip=320: "Master Pro Marketing-Commerce-Vente"
+   score=0.25  id_dip=549: "Master of International Busines"
+
+"Licence Pro Sciences de la santé" (formation="sciences de la santé", type="LICENCE PROFESSIONNELLE", occurrences=1)
+   score=0.43  id_dip=1289: "Licence Pro Droit et Politique de la Santé"
+   score=0.4  id_dip=226: "Licence Pro Santé de Reproduction"
+   score=0.33  id_dip=291: "Licence Pro Ingénierie de la décentralisation"
+   score=0.33  id_dip=1023: "Licence Pro Gestion de la Qualité"
+   score=0.33  id_dip=1031: "Licence Pro Métier de la Bourse"
+
+"Master Pro Sciences de la santé" (formation="sciences de la santé", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.57  id_dip=608: "Master Sciences Infirmières option Santé de la Reproduction"
+   score=0.43  id_dip=1292: "Master Pro Droit et Politique de la Santé"
+   score=0.4  id_dip=296: "Master Pro Santé de Reproduction"
+   score=0.38  id_dip=612: "Master en Santé Publique option Promotion de la Santé"
+   score=0.33  id_dip=2005: "Master Pro Management de la Logistique"
+
+"Doctorat Sciences de la santé" (formation="sciences de la santé", type="DOCTORAT PhD", occurrences=1)
+   score=0.57  id_dip=602: "Doctorat en sciences de la santé option Sciences infirmières"
+   score=0.57  id_dip=622: "Doctorat en sciences de la santé option Santé publique"
+   score=0.5  id_dip=623: "Doctorat en sciences de la santé option Biologie clinique"
+   score=0.38  id_dip=1541: "Doctorat en Sciences de l'Information et de la Communication"
+   score=0.29  id_dip=1479: "Doctorat en Journalisme de la Paix"
+
+"Master Pro Système d´information géographique" (formation="système d´information géographique", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.67  id_dip=474: "Master Pro Système d'information"
+   score=0.4  id_dip=562: "Master Pro Management et Système d'Information"
+   score=0.29  id_dip=655: "Master en Système d'Information et Génie Logiciel"
+   score=0.29  id_dip=953: "Master Pro Informatique option Système d'information et Réseaux "
+   score=0.25  id_dip=954: "Master Pro Informatique option Système d'information Audit et Conseil"
+
+"Master Pro Genre et développement" (formation="genre et développement", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.5  id_dip=1850: "Master Pro Microfinance et Développement"
+   score=0.33  id_dip=681: "Master Développement d'Application Web et Mobile "
+   score=0.29  id_dip=632: "Master en Entrepreneuriat et Développement des PME"
+   score=0.29  id_dip=913: "Master Pro Programmation du Développement et Intégration Régionale"
+   score=0.25  id_dip=563: "Master Pro Management et Développement des Projets en Afrique"
+
+"Master Pro Communication sur la santé et l´environnement" (formation="communication sur la santé et l´environnement", type="MASTER PROFESSIONNEL", occurrences=1)
+   score=0.38  id_dip=301: "Master Pro Santé et Génie de l'Environnement"
+   score=0.33  id_dip=1099: "Master Pro Management de la communication et de l'Information"
+   score=0.33  id_dip=1292: "Master Pro Droit et Politique de la Santé"
+   score=0.25  id_dip=782: "Master Pro Nutrition Diététique et Santé"
+   score=0.25  id_dip=1100: "Master Pro Communication et Marketing Digital"

@@ -1,0 +1,123 @@
+=== DRY RUN — aucune écriture ===
+
+Campus à créer: 8
+{
+  "42": {
+    "nom_camp": "Campus de l'UBer",
+    "ville_cam": "Bertoua"
+  },
+  "43": {
+    "nom_camp": "Campus de l'UEb",
+    "ville_cam": "Ebolowa"
+  },
+  "44": {
+    "nom_camp": "Campus de l'UG",
+    "ville_cam": "Garoua"
+  },
+  "47": {
+    "nom_camp": "Campus IUPY",
+    "ville_cam": "Yaoundé"
+  },
+  "49": {
+    "nom_camp": "Campus IUB Bertoua",
+    "ville_cam": "Bertoua"
+  }
+}
+{
+  "Ecole Nationale des Postes et Télécommunications": {
+    "nom_camp": "Campus ENSPT",
+    "ville_cam": "Yaoundé"
+  },
+  "Institut National de la Jeunesse et des Sports": {
+    "nom_camp": "Campus INJS",
+    "ville_cam": "Yaoundé"
+  },
+  "Institut Sous-regional des Statistiques et d'Economie Appliquée": {
+    "nom_camp": "Campus ISSEA",
+    "ville_cam": "Yaoundé"
+  }
+}
+
+Écoles à créer: 82
+  "Facultés des Sciences Economiques et de Gestion" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté des Arts, Lettres et Sciences Humaines" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté des Sciences Juridiques et Politiques" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté des Sciences" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté des Sciences de la Santé" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Institut Supérieur du Commerce et du Management" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Ecole de Technologie" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Haute Ecole de Logistiques et de Transport" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté des Sciences de l'Education" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Institut National Supérieur Polytechnique de Bambili" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Ecole Normale Supérieure" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Ecole Normale Supérieure d'Enseignement Technique de Bamenda" (universites_id=18, pub=Publique) — parent: Université de Bamenda
+  "Faculté de Médecine et Sciences Biomédiales" (universites_id=44, pub=Publique) — parent: Université de Garoua
+  "Faculté des Sciences" (universites_id=20, pub=Publique) — parent: Université de Maroua
+  "Faculté des Sciences Economiques et de Gestion" (universites_id=20, pub=Publique) — parent: Université de Maroua
+  "Faculté des Sciences Juridiques et Politiques" (universites_id=20, pub=Publique) — parent: Université de Maroua
+  "Faculté des Arts Lettres et Sciences Humaines" (universites_id=20, pub=Publique) — parent: Université de Maroua
+  "Ecole Normale Supérieure d'Enseignement Technique de Kumba" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté des Arts" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté des Sciences" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté des Sciences de l'Education" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté de Sciences Sociales et du Management" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté d'Agriculture et de Médecine Vétérinaire" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté d'Ingénierie et de Technologie" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Ecole de Technologie" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Ecole Supérieure de Traduction et d'Interpretariat" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté des Sciences Médicales" (universites_id=19, pub=Publique) — parent: Université de Buea
+  "Faculté des Sciences Juridiques et Politiques" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Facultés des Sciences" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Faculté de Médecin et des Sciences Pharmaceutiques" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Faculté des Lettres et Sciences Humaines" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Ecole Normale Spérieure d'Enseignement Technique de Douala" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Ecoles Supérieure des Sciences Economiques et Commerciales" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Institut de Beaux-Arts de Nkongsamba" (universites_id=14, pub=Publique) — parent: Université de Douala
+  "Faculté des Arts, Lettres et Sciences Humaines" (universites_id=21, pub=Publique) — parent: Université de Yaoundé 1
+  "Faculté des Sciences" (universites_id=21, pub=Publique) — parent: Université de Yaoundé 1
+  "Faculté de Médecine et de Sciences Biomédicales" (universites_id=21, pub=Publique) — parent: Université de Yaoundé 1
+  "Faculté des Sciences de l'Education" (universites_id=21, pub=Publique) — parent: Université de Yaoundé 1
+  "Ecole Normale Supérieure de Yaoundé" (universites_id=21, pub=Publique) — parent: Université de Yaoundé 1
+  "Institut Universitaire de Technologie Fotso Victor de Bandjoun" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Centre Régional d'Enseignement Spécialisé en Agriculture / Forêt et Bois" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté des Sciences" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté d'Agronomie et des Sciences Agricoles" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté des Lettres et Sciences Humaines" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté des sciences Economiques et de Gestion" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté des Sciences Juridiques et Politiques" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Programme d'Enseignement à Distance" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté de Médecine et des Sciences Pharmaceutiques" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Institut de Beaux-Arts de Foumban" (universites_id=8, pub=Publique) — parent: Université de Dschang
+  "Faculté de Médecine et des Sciences de la Santé" (universites_id=48, pub=Privé confessionnel) — parent: Institut Universitaire Evangélique du Cameroun
+  "Ecole de Géologie et d´Exploitation Minière de Meiganga" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté des Sciences" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté des Sciences Economiques et de Gestion" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté des Sciences Juridiques et politiques" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté des Sciences de l'Education" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté des Arts, Lettres et Sciences Humaines" (universites_id=6, pub=Publique) — parent: Université de Ngaoundéré
+  "Faculté de théologie" (universites_id=49, pub=Privé confessionnel) — parent: Institut Universitaire de Bertoua
+  "Faculté des sciences de l'éducation" (universites_id=49, pub=Privé confessionnel) — parent: Institut Universitaire de Bertoua
+  "Faculté des sciences économiques et de management" (universites_id=49, pub=Privé confessionnel) — parent: Institut Universitaire de Bertoua
+  "Ecole Normale Supérieure de Bertoua" (universites_id=42, pub=Publique) — parent: Université de Bertoua
+  "Faculté de Gestion et Informatique" (universites_id=51, pub=Privé confessionnel) — parent: Université Adventiste Cosendai
+  "Faculté de Thélologie" (universites_id=51, pub=Privé confessionnel) — parent: Université Adventiste Cosendai
+  "Faculté de droit" (universites_id=51, pub=Privé confessionnel) — parent: Université Adventiste Cosendai
+  "lnstitut des Relations Internationales du Cameroun" (universites_id=22, pub=Publique) — parent: Université de Yaoundé 2
+  "Ecole Supérieure des Sciences et Techniques de l´information et de la Communication (ESSTIC)" (universites_id=22, pub=Publique) — parent: Université de Yaoundé 2
+  "Institut de Formation et de Recherche Démographiques" (universites_id=22, pub=Publique) — parent: Université de Yaoundé 2
+  "Faculté des Sciences Juridiques et Politiques" (universites_id=22, pub=Publique) — parent: Université de Yaoundé 2
+  "Faculté des Sciences Économiques et de Gestion" (universites_id=22, pub=Publique) — parent: Université de Yaoundé 2
+  "Faculté des sciences sociales" (universites_id=47, pub=Privé confessionnel) — parent: Institut Universitaire Protestant de Yaoundé
+  "Faculté de théologie" (universites_id=47, pub=Privé confessionnel) — parent: Institut Universitaire Protestant de Yaoundé
+  "Faculté de Technologie de l'Information et de la Comm" (universites_id=47, pub=Privé confessionnel) — parent: Institut Universitaire Protestant de Yaoundé
+  "Faculté d'industries et de technologies" (universites_id=46, pub=Privé) — parent: Centre International des Etudes Polytechniques d'Obala
+  "Faculté de Gestion et d'Administration Foncière" (universites_id=46, pub=Privé) — parent: Centre International des Etudes Polytechniques d'Obala
+  "Faculté d'agronomie" (universites_id=46, pub=Privé) — parent: Centre International des Etudes Polytechniques d'Obala
+  "Ecole Nationale des Postes et Télécommunications" (universites_id=null, pub=Publique) — parent: (AUTONOME)
+  "Institut National de la Jeunesse et des Sports" (universites_id=null, pub=Publique) — parent: (AUTONOME)
+  "Institut Sous-regional des Statistiques et d'Economie Appliquée" (universites_id=null, pub=Publique) — parent: (AUTONOME)
+  "Faculté de Génie Industriel" (universites_id=45, pub=Privé) — parent: Institut Universitaire privé Laic de l'Equateur
+  "Faculté des Sciences Pharmaceutiques et Médicales" (universites_id=45, pub=Privé) — parent: Institut Universitaire privé Laic de l'Equateur
+  "Faculté des sciences de gestion et de communication" (universites_id=45, pub=Privé) — parent: Institut Universitaire privé Laic de l'Equateur
+  "Ecole Normale Supérieure d´Enseignement Technique d´Ebolowa" (universites_id=43, pub=Publique) — parent: Université d'Ebolowa
+  "Faculté de Médecine et des Sciences Biomédicales" (universites_id=50, pub=Privé confessionnel) — parent: Institut Supérieur Protestant des sciences et de Technologie
