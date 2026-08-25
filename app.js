@@ -204,6 +204,10 @@ app.use('/api/avis', avisRoutes);
  const advisorRoutes = require('./routes/advisor');
  app.use('/api/advisor', advisorRoutes);
 
+ /** Module chatbot — matching établissements pour l'agent WhatsApp (auth X-Bot-Key) **********/
+ const chatbotMatchRoutes = require('./routes/chatbotMatch');
+ app.use('/api/chatbot/match', chatbotMatchRoutes);
+
  /** Module test RIASEC — enregistrement lead + résultat (public) **********/
  const riasecRoutes = require('./routes/riasec');
  app.use('/api/riasec', riasecRoutes);
